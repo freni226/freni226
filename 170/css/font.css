@@ -3,13 +3,16 @@
 
 @font-face {
 	font-family:"Segoe-LIGHT";
-	src:url(../font/segoeuil.ttf);
+	src:url(../font/segoeuil.eot);/* IE9 Compat Modes */
+	src:url(../font/segoeuil.ttf) format("opentype");
+    font-weight:normal;
 	font-style:normal;
-	font-weight:normal;}
+	}
 
 @font-face {
 	font-family:"Segoe-BOLD";
-	src:url(../font/segoeuib.ttf);
+	src:url(../font/segoeuib.eot);/* IE9 Compat Modes */
+	src:url(../font/segoeuib.ttf) format("opentype");
 	font-style:normal;
 	font-weight:normal;}	
 
