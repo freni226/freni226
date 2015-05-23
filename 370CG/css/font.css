@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+ font-family:"Segoe-LIGHT";
+ src:url(../font/segoeuil.eot);/* IE9 Compat Modes */
+ src: local('Segoe UI Light'),
+     url(../font/segoeuil.ttf) format("opentype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+	font-family:"Segoe-BOLD";
+	src:url(../font/segoeuib.eot);/* IE9 Compat Modes */
+	src: local('Segoe UI Bold'),
+	url(../font/segoeuib.ttf) format("opentype");
+	font-style:normal;
+	font-weight:normal;}	
+
+h2 { font-size:4.5em; font-weight:normal; padding:2% 0; }
+p.subtitle { font-size:2.5em; padding:2% 0;  }
+p.main { font-size:1.5em; line-height:2em; padding-bottom:3%;}
+
+/*point*/
+
+.digit { font-size:7em; font-family:"Segoe-LIGHT"; }
+.digit_unit { font-size:0.5em; }
+.digit_blod { padding-top:1em; font-size:0.15em; line-height:1.5em; font-family:"Segoe-BOLD"; letter-spacing:0.1em;}
+
+ 
