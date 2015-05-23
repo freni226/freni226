@@ -9,7 +9,7 @@ section .article .wrapper .info h1 { text-indent:-9999px; width:376px; height:45
 .section_01 { background-image:url(../imgs/zenpad_bg.jpg); background-position:center center; background-size:cover; padding-top:7%; }
 .section_01 .article .wrapper { margin:0 auto; }
 .section_01 .article .wrapper .info { width:95%; max-width:900px; margin:0 auto; text-align:center; position:relative; }
-.section_01 .article .wrapper .info .KV { width:100%; margin:0 auto; }
+.section_01 .article .wrapper .info .KV { width:105%; margin:0 auto; }
 .section_01 .article .wrapper .info a.video { color:#0088cb; font-size:1.5em; font-weight:bold; line-height:23px; display:inline-block; position:relative; }
 .section_01 .article .wrapper .info a.video:after { content: ""; display: inline-block; width:23px; height:23px; background:url(../imgs/video.png) no-repeat; position:absolute; top:2px; left:100px; }
 
@@ -82,7 +82,7 @@ body { font-size:23px;}
 /*section_01*/
 .section_01 .article .wrapper .info a.video { color:#0088cb; font-size:1.5em; font-weight:bold; line-height:80px; display:inline-block; position:relative; }
 .section_01 .article .wrapper .info a.video:after { display:none; }
-.section_01 .article .wrapper .info .KV { width:120%; }
+.section_01 .article .wrapper .info .KV { width:100%; }
 
 /*section_02*/
 .section_02 { padding-top:10%; }
