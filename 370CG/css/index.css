@@ -170,15 +170,15 @@ body { font-size:23px; }
 .section_04 .article .wrapper .KV .contrast {  width:100%; margin:0 auto; text-align:center; border-right:none; float:none; }
 .section_04 .article .wrapper .KV .contrast .digit { float:none;}
 .section_04 .article .wrapper .KV .contrast .digit_unit { font-size:1em; }
-.section_04 .article .wrapper .KV .contrast .contrast_bg{ width:60%; float:none; margin:0 auto; padding-left:9%; padding-top:5%; }
+.section_04 .article .wrapper .KV .contrast .contrast_bg{ width:90%; float:none; margin:0 auto; padding-left:9%; padding-top:5%; }
 
-.section_04 .article .wrapper .KV .sharpness { width:90%; margin:0 auto;  float:none; position:relative; }
+.section_04 .article .wrapper .KV .sharpness { width:100%; margin:0 auto;  float:none; position:relative; }
 .section_04 .article .wrapper .KV .sharpness .digit { width:100%; text-align:center; margin-bottom:30px; margin-top:50px; }
 .section_04 .article .wrapper .KV .sharpness .digit .digit_blod {line-height:1.9em; font-size:0.2em; }
 .section_04 .article .wrapper .KV .sharpness .digit .digit_unit { font-size:0.2em; line-height:1.5em; }
-.section_04 .article .wrapper .KV .sharpness .sharpness_bg{ width:60%; margin:0 auto; }
+.section_04 .article .wrapper .KV .sharpness .sharpness_bg{ width:80%; margin:0 auto; }
 
-.section_04 .article .wrapper .info a.more { color:#0088cb; font-size:1.5em; line-height:80px; font-weight:bold; display:inline-block; position:relative; padding-bottom:8%; }
+.section_04 .article .wrapper .info a.more { color:#0088cb; font-size:1.5em; line-height:80px; font-weight:bold; display:inline-block; position:relative; padding-bottom:3%; }
 .section_04 .article .wrapper .info a.more:after { display: none; }
 
 /*section_05_mobile*/
@@ -190,7 +190,7 @@ body { font-size:23px; }
 /*section_06*/
 .section_06 { width:100%; height:auto; background:none; padding-top:10%; }
 .section_06 .article .wrapper { width:95%; margin:0 auto; padding-top:0px; }
-.section_06 .article .wrapper .info { width:90%; margin:0 auto; color:#000; text-align:center; float:none; padding:0; padding-bottom:20px; }
+.section_06 .article .wrapper .info { width:90%; margin:0 auto; color:#000; text-align:center; float:none; padding:0; padding-bottom:0; }
 .section_06 .article .wrapper .KV { display:none; width:100%; margin:0 auto; float:none; }
 .section_06 .KV_mobile { display:block; width:100%; margin:0 auto; float:none; }
 
@@ -198,7 +198,7 @@ body { font-size:23px; }
 .section_07 { display:none; }
 .section_07_mobile { display:block; padding-top:10%; }
 .section_07_mobile .article .wrapper { }
-.section_07_mobile .article .wrapper .info { width:90%;margin:0 auto; text-align:center; position:relative;  padding:0; padding-bottom:20px; }
+.section_07_mobile .article .wrapper .info { width:90%;margin:0 auto; text-align:center; position:relative;  padding:0; padding-bottom:60px; }
 
 /*section_08*/
 .section_08 { width:100%; height:auto; background-image:url(../imgs/Power-Case_BG.jpg); background-position:center center; background-size:cover; padding-top:10%; }
