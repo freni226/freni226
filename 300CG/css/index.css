@@ -179,9 +179,9 @@ body { font-size:23px; }
 /*section_07*/
 .section_07 { padding-top:10%;}
 .section_07 .article .wrapper { width:100%; max-width:1024px; margin:0 auto; padding-top:0; }
-.section_07 .article .wrapper .info { width:100%; margin:0 auto; text-align:center; float:none; padding:0; padding-bottom:20px; }
+.section_07 .article .wrapper .info { width:100%; margin:0 auto; text-align:center; float:none; padding:0; padding-bottom:20px; overflow:hidden; }
 .section_07 .article .wrapper .info .main { width:85.5%; margin:0 auto;}
-.section_07 .article .wrapper .KV { float:none; width:100%; margin:0 auto; } 
+.section_07 .article .wrapper .KV { float:none; width:200%; margin:0 auto; } 
 
 /*section_08*/
 .section_08 { padding-top:10%;}
