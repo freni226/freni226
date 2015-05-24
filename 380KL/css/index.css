@@ -20,7 +20,7 @@ section .article .wrapper .info h1 { text-indent:-9999px; width:376px; height:45
 .section_02 .article .wrapper .info .main { padding-bottom:4%; } 
 .section_02 .article .wrapper .KV { width:80%; max-width:1200px; margin:0 auto; padding-bottom:3%; }
 .section_02 .article .icon_data { padding-bottom:3%; }
-.section_02 .article .icon_data ul { width:670px; margin:0 auto; }
+.section_02 .article .icon_data ul { width:690px; margin:0 auto; }
 .section_02 .article .icon_data li { float:left; height:145px; border-left:#cccccc 1px solid; padding:0 25px; }
 .section_02 .article .icon_data li:first-child { border-left:none; }
 
