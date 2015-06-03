@@ -1,0 +1,3154 @@
+@charset "UTF-8";
+/*
+$header-font:"myriad-pro","MHei HK Medium";
+$subtitle-font:"myriad-pro","MHei HK Light";
+$content-font:"myriad-pro","MHei HK Medium";
+$func-font:"myriad-pro","MHei HK Medium";
+$quote-font:"myriad-pro","MHei HK Medium";
+*/
+/* line 1, ../src/sass/css/utils/_videoplayer.scss */
+/* line 3, ../src/sass/css/_page_common.scss */
+#videoplayer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 199999;
+  width: 100%;
+  height: 100%;
+  background: url(../img/common/pop-overlay.png);
+}
+
+/* line 10, ../src/sass/css/utils/_videoplayer.scss */
+/* line 5, ../src/sass/css/_page_common.scss */
+#videoplayer iframe.player {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 1;
+  width: 80%;
+  height: 80%;
+  border: 0;
+  display: block;
+  padding: 0;
+  vertical-align: bottom;
+  background: black;
+}
+
+/* line 24, ../src/sass/css/utils/_videoplayer.scss */
+/* line 7, ../src/sass/css/_page_common.scss */
+#videoplayer .close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  float: left;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+  background: url(../img/common/pop-close.png) no-repeat;
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* line 41, ../src/sass/css/utils/_videoplayer.scss */
+/* line 9, ../src/sass/css/_page_common.scss */
+#videoplayer .close:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+}
+
+/*
+$header-font:"myriad-pro","MHei HK Medium";
+$subtitle-font:"myriad-pro","MHei HK Light";
+$content-font:"myriad-pro","MHei HK Medium";
+$func-font:"myriad-pro","MHei HK Medium";
+$quote-font:"myriad-pro","MHei HK Medium";
+*/
+/* line 3, ../src/sass/css/config/_asus.scss */
+/* line 19, ../src/sass/css/_page_common.scss */
+#mainfooter {
+  position: relative;
+  z-index: 99999;
+}
+
+/*#mainmenu{display: none;}*/
+/* line 5, ../src/sass/css/config/_asus.scss */
+/* line 23, ../src/sass/css/_page_common.scss */
+#product-topinfo {
+  display: none;
+}
+
+/* line 7, ../src/sass/css/config/_asus.scss */
+/* line 26, ../src/sass/css/_page_common.scss */
+.product-head {
+  display: none;
+}
+
+/* line 8, ../src/sass/css/config/_asus.scss */
+/* line 29, ../src/sass/css/_page_common.scss */
+.product-aside {
+  display: none;
+}
+
+/* line 9, ../src/sass/css/config/_asus.scss */
+/* line 32, ../src/sass/css/_page_common.scss */
+#Product_BottomSection {
+  display: none;
+}
+
+/* line 10, ../src/sass/css/config/_asus.scss */
+/* line 35, ../src/sass/css/_page_common.scss */
+#product-footer-zone {
+  display: none;
+}
+
+/* line 12, ../src/sass/css/config/_asus.scss */
+/* line 38, ../src/sass/css/_page_common.scss */
+hr.gray {
+  display: none;
+}
+
+/* line 13, ../src/sass/css/config/_asus.scss */
+/* line 41, ../src/sass/css/_page_common.scss */
+#overview-top-nav {
+  position: relative;
+  z-index: 500;
+}
+
+/* line 14, ../src/sass/css/config/_asus.scss */
+/* line 44, ../src/sass/css/_page_common.scss */
+#product-footer-zone {
+  display: none;
+}
+
+/* line 15, ../src/sass/css/config/_asus.scss */
+/* line 47, ../src/sass/css/_page_common.scss */
+#Product_BottomSection {
+  display: none;
+}
+
+/* line 16, ../src/sass/css/config/_asus.scss */
+/* line 50, ../src/sass/css/_page_common.scss */
+hr.gray {
+  display: none;
+}
+
+/* line 17, ../src/sass/css/config/_asus.scss */
+/* line 53, ../src/sass/css/_page_common.scss */
+.product-head {
+  display: none;
+}
+
+/* line 18, ../src/sass/css/config/_asus.scss */
+/* line 56, ../src/sass/css/_page_common.scss */
+#top-nav-line {
+  z-index: 9999;
+  position: relative;
+}
+
+/* line 19, ../src/sass/css/config/_asus.scss */
+/* line 59, ../src/sass/css/_page_common.scss */
+.page-title {
+  position: relative;
+  z-index: 100;
+}
+
+/* line 20, ../src/sass/css/config/_asus.scss */
+/* line 62, ../src/sass/css/_page_common.scss */
+.container > article > .row {
+  margin-top: -30px;
+}
+
+/* line 21, ../src/sass/css/config/_asus.scss */
+/* line 65, ../src/sass/css/_page_common.scss */
+#product_similar_area {
+  display: none;
+}
+
+/* line 22, ../src/sass/css/config/_asus.scss */
+/* line 68, ../src/sass/css/_page_common.scss */
+.similar-area {
+  display: none;
+}
+
+/* line 23, ../src/sass/css/config/_asus.scss */
+/* line 71, ../src/sass/css/_page_common.scss */
+.accessories-area {
+  display: none;
+}
+
+/* line 26, ../src/sass/css/config/_asus.scss */
+/* line 74, ../src/sass/css/_page_common.scss */
+#overview-top-nav {
+  filter: none;
+}
+
+/* line 27, ../src/sass/css/config/_asus.scss */
+/* line 76, ../src/sass/css/_page_common.scss */
+#overview-top-nav.fixed {
+  display: block;
+}
+
+/* line 28, ../src/sass/css/config/_asus.scss */
+/* line 78, ../src/sass/css/_page_common.scss */
+#overview-top-nav.fixed h1.page-title {
+  display: block;
+}
+
+/* line 36, ../src/sass/css/config/_asus.scss */
+/* line 81, ../src/sass/css/_page_common.scss */
+#main-zone {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* line 5, ../src/sass/css/page/_main.scss */
+/* line 84, ../src/sass/css/_page_common.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* #asus-api-header:after{
+	content:'';
+	display:block;
+	position: absolute;
+	width:100%;
+	height:40px;
+	bottom:-40px;
+	background:rgba(255,255,255,0.5)
+}  */
+/* line 18, ../src/sass/css/page/_main.scss */
+/* line 96, ../src/sass/css/_page_common.scss */
+.overview-wrapper {
+  width: auto;
+}
+
+/* line 22, ../src/sass/css/page/_main.scss */
+/* line 99, ../src/sass/css/_page_common.scss */
+#main-zone .container {
+  padding: 0;
+  min-width: 100%;
+}
+
+/* line 29, ../src/sass/css/page/_main.scss */
+/* line 102, ../src/sass/css/_page_common.scss */
+#special-sectionOverview {
+  margin-top: 140px;
+  padding: 0px;
+  font-size: 12px;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+}
+
+/* line 5, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 104, ../src/sass/css/_page_common.scss */
+#special-sectionOverview html, #special-sectionOverview body, #special-sectionOverview div, #special-sectionOverview span, #special-sectionOverview applet, #special-sectionOverview object, #special-sectionOverview iframe, #special-sectionOverview h1, #special-sectionOverview h2, #special-sectionOverview h3, #special-sectionOverview h4, #special-sectionOverview h5, #special-sectionOverview h6, #special-sectionOverview p, #special-sectionOverview blockquote, #special-sectionOverview pre, #special-sectionOverview a, #special-sectionOverview abbr, #special-sectionOverview acronym, #special-sectionOverview address, #special-sectionOverview big, #special-sectionOverview cite, #special-sectionOverview code, #special-sectionOverview del, #special-sectionOverview dfn, #special-sectionOverview em, #special-sectionOverview img, #special-sectionOverview ins, #special-sectionOverview kbd, #special-sectionOverview q, #special-sectionOverview s, #special-sectionOverview samp, #special-sectionOverview small, #special-sectionOverview strike, #special-sectionOverview strong, #special-sectionOverview sub, #special-sectionOverview sup, #special-sectionOverview tt, #special-sectionOverview var, #special-sectionOverview b, #special-sectionOverview u, #special-sectionOverview i, #special-sectionOverview center, #special-sectionOverview dl, #special-sectionOverview dt, #special-sectionOverview dd, #special-sectionOverview ol, #special-sectionOverview ul, #special-sectionOverview li, #special-sectionOverview fieldset, #special-sectionOverview form, #special-sectionOverview label, #special-sectionOverview legend, #special-sectionOverview table, #special-sectionOverview caption, #special-sectionOverview tbody, #special-sectionOverview tfoot, #special-sectionOverview thead, #special-sectionOverview tr, #special-sectionOverview th, #special-sectionOverview td, #special-sectionOverview article, #special-sectionOverview aside, #special-sectionOverview canvas, #special-sectionOverview details, #special-sectionOverview embed, #special-sectionOverview figure, #special-sectionOverview figcaption, #special-sectionOverview footer, #special-sectionOverview header, #special-sectionOverview hgroup, #special-sectionOverview menu, #special-sectionOverview nav, #special-sectionOverview output, #special-sectionOverview ruby, #special-sectionOverview section, #special-sectionOverview summary, #special-sectionOverview time, #special-sectionOverview mark, #special-sectionOverview audio, #special-sectionOverview video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 106, ../src/sass/css/_page_common.scss */
+#special-sectionOverview html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 108, ../src/sass/css/_page_common.scss */
+#special-sectionOverview ol, #special-sectionOverview ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 110, ../src/sass/css/_page_common.scss */
+#special-sectionOverview table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 112, ../src/sass/css/_page_common.scss */
+#special-sectionOverview caption, #special-sectionOverview th, #special-sectionOverview td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../src/sass/css/_page_common.scss */
+#special-sectionOverview q, #special-sectionOverview blockquote {
+  quotes: none;
+}
+
+/* line 103, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../src/sass/css/_page_common.scss */
+#special-sectionOverview q:before, #special-sectionOverview q:after, #special-sectionOverview blockquote:before, #special-sectionOverview blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 118, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 120, ../src/sass/css/_page_common.scss */
+#special-sectionOverview article, #special-sectionOverview aside, #special-sectionOverview details, #special-sectionOverview figcaption, #special-sectionOverview figure, #special-sectionOverview footer, #special-sectionOverview header, #special-sectionOverview hgroup, #special-sectionOverview main, #special-sectionOverview menu, #special-sectionOverview nav, #special-sectionOverview section, #special-sectionOverview summary {
+  display: block;
+}
+
+/* line 31, ../src/sass/css/page/_main.scss */
+/* line 122, ../src/sass/css/_page_common.scss */
+#special-sectionOverview * {
+  box-sizing: border-box;
+}
+
+/* line 34, ../src/sass/css/page/_main.scss */
+/* line 124, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a {
+  outline: none !important;
+  hlbr: expression(this.onFocus=this.blur()) !important;
+}
+
+/* line 37, ../src/sass/css/page/_main.scss */
+/* line 126, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.link-text {
+  font-size: 1.5em;
+}
+
+/* line 41, ../src/sass/css/page/_main.scss */
+/* line 128, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .logo {
+  margin: 5% auto;
+}
+
+@media all and (max-width: 480px) {
+  /* line 41, ../src/sass/css/page/_main.scss */
+  /* line 130, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .logo {
+    width: 80%;
+  }
+
+  /* line 46, ../src/sass/css/page/_main.scss */
+  /* line 132, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .logo figure img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 959px) {
+  /* line 29, ../src/sass/css/page/_main.scss */
+  /* line 134, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview {
+    margin-top: 56px;
+  }
+}
+@media all and (max-width: 721px) {
+  /* line 29, ../src/sass/css/page/_main.scss */
+  /* line 136, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview {
+    margin-top: -4px;
+  }
+}
+/* line 62, ../src/sass/css/page/_main.scss */
+/* line 138, ../src/sass/css/_page_common.scss */
+#special-sectionOverview #wrap {
+  width: 100%;
+}
+
+/* line 66, ../src/sass/css/page/_main.scss */
+/* line 140, ../src/sass/css/_page_common.scss */
+#special-sectionOverview.pin {
+  z-index: 5000;
+}
+
+/* line 69, ../src/sass/css/page/_main.scss */
+/* line 142, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .section {
+  position: relative;
+  padding: 80px 0 0;
+}
+
+@media all and (max-width: 700px) {
+  /* line 69, ../src/sass/css/page/_main.scss */
+  /* line 144, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .section {
+    padding: 10% 0 0;
+  }
+}
+/* line 76, ../src/sass/css/page/_main.scss */
+/* line 146, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .wrapper {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 1200px) {
+  /* line 76, ../src/sass/css/page/_main.scss */
+  /* line 148, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .wrapper {
+    margin: 0 auto 0;
+  }
+}
+@media all and (max-width: 1220px) {
+  /* line 76, ../src/sass/css/page/_main.scss */
+  /* line 150, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .wrapper {
+    padding: 0 5%;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 76, ../src/sass/css/page/_main.scss */
+  /* line 152, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .wrapper {
+    padding: 0 6.25%;
+  }
+}
+/* line 92, ../src/sass/css/page/_main.scss */
+/* line 154, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .center {
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  max-width: 960px;
+}
+
+/* line 99, ../src/sass/css/page/_main.scss */
+/* line 156, ../src/sass/css/_page_common.scss */
+#special-sectionOverview figure {
+  line-height: 0;
+}
+
+/* line 102, ../src/sass/css/page/_main.scss */
+/* line 158, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .content {
+  z-index: 1000;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 107, ../src/sass/css/page/_main.scss */
+/* line 160, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .content p.note {
+  font-size: 14px;
+  color: #a6a6a6;
+  margin-top: 28px;
+}
+
+/* line 112, ../src/sass/css/page/_main.scss */
+/* line 162, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .content p.spec {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 116, ../src/sass/css/page/_main.scss */
+/* line 164, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .content p.footnote {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+/* line 122, ../src/sass/css/page/_main.scss */
+/* line 166, ../src/sass/css/_page_common.scss */
+#special-sectionOverview h1, #special-sectionOverview h2 {
+  line-height: 1.33333;
+  margin: 0 0 0 0;
+  padding: 0px;
+  width: 100%;
+  font-weight: 100;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  font-size: 45px;
+  line-height: 60px;
+  color: #363636;
+}
+
+@media all and (max-width: 900px) {
+  /* line 122, ../src/sass/css/page/_main.scss */
+  /* line 168, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview h1, #special-sectionOverview h2 {
+    font-size: 41px;
+    line-height: 50px;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 122, ../src/sass/css/page/_main.scss */
+  /* line 170, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview h1, #special-sectionOverview h2 {
+    margin: 10px 0;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+/* line 146, ../src/sass/css/page/_main.scss */
+/* line 172, ../src/sass/css/_page_common.scss */
+#special-sectionOverview h1.main {
+  font-size: 52px;
+  line-height: 60px;
+}
+
+@media all and (max-width: 900px) {
+  /* line 146, ../src/sass/css/page/_main.scss */
+  /* line 174, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview h1.main {
+    margin: 10px 0;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 146, ../src/sass/css/page/_main.scss */
+  /* line 176, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview h1.main {
+    font-size: 41px;
+    line-height: 50px;
+  }
+}
+/* line 161, ../src/sass/css/page/_main.scss */
+/* line 178, ../src/sass/css/_page_common.scss */
+#special-sectionOverview h2 {
+  margin: 10px 0;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+
+@media all and (max-width: 900px) {
+  /* line 161, ../src/sass/css/page/_main.scss */
+  /* line 180, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 161, ../src/sass/css/page/_main.scss */
+  /* line 182, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+/* line 177, ../src/sass/css/page/_main.scss */
+/* line 184, ../src/sass/css/_page_common.scss */
+#special-sectionOverview h4 {
+  font-size: 15px;
+  letter-spacing: .4em;
+  font-weight: 100;
+  line-height: 1;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+}
+
+/* line 185, ../src/sass/css/page/_main.scss */
+/* line 186, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .subtext {
+  font-weight: 700;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  clear: both;
+                                                                                                                                                                 /*@media all and (max-width: $break-small) {
+			font-size: 0.7em;
+			line-height: 1.2em;
+		}*/
+}
+
+@media all and (max-width: 900px) {
+  /* line 185, ../src/sass/css/page/_main.scss */
+  /* line 191, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .subtext {
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+}
+/* line 201, ../src/sass/css/page/_main.scss */
+/* line 193, ../src/sass/css/_page_common.scss */
+#special-sectionOverview header {
+  margin-bottom: 15px;
+}
+
+/* line 203, ../src/sass/css/page/_main.scss */
+/* line 195, ../src/sass/css/_page_common.scss */
+#special-sectionOverview header p {
+  color: #898989;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  font-size: 2.66667em;
+  line-height: 1.125;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+/* line 212, ../src/sass/css/page/_main.scss */
+/* line 197, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .anchor_link {
+  position: relative;
+  line-height: 22px;
+  color: #0088cb;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  font-weight: 300;
+  font-size: 17px;
+  display: inline-block;
+}
+
+/* line 220, ../src/sass/css/page/_main.scss */
+/* line 199, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .anchor_link:hover {
+  border-bottom: 1px solid #0188CA;
+  padding: 0 0 3px 0;
+  text-decoration: none;
+}
+
+/* line 228, ../src/sass/css/page/_main.scss */
+/* line 201, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .anchor_link:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -14px;
+  top: 7px;
+  width: 5px;
+  height: 7px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAYAAADAp4fuAAAAJUlEQVQYV2Ng6Dj9H4SBgAGGwQx0CYQskg64ILIO3CoxzMRmOwBayF8+aAPq6AAAAABJRU5ErkJggg==) no-repeat;
+}
+
+/* line 239, ../src/sass/css/page/_main.scss */
+/* line 203, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a {
+  position: relative;
+  line-height: 1.94444;
+  color: #0088cb;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+/* line 246, ../src/sass/css/page/_main.scss */
+/* line 205, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a:hover {
+  color: #000;
+}
+
+/* line 248, ../src/sass/css/page/_main.scss */
+/* line 207, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a:hover:after {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAQAAABqrk9lAAAAIElEQVQYV2Ng+M/wH4iAEILAHBgfyAEz4RRMCbJahAkAQlEi3teqjq8AAAAASUVORK5CYII=);
+}
+
+/* line 251, ../src/sass/css/page/_main.scss */
+/* line 209, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a:hover .anchor_link {
+  border-bottom: 1px solid #0188CA;
+  padding: 0 0 3px 0;
+  text-decoration: none;
+}
+
+/* line 257, ../src/sass/css/page/_main.scss */
+/* line 211, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -14px;
+  top: 7px;
+  width: 5px;
+  height: 7px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAYAAADAp4fuAAAAJUlEQVQYV2Ng6Dj9H4SBgAGGwQx0CYQskg64ILIO3CoxzMRmOwBayF8+aAPq6AAAAABJRU5ErkJggg==) no-repeat;
+}
+
+/* line 267, ../src/sass/css/page/_main.scss */
+/* line 213, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.video {
+  margin-left: -26px;
+}
+
+/* line 270, ../src/sass/css/page/_main.scss */
+/* line 215, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.video:hover:after {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAQAAABKIxwrAAAAvklEQVQ4y5XUu3GEMBSF4U8pEQFdEJESUgA0AfEOISkRfdABDWqDXY9lox1bR+l/z9ynSFXpLQ6ny+mw6FXR90s12G1GrVpQa402u+GON2arzl2d1axJ8cbDJGRgkWDyeAW8NJt80Nt1Mn/hgzXvnODBaoio7Nmcf+CRzq6it/E3Htn0LMZcfRl8tHBos5Z3vHVwqj/V9wuvnVyZriRDTPDgKnYvzL2wM4V9L5xq4c4Ub2TxvhdeU/Gt/vMneAKsSKUwBR0dVwAAAABJRU5ErkJggg==);
+}
+
+/* line 274, ../src/sass/css/page/_main.scss */
+/* line 217, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.video:after {
+  right: -30px;
+  top: 2px;
+  width: 23px;
+  height: 23px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAA40lEQVRIx7WVMQ6DIBSGYXVy6C2YXB05AF7CzqYjq5P36A28Rg/V/iU/CSYqGHwmX0jg8QHyAKWWjzqgAT14ggW8wcpyYX3PuH3HQYMFM/DAAQNaoFka1nvG2RL5A4zgBbqTVaV0jB/Zf1f+b5jAwBmqC2j2mzYDJAEjA1QFAz0bueXSdKVc02OjvOGmdJXidA/m4GU6+ZvEER+8zFdX0OGLT0UysS54eSBMiTwdIBNrgpcnri2VxwEysW3w8kjrK3KSy5pVfOai/1w0W0TzXPSEit4t4rei+H0u+hKJv6G3vv4/9zgNQcPecXIAAAAASUVORK5CYII=) no-repeat;
+}
+
+/* line 282, ../src/sass/css/page/_main.scss */
+/* line 219, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.arrow_blue {
+  color: #0096ff;
+}
+
+/* line 285, ../src/sass/css/page/_main.scss */
+/* line 221, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.arrow_blue:hover {
+  color: #000;
+}
+
+/* line 287, ../src/sass/css/page/_main.scss */
+/* line 223, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.arrow_blue:hover:after {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAA80lEQVQoz4XSsUqCYRQG4MchkCiKWoSmbG9qCRqaugP3FqcuoDkIgoKGoEKtW6i5kqIhsHSKhggaWsMhECEJOg2i/foLfmd7eYbznXP4f+tOvPnW8a5sQwZC9MGiWzFUD5aSaEUzRUJoWuuhBZ9CaCkqKDhOsC/5LrrsR3Wz4CDBqoFlv4mox/YT2Sq7Q32k2RHVVLuNIfbIy4hfNUyDQyF88DQCnclg0p0QXrkYQ8IVW2NI2CankyCVFPmRHxxdmoTT7sSzakJoKyspqSfIs6negufdj1xwTS55KhN2tAZA257s4D3BjE0V126cK5rrhiH8Abw+3kjnG7MeAAAAAElFTkSuQmCC);
+}
+
+/* line 291, ../src/sass/css/page/_main.scss */
+/* line 225, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.arrow_blue:after {
+  right: -25px;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABH0lEQVQ4y2NgmPafAQt2AOJpQHwLiH8A8U8gvgvEs4DYDYgZYWr//4dgdAMUgXgfEP8ngI8CsTIug0yA+A0RhsAwSK0NukHSQPwKSdFnIE4F4lAonorDsA9ArIRs0Hosik4DsQCSi7txGLYHZpAeEP/DoQjdsC4c6ixBki0EwoIYwyaBJPYQEbBnCBh2EiR4hchYAhnGi2RYH5LcQ5DAKSINmoOUELmAeD+S3A2Q4DoKDQHhnSCJbAoNAeFykKQENC9hM2Q2EYb8BiVKfImNGENAeDpyyuYA4hNIkl+hOX0mFJ/GYcglIOZBz7TCQHyQhEwLslgCVzHCCsSN0EyLywCQa9uhvsBZHsEwPxAnQMNpFxDvBuK50BJBCFktzCAAvJvlioufu1UAAAAASUVORK5CYII=) no-repeat;
+}
+
+/* line 300, ../src/sass/css/page/_main.scss */
+/* line 227, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.no_arrow:hover {
+  background: none;
+}
+
+/* line 303, ../src/sass/css/page/_main.scss */
+/* line 229, ../src/sass/css/_page_common.scss */
+#special-sectionOverview a.no_arrow:after {
+  background: none;
+}
+
+/* line 310, ../src/sass/css/page/_main.scss */
+/* line 232, ../src/sass/css/_page_common.scss */
+.no_shift {
+  letter-spacing: 0em;
+}
+
+/* line 313, ../src/sass/css/page/_main.scss */
+/* line 235, ../src/sass/css/_page_common.scss */
+.shift {
+  letter-spacing: .5em;
+}
+
+/* line 316, ../src/sass/css/page/_main.scss */
+/* line 238, ../src/sass/css/_page_common.scss */
+.shift_4 {
+  letter-spacing: .4em;
+}
+
+/* line 319, ../src/sass/css/page/_main.scss */
+/* line 241, ../src/sass/css/_page_common.scss */
+.shift_3 {
+  letter-spacing: .3em;
+}
+
+/* line 322, ../src/sass/css/page/_main.scss */
+/* line 244, ../src/sass/css/_page_common.scss */
+.shift_2 {
+  letter-spacing: .2em;
+}
+
+/* line 325, ../src/sass/css/page/_main.scss */
+/* line 247, ../src/sass/css/_page_common.scss */
+.shift_2 {
+  letter-spacing: .1em;
+}
+
+/* line 330, ../src/sass/css/page/_main.scss */
+/* line 250, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box {
+  overflow: hidden;
+  text-align: center;
+  margin: 6% 0 0 0;
+  padding: 0 0 0 63px;
+}
+
+@media all and (max-width: 768px) {
+  /* line 330, ../src/sass/css/page/_main.scss */
+  /* line 252, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .detail-box {
+    padding: 0;
+  }
+}
+/* line 338, ../src/sass/css/page/_main.scss */
+/* line 254, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box .detail {
+  border: 2px solid #d6d6d6;
+  border-radius: 5px;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  margin: 10px 5px;
+  color: #404040;
+  word-break: break-all;
+}
+
+@media all and (max-width: 900px) {
+  /* line 338, ../src/sass/css/page/_main.scss */
+  /* line 256, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .detail-box .detail {
+    width: 18%;
+  }
+}
+@media all and (max-width: 640px) {
+  /* line 338, ../src/sass/css/page/_main.scss */
+  /* line 258, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .detail-box .detail {
+    width: 30%;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 338, ../src/sass/css/page/_main.scss */
+  /* line 260, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .detail-box .detail {
+    width: 45%;
+  }
+}
+/* line 358, ../src/sass/css/page/_main.scss */
+/* line 262, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box .detail.move {
+  margin-left: 80px;
+}
+
+@media all and (max-width: 1210px) {
+  /* line 358, ../src/sass/css/page/_main.scss */
+  /* line 264, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .detail-box .detail.move {
+    margin-left: 5px;
+  }
+}
+/* line 364, ../src/sass/css/page/_main.scss */
+/* line 266, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box .detail .text {
+  font: 100 23px "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  line-height: 1.3em;
+  height: 100px;
+  text-align: center;
+}
+
+/* line 369, ../src/sass/css/page/_main.scss */
+/* line 268, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box .detail .text.row1 {
+  padding-top: 30px;
+}
+
+/* line 370, ../src/sass/css/page/_main.scss */
+/* line 270, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box .detail .text.row2 {
+  padding-top: 20px;
+}
+
+/* line 371, ../src/sass/css/page/_main.scss */
+/* line 272, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box .detail .text.row3 {
+  padding-top: 13px;
+}
+
+@media all and (max-width: 480px) {
+  /* line 364, ../src/sass/css/page/_main.scss */
+  /* line 274, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .detail-box .detail .text {
+    font-size: 1.3em;
+  }
+}
+/* line 376, ../src/sass/css/page/_main.scss */
+/* line 276, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box .detail .type {
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* line 380, ../src/sass/css/page/_main.scss */
+/* line 278, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .detail-box .detail .type.row2 {
+  margin-top: -15px;
+  line-height: 1;
+}
+
+/* line 390, ../src/sass/css/page/_main.scss */
+/* line 280, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square_small {
+  font-weight: 100;
+  font-size: 12px;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+}
+
+/* line 395, ../src/sass/css/page/_main.scss */
+/* line 282, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square_main {
+  font-weight: 100;
+  font-size: 80px;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+}
+
+/* line 400, ../src/sass/css/page/_main.scss */
+/* line 284, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square_medium {
+  font-weight: 100;
+  font-size: 17px;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  line-height: 14px;
+}
+
+/* line 406, ../src/sass/css/page/_main.scss */
+/* line 286, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square_unit {
+  font-weight: 100;
+  font-weight: 100;
+  font-size: 24px;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+}
+
+/* line 413, ../src/sass/css/page/_main.scss */
+/* line 288, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square_unit_degree {
+  font-size: 33px;
+  font-weight: 100;
+}
+
+/* line 417, ../src/sass/css/page/_main.scss */
+/* line 290, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square_unit_degree.sup {
+  position: absolute;
+  top: 14px;
+  right: 9px;
+}
+
+/* line 425, ../src/sass/css/page/_main.scss */
+/* line 292, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square-box {
+  /*三種尺寸*/
+  overflow: hidden;
+  width: 100%;
+  /*一般無外框*/
+}
+
+/* line 435, ../src/sass/css/page/_main.scss */
+/* line 294, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square-box .square {
+  float: left;
+  font: 100 23px "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  /*有外框*/
+}
+
+/* line 438, ../src/sass/css/page/_main.scss */
+/* line 296, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square-box .square span {
+  font-size: 14px;
+  line-height: 2.4em;
+  font-weight: 100;
+  display: inline-block;
+}
+
+/* line 444, ../src/sass/css/page/_main.scss */
+/* line 298, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square-box .square b {
+  font: 100 85px "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  line-height: 1em;
+}
+
+/* line 450, ../src/sass/css/page/_main.scss */
+/* line 300, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square-box .square.square-border {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #D6D6D6;
+  border-radius: 5px;
+}
+
+/* line 455, ../src/sass/css/page/_main.scss */
+/* line 302, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square-box .square.square-border .tall {
+  text-align: center;
+  height: 110px;
+}
+
+/* line 459, ../src/sass/css/page/_main.scss */
+/* line 304, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square-box .square.square-border .short {
+  text-align: center;
+  height: 40px;
+}
+
+/* line 463, ../src/sass/css/page/_main.scss */
+/* line 306, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .square-box .square.square-border span {
+  line-height: 0;
+}
+
+/* line 470, ../src/sass/css/page/_main.scss */
+/* line 308, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .p_main {
+  font-size: 21px;
+  font-weight: 300;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  color: #363636;
+  line-height: 34px;
+  letter-spacing: 0.015em;
+}
+
+/* line 480, ../src/sass/css/page/_main.scss */
+/* line 310, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .p_content {
+  font-size: 17px;
+  font-weight: 300;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  color: #363636;
+  line-height: 1.7;
+  letter-spacing: 0.015em;
+}
+
+/* line 490, ../src/sass/css/page/_main.scss */
+/* line 312, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .p_remark {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  color: #363636;
+  line-height: 1.7;
+  letter-spacing: 0.015em;
+}
+
+/* line 500, ../src/sass/css/page/_main.scss */
+/* line 314, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .anchor_link {
+  margin-top: 3%;
+}
+
+/* line 504, ../src/sass/css/page/_main.scss */
+/* line 316, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .subtitle {
+  font-size: 36px;
+  color: #f08201;
+  font-weight: 300;
+  text-align: center;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+}
+
+/* line 514, ../src/sass/css/page/_main.scss */
+/* line 318, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next {
+  overflow: hidden;
+  *zoom: 1;
+  height: 385px;
+  background-color: #f9f9f9;
+  padding: 0;
+}
+
+/* line 519, ../src/sass/css/page/_main.scss */
+/* line 320, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next .content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 523, ../src/sass/css/page/_main.scss */
+/* line 322, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next .copy {
+  text-align: left;
+  float: left;
+  padding-top: 6%;
+  width: 258px;
+  margin-right: 20%;
+}
+
+/* line 529, ../src/sass/css/page/_main.scss */
+/* line 324, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next .copy h1 {
+  margin-top: 1%;
+  font-size: 26px;
+}
+
+/* line 534, ../src/sass/css/page/_main.scss */
+/* line 326, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next .copy .hint {
+  color: #999;
+}
+
+/* line 538, ../src/sass/css/page/_main.scss */
+/* line 328, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next .figure {
+  float: left;
+  line-height: 0;
+}
+
+@media all and (max-width: 1100px) {
+  /* line 546, ../src/sass/css/page/_main.scss */
+  /* line 330, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next .figure {
+    width: 65%;
+  }
+}
+@media all and (max-width: 940px) {
+  /* line 554, ../src/sass/css/page/_main.scss */
+  /* line 332, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next .copy {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  /* line 559, ../src/sass/css/page/_main.scss */
+  /* line 334, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next .figure {
+    width: 100%;
+  }
+}
+/* line 567, ../src/sass/css/page/_main.scss */
+/* line 336, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_charging .content {
+  width: 700px;
+  position: relative;
+}
+
+/* line 572, ../src/sass/css/page/_main.scss */
+/* line 338, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_charging .copy {
+  width: 100%;
+  margin-right: 0;
+}
+
+/* line 577, ../src/sass/css/page/_main.scss */
+/* line 340, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_charging .figure {
+  position: absolute;
+  top: 170px;
+  right: 0;
+}
+
+/* line 583, ../src/sass/css/page/_main.scss */
+/* line 342, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_performance {
+  background-color: #fff;
+}
+
+/* line 585, ../src/sass/css/page/_main.scss */
+/* line 344, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_performance .figure {
+  width: 643px;
+  margin-top: 46px;
+}
+
+/* line 588, ../src/sass/css/page/_main.scss */
+/* line 346, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_performance .figure img {
+  width: 643px;
+}
+
+/* line 593, ../src/sass/css/page/_main.scss */
+/* line 348, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_performance .content {
+  width: 940px;
+}
+
+/* line 596, ../src/sass/css/page/_main.scss */
+/* line 350, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_performance .copy {
+  margin-right: 30px;
+}
+
+@media all and (max-width: 1040px) {
+  /* line 583, ../src/sass/css/page/_main.scss */
+  /* line 352, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_performance {
+    height: auto;
+  }
+
+  /* line 602, ../src/sass/css/page/_main.scss */
+  /* line 354, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_performance .content {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  /* line 606, ../src/sass/css/page/_main.scss */
+  /* line 356, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_performance .copy {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  /* line 611, ../src/sass/css/page/_main.scss */
+  /* line 358, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_performance .figure {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  /* line 614, ../src/sass/css/page/_main.scss */
+  /* line 360, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_performance .figure img {
+    max-width: 643px;
+  }
+}
+@media all and (max-width: 940px) {
+  /* line 621, ../src/sass/css/page/_main.scss */
+  /* line 362, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_performance .figure {
+    width: 100%;
+  }
+
+  /* line 623, ../src/sass/css/page/_main.scss */
+  /* line 364, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_performance .figure img {
+    width: 100%;
+    max-width: 643px;
+  }
+}
+/* line 635, ../src/sass/css/page/_main.scss */
+/* line 366, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_zenui .content {
+  width: 692px;
+}
+
+/* line 639, ../src/sass/css/page/_main.scss */
+/* line 368, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_zenui .figure img {
+  max-width: 230px;
+}
+
+/* line 644, ../src/sass/css/page/_main.scss */
+/* line 370, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .next#next_zenui .copy {
+  padding-top: 8%;
+  margin-right: 15%;
+}
+
+@media all and (max-width: 1100px) {
+  /* line 651, ../src/sass/css/page/_main.scss */
+  /* line 372, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_zenui .copy {
+    margin-right: 5%;
+    text-align: left;
+  }
+
+  /* line 655, ../src/sass/css/page/_main.scss */
+  /* line 374, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_zenui .figure {
+    width: 50%;
+  }
+}
+@media all and (max-width: 800px) {
+  /* line 633, ../src/sass/css/page/_main.scss */
+  /* line 376, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_zenui {
+    height: auto;
+  }
+
+  /* line 662, ../src/sass/css/page/_main.scss */
+  /* line 378, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_zenui .copy {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  /* line 667, ../src/sass/css/page/_main.scss */
+  /* line 380, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_zenui .figure {
+    width: 100%;
+  }
+
+  /* line 669, ../src/sass/css/page/_main.scss */
+  /* line 382, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .next#next_zenui .figure img {
+    max-width: 238px;
+  }
+}
+/* line 678, ../src/sass/css/page/_main.scss */
+/* line 384, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en h1 {
+  line-height: 62px;
+  font-size: 52px;
+}
+
+@media all and (max-width: 900px) {
+  /* line 678, ../src/sass/css/page/_main.scss */
+  /* line 386, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en h1 {
+    font-size: 41px;
+    line-height: 50px;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 678, ../src/sass/css/page/_main.scss */
+  /* line 388, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en h1 {
+    margin: 10px 0;
+    font-size: 28px;
+    line-height: 1.1;
+    text-align: center;
+  }
+}
+/* line 692, ../src/sass/css/page/_main.scss */
+/* line 390, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en h1.main {
+  font-size: 57px;
+  letter-spacing: 0;
+  font-weight: 300;
+}
+
+@media all and (max-width: 900px) {
+  /* line 692, ../src/sass/css/page/_main.scss */
+  /* line 392, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en h1.main {
+    font-size: 52px;
+    line-height: 62px;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 692, ../src/sass/css/page/_main.scss */
+  /* line 394, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en h1.main {
+    margin: 10px 0;
+    font-size: 41px;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+/* line 709, ../src/sass/css/page/_main.scss */
+/* line 396, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en p.p_main {
+  font-size: 24px;
+  line-height: 1.5em;
+  color: #363636;
+  font-weight: 300;
+}
+
+/* line 717, ../src/sass/css/page/_main.scss */
+/* line 398, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en p.p_remark {
+  font-size: 15px;
+  font-weight: 300;
+  color: #9b9b9b;
+}
+
+/* line 723, ../src/sass/css/page/_main.scss */
+/* line 400, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en p.p_content {
+  font-size: 19px;
+  line-height: 1.5em;
+}
+
+/* line 728, ../src/sass/css/page/_main.scss */
+/* line 402, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en p.subtitle {
+  font-size: 42px;
+  color: #f08201;
+  font-weight: 300;
+  text-align: left;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  line-height: 1;
+}
+
+/* line 738, ../src/sass/css/page/_main.scss */
+/* line 404, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square_small {
+  font-size: 16px;
+  color: #444;
+}
+
+/* line 743, ../src/sass/css/page/_main.scss */
+/* line 406, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square_main {
+  font-size: 80px;
+  color: #444;
+}
+
+/* line 748, ../src/sass/css/page/_main.scss */
+/* line 408, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square_main_larger {
+  font-size: 85px;
+  color: #444;
+}
+
+/* line 753, ../src/sass/css/page/_main.scss */
+/* line 410, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square_unit {
+  font-size: 40px;
+  color: #444;
+}
+
+/* line 758, ../src/sass/css/page/_main.scss */
+/* line 412, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .anchor_link {
+  font-size: 17px;
+}
+
+/* line 767, ../src/sass/css/page/_main.scss */
+/* line 414, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box {
+  /*三種尺寸*/
+  overflow: hidden;
+  width: 100%;
+  /*一般無外框*/
+}
+
+/* line 777, ../src/sass/css/page/_main.scss */
+/* line 416, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box .square {
+  float: left;
+  font: 400 23px "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  /*有外框*/
+}
+
+/* line 780, ../src/sass/css/page/_main.scss */
+/* line 418, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box .square span {
+  font-size: 16px;
+  line-height: 2.4em;
+  font-weight: 400;
+  display: inline-block;
+}
+
+/* line 786, ../src/sass/css/page/_main.scss */
+/* line 420, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box .square b {
+  font: 100 80px "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  line-height: em;
+}
+
+/* line 792, ../src/sass/css/page/_main.scss */
+/* line 422, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box .square .tall {
+  text-align: center;
+  height: 61px;
+  font-size: 40px;
+  color: #444;
+  font-weight: 100;
+}
+
+/* line 801, ../src/sass/css/page/_main.scss */
+/* line 424, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box .square.square-border {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #D6D6D6;
+  border-radius: 5px;
+}
+
+/* line 806, ../src/sass/css/page/_main.scss */
+/* line 426, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box .square.square-border .tall {
+  text-align: center;
+  height: 110px;
+  font-size: 40px;
+  color: #444;
+}
+
+/* line 812, ../src/sass/css/page/_main.scss */
+/* line 428, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box .square.square-border .short {
+  text-align: center;
+  height: 40px;
+}
+
+/* line 816, ../src/sass/css/page/_main.scss */
+/* line 430, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .square-box .square.square-border span {
+  line-height: 0;
+}
+
+/* line 824, ../src/sass/css/page/_main.scss */
+/* line 432, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .next h1 {
+  line-height: 1.5;
+}
+
+/* line 828, ../src/sass/css/page/_main.scss */
+/* line 434, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .next .copy {
+  padding-top: 8%;
+}
+
+/* line 833, ../src/sass/css/page/_main.scss */
+/* line 436, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .next#next_zenui .content {
+  width: 692px;
+}
+
+/* line 836, ../src/sass/css/page/_main.scss */
+/* line 438, ../src/sass/css/_page_common.scss */
+#special-sectionOverview .en .next#next_zenui .copy {
+  width: 350px;
+  margin-right: 15%;
+}
+
+@media all and (max-width: 1100px) {
+  /* line 842, ../src/sass/css/page/_main.scss */
+  /* line 440, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en .next#next_zenui .copy {
+    margin-right: 5%;
+    text-align: left;
+  }
+
+  /* line 846, ../src/sass/css/page/_main.scss */
+  /* line 442, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en .next#next_zenui .figure {
+    width: 50%;
+  }
+}
+@media all and (max-width: 800px) {
+  /* line 832, ../src/sass/css/page/_main.scss */
+  /* line 444, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en .next#next_zenui {
+    height: auto;
+  }
+
+  /* line 853, ../src/sass/css/page/_main.scss */
+  /* line 446, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en .next#next_zenui .copy {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  /* line 858, ../src/sass/css/page/_main.scss */
+  /* line 448, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en .next#next_zenui .figure {
+    width: 100%;
+  }
+
+  /* line 860, ../src/sass/css/page/_main.scss */
+  /* line 450, ../src/sass/css/_page_common.scss */
+  #special-sectionOverview .en .next#next_zenui .figure img {
+    max-width: 238px;
+  }
+}
+/* line 4, ../src/sass/css/page/_design.scss */
+#special-sectionOverview .hidden-xs {
+  display: block;
+}
+/* line 6, ../src/sass/css/page/_design.scss */
+#special-sectionOverview .visible-xs {
+  display: none;
+}
+@media all and (max-width: 480px) {
+  /* line 7, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview .wrapper {
+    padding-top: 0;
+  }
+}
+/* line 13, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro {
+  background-color: #f9f9f9;
+  padding: 0;
+  padding-top: 20px;
+  padding-top: 8%;
+}
+/* line 14, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro h3 {
+  margin: 5% 0 10% 0;
+}
+/* line 22, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .center {
+  width: 960px;
+  padding-bottom: 0;
+}
+@media all and (max-width: 880px) {
+  /* line 13, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro {
+    padding-top: 50px;
+  }
+  /* line 30, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .center {
+    width: 100%;
+  }
+}
+/* line 37, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .content {
+  overflow: hidden;
+  padding-bottom: 0;
+}
+/* line 41, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .content h1 {
+  text-align: left;
+  margin-top: 15px;
+  width: 50%;
+}
+@media all and (max-width: 880px) {
+  /* line 48, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content h1 {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 55, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content h1 {
+    text-align: center;
+    width: 100%;
+  }
+}
+/* line 61, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .content .left {
+  float: left;
+  width: 46%;
+}
+/* line 65, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .content .left p {
+  margin-top: 7%;
+  text-align: left;
+  width: 100%;
+  margin-left: 0;
+  line-height: 1.5em;
+}
+@media all and (max-width: 880px) {
+  /* line 61, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content .left {
+    width: 100%;
+  }
+  /* line 75, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content .left p {
+    width: 100%;
+    margin-top: 2%;
+  }
+}
+/* line 82, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .content .right {
+  float: right;
+  width: 54%;
+}
+/* line 86, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .content .right figure {
+  margin-top: -14%;
+  margin-bottom: -100px;
+}
+@media all and (max-width: 880px) {
+  /* line 82, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content .right {
+    width: 100%;
+  }
+  /* line 93, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content .right figure {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 98, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content .right div {
+    float: left;
+    width: 50%;
+  }
+}
+/* line 105, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .content .right.hidden-xs {
+  opacity: 0;
+}
+/* line 106, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #section-intro .content .font-logo {
+  max-width: 210px;
+}
+@media all and (max-width: 880px) {
+  /* line 106, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content .font-logo {
+    margin: 0 auto;
+  }
+}
+@media all and (max-width: 900px) {
+  /* line 37, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content {
+    padding: 0;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 37, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #section-intro .content {
+    padding: 0;
+  }
+}
+/* line 127, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if {
+  background-color: #fff;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+/* line 132, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content {
+  padding: 0;
+}
+/* line 135, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content .left {
+  float: left;
+  width: 55%;
+  position: relative;
+  z-index: 500;
+}
+/* line 140, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content .left figure {
+  position: relative;
+  width: 382px;
+  height: 561px;
+  float: right;
+}
+/* line 146, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content .left img.rwd {
+  max-width: none !important;
+}
+/* line 150, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content .left img.fone {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/* line 156, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content .left img.shadow {
+  position: absolute;
+  top: 503px;
+  left: -148px;
+}
+/* line 163, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content .right {
+  position: relative;
+  z-index: 600;
+  float: left;
+  margin-top: 25%;
+  margin-left: 9%;
+}
+/* line 170, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content .right img {
+  max-width: 235px;
+}
+/* line 175, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content h1 {
+  text-align: center;
+  margin-top: 10%;
+}
+/* line 180, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #if .content p {
+  text-align: center;
+  margin-top: 3%;
+}
+@media all and (max-width: 450px) {
+  /* line 190, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content .left figure {
+    width: 306px;
+    height: 449px;
+  }
+  /* line 195, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content .left img.fone {
+    width: 100%;
+  }
+  /* line 199, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content .left img.shadow {
+    width: 581px;
+    top: 400px;
+    left: -120px;
+  }
+}
+@media all and (max-width: 800px) {
+  /* line 211, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content .left {
+    width: 100%;
+  }
+  /* line 215, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content .left figure {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 221, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content .right {
+    width: 100%;
+    margin-top: 0;
+    margin: 20px auto 0;
+  }
+  /* line 227, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content img.rwd {
+    max-width: 100% !important;
+  }
+  /* line 231, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content h1 {
+    text-align: center;
+    margin-top: 5%;
+  }
+  /* line 235, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content p {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 238, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #if .content p br {
+    content: "";
+  }
+}
+/* line 247, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #zen {
+  background: url(/websites/global/products/Lk0Sg1Ulh0Ph49Hl/v6/img/design/zen.jpg) center center no-repeat;
+  background-size: cover;
+  padding-top: 0;
+}
+/* line 251, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #zen .content {
+  padding-top: 100px;
+  height: 678px;
+}
+/* line 256, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #zen .content h1 {
+  text-align: center;
+}
+/* line 260, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #zen .content p {
+  text-align: center;
+  margin-top: 3%;
+}
+/* line 266, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #zen .content .zen {
+  font-size: 83px;
+  margin-bottom: 1.5%;
+}
+@media all and (max-width: 800px) {
+  /* line 272, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #zen .content h1 {
+    text-align: center;
+  }
+  /* line 275, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #zen .content p {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 251, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #zen .content {
+    padding-top: 20%;
+    height: 400px;
+  }
+}
+/* line 291, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin {
+  padding-top: 0;
+  border-top: 10px solid #fff;
+  border-bottom: 0px solid #fff;
+  overflow: hidden;
+  position: relative;
+}
+/* line 297, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .visible-md {
+  display: none;
+}
+@media all and (max-width: 900px) {
+  /* line 297, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #thin .visible-md {
+    display: block;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 297, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #thin .visible-md {
+    display: none;
+  }
+}
+/* line 306, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .hidden-md {
+  display: block;
+  position: relative;
+  min-height: 943px;
+}
+@media all and (max-width: 900px) {
+  /* line 306, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #thin .hidden-md {
+    display: none;
+  }
+}
+/* line 313, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .hidden-md > div {
+  position: absolute;
+}
+/* line 314, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .hidden-md #thin-item-1 {
+  top: 0;
+  left: 0;
+}
+/* line 315, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .hidden-md #thin-item-2 {
+  bottom: 0;
+  left: 0;
+}
+/* line 316, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .hidden-md #thin-item-3 {
+  top: 250px;
+  left: 235px;
+}
+/* line 318, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .content {
+  padding: 0;
+}
+/* line 322, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .content h1 {
+  text-align: left;
+}
+/* line 326, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .content p {
+  text-align: left;
+  margin-top: 6%;
+}
+/* line 331, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .content .left {
+  float: left;
+  width: 52%;
+  margin-left: -270px;
+}
+/* line 336, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .content .left img.rwd {
+  max-width: none !important;
+}
+/* line 341, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #thin .content .right {
+  margin-top: 300px;
+  width: 48%;
+  float: right;
+}
+@media all and (max-width: 880px) {
+  /* line 349, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #thin .content .left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  /* line 353, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #thin .content .left img.rwd {
+    max-width: 100% !important;
+  }
+  /* line 358, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #thin .content .right {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 7%;
+  }
+  /* line 362, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #thin .content .right p {
+    margin-top: 4%;
+  }
+}
+/* line 370, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #ergonomic {
+  padding: 0;
+  margin-top: 10px;
+}
+/* line 374, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #ergonomic .scenario {
+  background-color: #f7f7f7;
+  padding-top: 5%;
+}
+/* line 377, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #ergonomic .scenario img {
+  margin: 0 auto;
+  display: block;
+  width: 38%;
+}
+@media all and (max-width: 850px) {
+  /* line 374, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #ergonomic .scenario {
+    padding-top: 10%;
+  }
+}
+@media all and (max-width: 568px) {
+  /* line 374, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #ergonomic .scenario {
+    padding-top: 15%;
+  }
+  /* line 389, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #ergonomic .scenario img {
+    width: 80%;
+  }
+}
+/* line 394, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #ergonomic .example {
+  padding: 15% 0;
+  background: url(/websites/global/products/Lk0Sg1Ulh0Ph49Hl/v6/img/index/p5_example.jpg) center bottom no-repeat #F7F7F7;
+  background-size: contain;
+}
+/* line 399, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #ergonomic .content {
+  padding: 0;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/* line 403, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #ergonomic .content p {
+  margin-top: 3%;
+}
+@media all and (max-width: 700px) {
+  /* line 408, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #ergonomic .content p br {
+    content: "";
+  }
+}
+@media all and (max-width: 550px) {
+  /* line 414, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #ergonomic .content h1, #special-sectionOverview #wrap.index #ergonomic .content p {
+    text-align: left;
+  }
+}
+/* line 421, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #pattern {
+  overflow: hidden;
+  padding: 0;
+  margin-top: 10px;
+}
+/* line 425, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #pattern .content {
+  padding: 0;
+}
+/* line 427, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #pattern .content .left {
+  width: 52%;
+  float: left;
+}
+/* line 431, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #pattern .content .left img.rwd {
+  margin-left: -31%;
+  max-width: 530px !important;
+}
+/* line 436, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #pattern .content .right {
+  width: 47%;
+  margin-top: 16%;
+  margin-right: 0%;
+  float: right;
+}
+/* line 442, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #pattern .content h1 {
+  text-align: left;
+}
+/* line 445, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #pattern .content p {
+  text-align: left;
+}
+@media all and (max-width: 1000px) {
+  /* line 450, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .left {
+    margin-left: 0;
+    width: 100%;
+  }
+  /* line 453, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .left img.rwd {
+    max-width: 650px !important;
+    margin: 0 auto;
+  }
+  /* line 458, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .right {
+    width: 70%;
+    margin: 5% 15%;
+    float: left;
+  }
+  /* line 461, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .right h1, #special-sectionOverview #wrap.index #pattern .content .right p {
+    text-align: center;
+  }
+}
+@media all and (max-width: 830px) {
+  /* line 470, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .left {
+    margin-left: 0;
+    width: 100%;
+  }
+  /* line 473, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .left img.rwd {
+    max-width: 650px !important;
+    margin: 0 auto;
+  }
+  /* line 478, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .right {
+    width: 100%;
+    margin: 5% 0%;
+    float: left;
+  }
+  /* line 481, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .right h1, #special-sectionOverview #wrap.index #pattern .content .right p {
+    text-align: center;
+  }
+}
+@media all and (max-width: 550px) {
+  /* line 491, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #pattern .content .right h1, #special-sectionOverview #wrap.index #pattern .content .right p {
+    text-align: left;
+  }
+}
+/* line 499, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #pattern .w_full {
+  margin-top: 3%;
+}
+/* line 504, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #wider {
+  padding: 0;
+  padding-top: 6.5%;
+  padding-bottom: 6%;
+  background-color: #f9f9f9;
+}
+/* line 513, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #wider figure {
+  width: 100%;
+}
+/* line 516, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #wider img {
+  margin-top: 6%;
+  width: 100%;
+  max-width: 834px;
+}
+/* line 522, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #wider p {
+  margin-top: 3%;
+  width: 85%;
+  margin: 3% auto 0;
+}
+@media all and (max-width: 900px) {
+  /* line 529, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #wider p br {
+    content: "";
+  }
+}
+@media all and (max-width: 550px) {
+  /* line 535, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #wider h1, #special-sectionOverview #wrap.index #wider p {
+    text-align: left;
+    width: 100%;
+  }
+}
+/* line 542, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #cover {
+  background-color: #fff;
+  padding: 5% 0 6% 0;
+}
+/* line 546, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #cover .content {
+  padding: 0;
+}
+/* line 549, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #cover .left {
+  float: left;
+  width: 100%;
+}
+/* line 552, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #cover .left .copy {
+  width: 420px;
+}
+/* line 556, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #cover .right {
+  float: right;
+  width: 100%;
+  margin-top: -5%;
+}
+/* line 560, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #cover .right img {
+  margin-left: 10%;
+}
+/* line 564, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #cover h1 {
+  text-align: left;
+}
+/* line 568, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #cover p {
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+@media all and (max-width: 900px) {
+  /* line 575, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #cover .left {
+    float: left;
+    width: 100%;
+    margin-top: 0%;
+  }
+  /* line 579, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #cover .left .copy {
+    width: 100%;
+  }
+  /* line 583, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #cover .right {
+    margin-top: 6%;
+    margin-bottom: 5%;
+  }
+  /* line 586, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #cover .right img {
+    margin-left: 0;
+  }
+}
+/* line 593, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful {
+  padding: 0;
+  padding-top: 5.5%;
+  padding-bottom: 7%;
+  background-color: #f7f7f7;
+}
+/* line 599, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful .content {
+  padding: 0;
+  width: 760px;
+  margin: 0 auto;
+}
+/* line 605, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful img {
+  margin-top: 20px;
+  max-width: 834px;
+}
+/* line 610, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful p {
+  margin-top: 3.5%;
+}
+@media all and (max-width: 800px) {
+  /* line 615, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful .content {
+    width: 100%;
+  }
+}
+@media all and (max-width: 550px) {
+  /* line 621, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful h1, #special-sectionOverview #wrap.index #colorful p {
+    text-align: left;
+    width: 100%;
+  }
+}
+/* line 626, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame-group {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 5%;
+}
+/* line 629, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame-group .column {
+  float: left;
+}
+/* line 631, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame-group .column h4 {
+  text-align: center;
+}
+/* line 635, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame-group ul {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 637, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame-group ul li {
+  float: left;
+  width: 192px;
+}
+/* line 640, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame-group ul li img {
+  max-width: 188px;
+}
+@media all and (max-width: 1080px) {
+  /* line 648, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group .column {
+    width: 100%;
+  }
+  /* line 650, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group .column:first-child {
+    margin-bottom: 6%;
+  }
+  /* line 654, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul {
+    margin: 0 auto;
+  }
+  /* line 657, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul.item_3 {
+    width: 576px;
+  }
+  /* line 660, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul.item_2 {
+    width: 394px;
+  }
+  /* line 663, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul.item_1 {
+    width: 192px;
+  }
+}
+@media all and (max-width: 700px) {
+  /* line 670, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group .column {
+    width: 100%;
+  }
+  /* line 672, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group .column:first-child {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+  /* line 677, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul {
+    margin: 0 auto;
+  }
+  /* line 680, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul.item_3 {
+    width: 99%;
+  }
+  /* line 682, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul.item_3 li {
+    width: 33%;
+  }
+  /* line 687, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul.item_2 {
+    width: 66%;
+  }
+  /* line 689, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul.item_2 li {
+    width: 50%;
+  }
+  /* line 694, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame-group ul.item_1 {
+    width: 192px;
+  }
+}
+/* line 700, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame {
+  overflow: hidden;
+  margin-top: 6%;
+}
+/* line 704, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame h4 {
+  color: #222;
+  font-size: 1.3em;
+  font-weight: 300;
+  padding: 0 0 0px 0;
+  margin: 0 0 0px 0;
+}
+/* line 712, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame .left {
+  float: left;
+  width: 59%;
+}
+@media all and (max-width: 480px) {
+  /* line 712, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame .left {
+    width: 100%;
+  }
+}
+/* line 718, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame .left img {
+  width: 31%;
+  margin: 0 0.5%;
+}
+/* line 723, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame .right {
+  float: right;
+  width: 39%;
+}
+@media all and (max-width: 480px) {
+  /* line 723, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame .right {
+    width: 100%;
+    margin-top: 10%;
+  }
+}
+/* line 730, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index #colorful #color-frame .right img {
+  width: 46.5%;
+  margin: 0 1%;
+}
+@media all and (max-width: 480px) {
+  /* line 730, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index #colorful #color-frame .right img {
+    width: 31%;
+    margin: 0 0.5%;
+  }
+}
+/* line 746, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #section-intro .content h1 {
+  margin-top: 1.2%;
+  width: 60%;
+  line-height: 1.2em;
+}
+/* line 751, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #section-intro .content p.p_main {
+  margin-top: 5%;
+}
+@media all and (max-width: 768px) {
+  /* line 757, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro .content h1 {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media all and (max-width: 880px) {
+  /* line 765, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro .content p.subtitle {
+    text-align: center;
+  }
+  /* line 768, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro .content p.p_main {
+    margin-top: 3%;
+  }
+}
+/* line 774, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #if .content p {
+  margin-top: 2.5%;
+}
+/* line 777, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #zen .content p {
+  margin-top: 2.5%;
+}
+/* line 782, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #thin .content .right {
+  margin-top: 240px;
+}
+@media all and (max-width: 880px) {
+  /* line 782, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #thin .content .right {
+    margin-top: 0;
+  }
+}
+/* line 788, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #thin .content p {
+  margin-top: 5%;
+}
+/* line 790, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #thin .content p .right {
+  margin-top: 250px;
+}
+/* line 798, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #ergonomic .content {
+  margin-bottom: 11%;
+}
+/* line 800, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #ergonomic .content h1 {
+  width: 70%;
+  margin-left: 15%;
+}
+@media all and (max-width: 880px) {
+  /* line 800, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #ergonomic .content h1 {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* line 808, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #ergonomic .content .p_content {
+  margin-top: 2.5%;
+}
+/* line 815, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #wider .content p {
+  margin-top: 2.5%;
+}
+/* line 821, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #cover .content p {
+  margin-top: 5%;
+}
+/* line 828, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #colorful .content p {
+  margin-top: 3.5%;
+}
+/* line 832, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #colorful #color-frame-group .column h4 {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.015mm;
+}
+/* line 839, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en h4 {
+  letter-spacing: 0;
+}
+/* line 843, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en .next .content {
+  width: 950px;
+}
+@media all and (max-width: 940px) {
+  /* line 843, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .next .content {
+    width: 100%;
+  }
+}
+/* line 849, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en .next .figure {
+  float: right;
+}
+/* line 855, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.en #pattern .content .p_content {
+  margin-top: 5.5%;
+  margin-bottom: 6.5%;
+}
+@media all and (max-width: 480px) {
+  /* line 864, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en section a:hover .link {
+    border-bottom: 0;
+  }
+  /* line 868, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .hidden-xs {
+    display: none;
+  }
+  /* line 870, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .visible-xs {
+    display: block;
+  }
+  /* line 872, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .p_content {
+    font: 400 16px "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+    line-height: 1.6em;
+  }
+  /* line 878, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro .content h1 {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  /* line 883, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro .content p.subtitle {
+    font-size: 28px;
+    text-align: left;
+  }
+  /* line 887, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro .content .right.visible-xs {
+    margin-top: 0px;
+  }
+  /* line 889, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro .content .right.visible-xs figure {
+    margin-bottom: -64px;
+  }
+  /* line 895, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro2 .content p.p_main {
+    font-size: 19px;
+    text-align: left;
+  }
+  /* line 896, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #section-intro2 .content p.p_main:nth-child(2) {
+    margin-top: 15px;
+  }
+  /* line 899, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #if {
+    padding: 90px 0 85px 0;
+  }
+  /* line 902, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #if .left figure {
+    height: auto !important;
+    margin-bottom: 7px;
+  }
+  /* line 905, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #if .left figure img.fone {
+    width: 80% !important;
+    position: relative !important;
+  }
+  /* line 906, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #if .left figure img.shadow {
+    left: -60px;
+    top: 322px;
+    width: 460px;
+  }
+  /* line 910, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #if .content .visible-xs {
+    margin-top: 45px;
+  }
+  /* line 911, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #if .content h1 {
+    margin-top: 50px;
+  }
+  /* line 914, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #zen {
+    background-position: 49% center !important;
+  }
+  /* line 916, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #zen .content {
+    height: auto !important;
+    padding-bottom: 92px;
+  }
+  /* line 919, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #zen .content h1 {
+    margin-bottom: 12px;
+  }
+  /* line 923, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #thin .thin-1 {
+    width: 108%;
+    position: relative;
+    left: -23px;
+  }
+  /* line 924, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #thin .thin-2 {
+    width: 150%;
+    margin: 45px 0 0 5%;
+  }
+  /* line 925, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #thin h1 {
+    margin-top: 0px;
+    position: relative;
+    top: -7px;
+    line-height: 1.3em;
+  }
+  /* line 928, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #ergonomic .center {
+    padding: 19px 0 20px 0;
+  }
+  /* line 929, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #ergonomic .example {
+    padding: 15% 0;
+    height: 210px;
+    background-size: 100%;
+  }
+  /* line 934, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #ergonomic h1 {
+    line-height: 1.3em;
+  }
+  /* line 937, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern .right {
+    margin: 0;
+    padding: 60px 0 21px 0;
+  }
+  /* line 941, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern figure.visible-xs {
+    position: relative;
+    overflow: hidden;
+    background: #F9F9F9;
+    height: 200px;
+    border-bottom: 0px solid #fff;
+    padding: 0 !important;
+  }
+  /* line 948, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern figure.visible-xs img {
+    max-width: none !important;
+  }
+  /* line 952, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern #pattern-3 {
+    height: 191px;
+  }
+  /* line 954, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern #pattern-3 img {
+    width: 70%;
+    position: relative;
+    left: 17px;
+  }
+  /* line 960, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern #pattern-2 {
+    position: relative;
+  }
+  /* line 962, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern #pattern-2 img {
+    width: 100%;
+    position: absolute;
+    top: -45px;
+    right: -45px;
+  }
+  /* line 969, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern #pattern-1 {
+    height: 187px;
+  }
+  /* line 971, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #pattern #pattern-1 img {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  /* line 981, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #wider {
+    background: #fff;
+    padding-top: 69px;
+  }
+  /* line 984, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #wider figure img {
+    margin-top: 36px;
+  }
+  /* line 986, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #cover {
+    padding: 50px 0 50px 0;
+  }
+  /* line 989, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #cover .right figure {
+    width: 114% !important;
+  }
+  /* line 993, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #cover h1 {
+    line-height: 1.3em;
+  }
+  /* line 995, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #colorful {
+    padding: 36px 0 46px 0;
+  }
+  /* line 997, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #colorful p {
+    text-align: center !important;
+  }
+  /* line 998, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en #colorful #color-frame-group .column h4 {
+    letter-spacing: 0.015mm;
+    font: 300 15px "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  }
+  /* line 1004, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .next .content {
+    width: 100%;
+  }
+  /* line 1005, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .next .copy {
+    text-align: left;
+  }
+  /* line 1006, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .next h1 {
+    text-align: left;
+    margin: 0;
+    line-height: 1.2em;
+  }
+  /* line 1011, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .next .anchor_link {
+  
+    font-weight: 400;
+  }
+  /* line 1015, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .next .p_content {
+    font: 100 18px "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+    margin-bottom: 3px;
+  }
+  /* line 1019, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.en .next .figure {
+    width: 150%;
+    margin-left: -55%;
+  }
+}
+/* line 1, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw h1 {
+  line-height: 1.5em;
+  font-size: 45px;
+  color: #363636;
+  font-weight: 100;
+}
+@media all and (max-width: 900px) {
+  /* line 1, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw h1 {
+    font-size: 41px;
+    line-height: 50px;
+    font-weight: 100;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 1, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw h1 {
+    margin: 10px 0;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 100;
+  }
+}
+/* line 20, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw h1.main {
+  font-size: 52px;
+  line-height: 1.3em;
+  letter-spacing: 0;
+  font-weight: 300;
+  color: #363636;
+}
+@media all and (max-width: 900px) {
+  /* line 20, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw h1.main {
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 100;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 20, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw h1.main {
+    margin: 10px 0;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 100;
+  }
+}
+/* line 41, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw h1.small {
+  font-size: 26px;
+}
+@media all and (max-width: 480px) {
+  /* line 41, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw h1.small {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+/* line 48, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw p.p_main {
+  font-size: 21px;
+  line-height: 34px !important;
+  color: #363636;
+  font-weight: 100;
+}
+@media all and (max-width: 480px) {
+  /* line 48, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw p.p_main {
+    font-size: 17px;
+    line-height: 32px !important;
+  }
+}
+/* line 60, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw p.p_remark {
+  font-size: 15px;
+  font-weight: 300;
+  color: #9b9b9b;
+}
+/* line 66, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw p.p_content {
+  font-size: 17px;
+  line-height: 1.7em;
+  color: #363636;
+}
+@media all and (max-width: 480px) {
+  /* line 66, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw p.p_content {
+    font-size: 15px;
+  }
+}
+/* line 74, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw p.p_content.hint {
+  color: #999;
+}
+@media all and (max-width: 480px) {
+  /* line 74, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw p.p_content.hint {
+    font-size: 14px;
+  }
+}
+/* line 83, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw p.subtitle {
+  font-size: 42px;
+  color: #f08201;
+  font-weight: 300;
+  text-align: left;
+  font-family: "myriad-pro", "Helvetica Neue", "Microsoft JhengHei";
+  line-height: 1;
+}
+/* line 93, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_small {
+  font-size: 12px;
+  line-height: 1.1em;
+  font-weight: 400;
+  color: #363636;
+}
+/* line 99, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_small.shift_3 {
+  letter-spacing: .3em;
+}
+/* line 103, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_small.shift_5 {
+  letter-spacing: .5em;
+}
+/* line 108, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_small_14 {
+  font-size: 14px;
+}
+/* line 111, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_small_14.shift_3 {
+  letter-spacing: .3em;
+}
+/* line 115, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_small_14.shift_5 {
+  letter-spacing: .5em;
+}
+/* line 119, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_main {
+  font-size: 80px;
+  color: #444;
+}
+/* line 124, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_main_larger {
+  font-size: 85px;
+  color: #444;
+  line-height: 1.1em;
+  font-family: "myriad-pro";
+  font-weight: 100;
+}
+/* line 132, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .square_unit {
+  font-size: 24px;
+  color: #444;
+}
+@media all and (max-width: 480px) {
+  /* line 132, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw .square_unit {
+    font-size: 15px;
+  }
+}
+/* line 142, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .reaction-area:hover .anchor_link {
+  border-bottom: 1px solid #0188CA;
+}
+/* line 148, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .anchor_link {
+  font-size: 17px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+}
+/* line 153, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .anchor_link:hover {
+  border-bottom: 1px solid #0188CA;
+}
+@media all and (max-width: 480px) {
+  /* line 148, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw .anchor_link {
+    font-size: 14px;
+  }
+}
+/* line 160, ../src/sass/css/page/_tw_main.scss */
+#special-sectionOverview #wrap.index.tw .anchor_link {
+  margin-top: 14px;
+}
+@media all and (max-width: 480px) {
+  /* line 165, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw p.subtitle + h1 {
+    margin-top: 13px !important;
+  }
+  /* line 168, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw .rwd_img.font-logo, #special-sectionOverview #wrap.index.tw h1, #special-sectionOverview #wrap.index.tw p.p_content {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  /* line 172, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw .rwd_img.font-logo + h1 {
+    margin-top: 13px !important;
+  }
+  /* line 175, ../src/sass/css/page/_tw_main.scss */
+  #special-sectionOverview #wrap.index.tw h1 + p.p_content {
+    margin-top: 20px !important;
+  }
+}
+/* line 1031, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #section-intro .content .font-logo {
+  text-align: left;
+  max-width: none;
+  margin-left: 0;
+}
+/* line 1037, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #section-intro .content .right figure {
+  margin-top: -30px;
+}
+@media all and (max-width: 768px) {
+  /* line 1044, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #section-intro .content h1 {
+    text-align: left;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 1051, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #section-intro h1 {
+    width: 100%;
+  }
+  /* line 1054, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #section-intro .content .right figure {
+    margin-top: 40px;
+  }
+  /* line 1058, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #section-intro .content .font-logo img {
+    margin-top: 0;
+    width: 125px;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 1068, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #section-intro2 .content p.p_main {
+    font-size: 17px;
+    line-height: 1.8em;
+  }
+}
+/* line 1076, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #if .content p {
+  width: 54%;
+  margin-left: 22%;
+}
+@media all and (max-width: 480px) {
+  /* line 1083, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #if .content h1 {
+    margin-top: 30px !important;
+    width: 80%;
+    margin-left: 10%;
+  }
+  /* line 1088, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #if .content p {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+/* line 1098, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #zen .content .zen {
+  font-size: 45px;
+}
+@media all and (max-width: 1024px) {
+  /* line 1103, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #zen .content .zen {
+    font-size: 45px;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 1109, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #zen .content .zen {
+    font-size: 28px;
+  }
+}
+/* line 1116, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #thin .content h1 {
+  margin-top: 10px;
+}
+@media all and (max-width: 480px) {
+  /* line 1122, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #thin .content h1 {
+    margin-top: 30px !important;
+    line-height: 40px !important;
+  }
+}
+/* line 1131, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #ergonomic .content h1 {
+  width: 90%;
+  margin-left: 5%;
+}
+@media all and (max-width: 480px) {
+  /* line 1131, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #ergonomic .content h1 {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* line 1140, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #ergonomic .content .p_content {
+  width: 52%;
+  margin-left: 24%;
+}
+@media all and (max-width: 480px) {
+  /* line 1140, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #ergonomic .content .p_content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 1151, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #ergonomic .center {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 1157, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #ergonomic .content {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  /* line 1162, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #ergonomic .content h1 {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    line-height: 40px;
+  }
+  /* line 1168, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #ergonomic .content .p_content {
+    text-align: center;
+  }
+}
+/* line 1177, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #wider .content p {
+  width: 70%;
+}
+@media all and (max-width: 480px) {
+  /* line 1183, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #wider .content p {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 1187, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #wider .content .left {
+    margin-top: 20px;
+  }
+}
+/* line 1194, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #cover .left .copy {
+  width: 470px;
+}
+/* line 1199, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #cover .right {
+  margin-top: -5px;
+}
+@media all and (max-width: 480px) {
+  /* line 1203, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #cover .left .copy {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 1208, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #cover .right {
+    margin-top: 40px;
+  }
+}
+/* line 1215, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #colorful #color-frame-group .column h4 {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: .4em;
+}
+@media all and (max-width: 480px) {
+  /* line 1222, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #colorful h1 {
+    text-align: center;
+  }
+  /* line 1226, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #colorful .left {
+    margin-top: 20px;
+  }
+  /* line 1229, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #colorful #color-frame-group .column h4 {
+    font-size: 14px;
+  }
+}
+/* line 1236, ../src/sass/css/page/_design.scss */
+#special-sectionOverview #wrap.index.tw #next_performance .copy {
+  width: 270px;
+  text-align: left;
+}
+@media all and (max-width: 1024px) {
+  /* line 1236, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #next_performance .copy {
+    text-align: left;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 1236, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #next_performance .copy {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media all and (max-width: 1024px) {
+  /* line 1250, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #next_performance .figure {
+    width: 675px;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 1250, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #next_performance .figure {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 1262, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #next_performance h1 br {
+    content: "";
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 1267, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #next_performance h1 br {
+    content: "";
+  }
+  /* line 1271, ../src/sass/css/page/_design.scss */
+  #special-sectionOverview #wrap.index.tw #next_performance h1.small {
+    margin-top: 12px !important;
+  }
+}

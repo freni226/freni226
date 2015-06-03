@@ -1,0 +1,283 @@
+/* line 1, ../src/sass/utils/_videoplayer.scss */
+#videoplayer { position: fixed; left: 0; top: 0; z-index: 199999; width: 100%; height: 100%; background: url(../img/common/pop-overlay.png); }
+/* line 10, ../src/sass/utils/_videoplayer.scss */
+#videoplayer iframe.player { position: absolute; top: 10%; left: 10%; z-index: 1; width: 80%; height: 80%; border: 0; display: block; padding: 0; vertical-align: bottom; background: black; }
+/* line 24, ../src/sass/utils/_videoplayer.scss */
+#videoplayer .close { position: absolute; right: 15px; top: 15px; float: left; z-index: 2; width: 44px; height: 44px; overflow: hidden; background: url(../img/common/pop-close.png) no-repeat; cursor: pointer; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); opacity: 0.6; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
+/* line 41, ../src/sass/utils/_videoplayer.scss */
+#videoplayer .close:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#00FFFFFF, endColorstr=#00FFFFFF ); }
+
+/*
+$header-font:"myriad-pro","MHei HK Medium";
+$subtitle-font:"myriad-pro","MHei HK Light";
+$content-font:"myriad-pro","MHei HK Medium";
+$func-font:"myriad-pro","MHei HK Medium";
+$quote-font:"myriad-pro","MHei HK Medium";
+*/
+/* line 3, ../src/sass/config/_asus.scss */
+#mainfooter { position: relative; z-index: 99999; }
+
+/*#mainmenu{display: none;}*/
+/* line 5, ../src/sass/config/_asus.scss */
+#product-topinfo { display: none; }
+
+/* line 7, ../src/sass/config/_asus.scss */
+.product-head { display: none; }
+
+/* line 8, ../src/sass/config/_asus.scss */
+.product-aside { display: none; }
+
+/* line 9, ../src/sass/config/_asus.scss */
+#Product_BottomSection { display: none; }
+
+/* line 10, ../src/sass/config/_asus.scss */
+#product-footer-zone { display: none; }
+
+/* line 12, ../src/sass/config/_asus.scss */
+hr.gray { display: none; }
+
+/* line 13, ../src/sass/config/_asus.scss */
+#overview-top-nav { position: relative; z-index: 500; }
+
+/* line 14, ../src/sass/config/_asus.scss */
+#product-footer-zone { display: none; }
+
+/* line 15, ../src/sass/config/_asus.scss */
+#Product_BottomSection { display: none; }
+
+/* line 16, ../src/sass/config/_asus.scss */
+hr.gray { display: none; }
+
+/* line 17, ../src/sass/config/_asus.scss */
+.product-head { display: none; }
+
+/* line 18, ../src/sass/config/_asus.scss */
+#top-nav-line { z-index: 9999; position: relative; }
+
+/* line 19, ../src/sass/config/_asus.scss */
+.page-title { position: relative; z-index: 100; }
+
+/* line 20, ../src/sass/config/_asus.scss */
+.container > article > .row { margin-top: -30px; }
+
+/* line 21, ../src/sass/config/_asus.scss */
+#product_similar_area { display: none; }
+
+/* line 22, ../src/sass/config/_asus.scss */
+.similar-area { display: none; }
+
+/* line 23, ../src/sass/config/_asus.scss */
+.accessories-area { display: none; }
+
+/* line 26, ../src/sass/config/_asus.scss */
+#overview-top-nav { filter: none; }
+/* line 27, ../src/sass/config/_asus.scss */
+#overview-top-nav.fixed { display: block; }
+/* line 28, ../src/sass/config/_asus.scss */
+#overview-top-nav.fixed h1.page-title { display: block; }
+
+/* line 36, ../src/sass/config/_asus.scss */
+#main-zone { padding-left: 0 !important; padding-right: 0 !important; }
+
+/* line 41, ../src/sass/config/_asus.scss */
+#asus-api-header { background-color: #fff; }
+
+/* line 45, ../src/sass/config/_asus.scss */
+/*h1.page-title { color: #ccc; }*/
+
+/* line 49, ../src/sass/config/_asus.scss */
+.fixed h1.page-title { color: #333; }
+
+/* line 54, ../src/sass/config/_asus.scss */
+.fixed #top-nav-line a { color: #333; }
+
+/* line 57, ../src/sass/config/_asus.scss */
+.fixed #top-nav-line a:hover { color: #999; }
+
+/* line 60, ../src/sass/config/_asus.scss */
+#top-nav-line a { color: #333; }
+
+/* line 64, ../src/sass/config/_asus.scss */
+#top-nav-line a:hover { color: #999; }
+
+/* line 5, ../src/sass/page/_main.scss */
+body { overflow-x: hidden; }
+
+/* #asus-api-header:after{
+	content:'';
+	display:block;
+	position: absolute;
+	width:100%;
+	height:40px;
+	bottom:-40px;
+	background:rgba(255,255,255,0.5)
+}  */
+/* line 19, ../src/sass/page/_main.scss */
+.overview-wrapper { width: auto; }
+
+/* line 23, ../src/sass/page/_main.scss */
+#main-zone .container { padding: 0; min-width: 100%; }
+
+/* line 27, ../src/sass/page/_main.scss */
+#special-sectionOverview { margin-top: 140px; padding: 0px; font-size: 12px; font-family: "myriad-pro", "Helvetica Neue", "Segoe UI Semilight", "Open Sans", Arial, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "STHeiti Light", STXihei, STHeiti, "Apple LiGothic Medium", \5FAE\8EDF\6B63\9ED1\9AD4, "Microsoft JhengHei", sans-serif; }
+/* line 5, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview html, #special-sectionOverview body, #special-sectionOverview div, #special-sectionOverview span, #special-sectionOverview applet, #special-sectionOverview object, #special-sectionOverview iframe, #special-sectionOverview h1, #special-sectionOverview h2, #special-sectionOverview h3, #special-sectionOverview h4, #special-sectionOverview h5, #special-sectionOverview h6, #special-sectionOverview p, #special-sectionOverview blockquote, #special-sectionOverview pre, #special-sectionOverview a, #special-sectionOverview abbr, #special-sectionOverview acronym, #special-sectionOverview address, #special-sectionOverview big, #special-sectionOverview cite, #special-sectionOverview code, #special-sectionOverview del, #special-sectionOverview dfn, #special-sectionOverview em, #special-sectionOverview img, #special-sectionOverview ins, #special-sectionOverview kbd, #special-sectionOverview q, #special-sectionOverview s, #special-sectionOverview samp, #special-sectionOverview small, #special-sectionOverview strike, #special-sectionOverview strong, #special-sectionOverview sub, #special-sectionOverview sup, #special-sectionOverview tt, #special-sectionOverview var, #special-sectionOverview b, #special-sectionOverview u, #special-sectionOverview i, #special-sectionOverview center, #special-sectionOverview dl, #special-sectionOverview dt, #special-sectionOverview dd, #special-sectionOverview ol, #special-sectionOverview ul, #special-sectionOverview li, #special-sectionOverview fieldset, #special-sectionOverview form, #special-sectionOverview label, #special-sectionOverview legend, #special-sectionOverview table, #special-sectionOverview caption, #special-sectionOverview tbody, #special-sectionOverview tfoot, #special-sectionOverview thead, #special-sectionOverview tr, #special-sectionOverview th, #special-sectionOverview td, #special-sectionOverview article, #special-sectionOverview aside, #special-sectionOverview canvas, #special-sectionOverview details, #special-sectionOverview embed, #special-sectionOverview figure, #special-sectionOverview figcaption, #special-sectionOverview footer, #special-sectionOverview header, #special-sectionOverview hgroup, #special-sectionOverview menu, #special-sectionOverview nav, #special-sectionOverview output, #special-sectionOverview ruby, #special-sectionOverview section, #special-sectionOverview summary, #special-sectionOverview time, #special-sectionOverview mark, #special-sectionOverview audio, #special-sectionOverview video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+/* line 22, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview html { line-height: 1; }
+/* line 24, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview ol, #special-sectionOverview ul { list-style: none; }
+/* line 26, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview table { border-collapse: collapse; border-spacing: 0; }
+/* line 28, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview caption, #special-sectionOverview th, #special-sectionOverview td { text-align: left; font-weight: normal; vertical-align: middle; }
+/* line 30, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview q, #special-sectionOverview blockquote { quotes: none; }
+/* line 103, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview q:before, #special-sectionOverview q:after, #special-sectionOverview blockquote:before, #special-sectionOverview blockquote:after { content: ""; content: none; }
+/* line 32, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview a img { border: none; }
+/* line 116, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+#special-sectionOverview article, #special-sectionOverview aside, #special-sectionOverview details, #special-sectionOverview figcaption, #special-sectionOverview figure, #special-sectionOverview footer, #special-sectionOverview header, #special-sectionOverview hgroup, #special-sectionOverview main, #special-sectionOverview menu, #special-sectionOverview nav, #special-sectionOverview section, #special-sectionOverview summary { display: block; }
+/* line 29, ../src/sass/page/_main.scss */
+#special-sectionOverview * { box-sizing: border-box; }
+/* line 32, ../src/sass/page/_main.scss */
+#special-sectionOverview a { outline: none !important; hlbr: expression(this.onFocus=this.blur()) !important; }
+/* line 35, ../src/sass/page/_main.scss */
+#special-sectionOverview a.link-text { font-size: 1.5em; }
+/* line 40, ../src/sass/page/_main.scss */
+#special-sectionOverview img { /*max-width: none !important;*/ }
+/* line 43, ../src/sass/page/_main.scss */
+#special-sectionOverview .logo { margin: 5% auto; }
+@media all and (max-width: 480px) { /* line 43, ../src/sass/page/_main.scss */
+  #special-sectionOverview .logo { width: 80%; }
+  /* line 48, ../src/sass/page/_main.scss */
+  #special-sectionOverview .logo figure img { width: 100%; } }
+@media all and (max-width: 959px) { /* line 27, ../src/sass/page/_main.scss */
+  #special-sectionOverview { margin-top: 56px; } }
+/* line 67, ../src/sass/page/_main.scss */
+#special-sectionOverview #wrap { width: 100%; }
+/* line 72, ../src/sass/page/_main.scss */
+#special-sectionOverview.pin { z-index: 5000; }
+/* line 76, ../src/sass/page/_main.scss */
+#special-sectionOverview .section { position: relative; padding: 80px 0 0; }
+@media all and (max-width: 700px) { /* line 76, ../src/sass/page/_main.scss */
+  #special-sectionOverview .section { padding: 10% 0 0; } }
+/* line 86, ../src/sass/page/_main.scss */
+#special-sectionOverview .wrapper { width: 100%; max-width: 1200px; text-align: center; margin: 0 auto; }
+@media all and (min-width: 1200px) { /* line 86, ../src/sass/page/_main.scss */
+  #special-sectionOverview .wrapper { margin: 0 auto 0; } }
+@media all and (max-width: 1220px) { /* line 86, ../src/sass/page/_main.scss */
+  #special-sectionOverview .wrapper { padding: 0 5%; } }
+@media all and (max-width: 480px) { /* line 86, ../src/sass/page/_main.scss */
+  #special-sectionOverview .wrapper { padding: 0 6.25%; } }
+/* line 113, ../src/sass/page/_main.scss */
+#special-sectionOverview .center { margin: 0 auto; height: 100%; position: relative; z-index: 10; max-width: 960px; }
+/* line 126, ../src/sass/page/_main.scss */
+#special-sectionOverview figure { line-height: 0; }
+/* line 131, ../src/sass/page/_main.scss */
+#special-sectionOverview .content { z-index: 1000; text-align: center; width: 100%; }
+/* line 141, ../src/sass/page/_main.scss */
+#special-sectionOverview .content p.note { font-size: 14px; color: #a6a6a6; margin-top: 28px; }
+/* line 147, ../src/sass/page/_main.scss */
+#special-sectionOverview .content p.spec { margin-top: 20px; margin-bottom: 20px; }
+/* line 152, ../src/sass/page/_main.scss */
+#special-sectionOverview .content p.footnote { font-size: 1em; margin-bottom: 0; }
+/* line 158, ../src/sass/page/_main.scss */
+#special-sectionOverview h1, #special-sectionOverview h2 { line-height: 1.44444; margin: 0 0 0 0; padding: 0px; width: 100%; font-weight: 300; font-family: "myriad-pro", "Helvetica Neue", "Open Sans", Arial, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "STHeiti Light", STXihei, STHeiti, "Apple LiGothic Medium", \5FAE\8EDF\6B63\9ED1\9AD4, "Microsoft JhengHei", sans-serif; font-size: 45px; line-height: 65px; color: #363636; }
+@media all and (max-width: 900px) { /* line 158, ../src/sass/page/_main.scss */
+  #special-sectionOverview h1, #special-sectionOverview h2 { font-size: 41px; line-height: 43px; } }
+@media all and (max-width: 480px) { /* line 158, ../src/sass/page/_main.scss */
+  #special-sectionOverview h1, #special-sectionOverview h2 { margin: 10px 0; font-size: 28px; line-height: 32px; text-align: center; } }
+/* line 185, ../src/sass/page/_main.scss */
+#special-sectionOverview h2 { margin: 10px 0; font-size: 32px; font-weight: 100; line-height: 36px; letter-spacing: 0.1px; }
+@media all and (max-width: 900px) { /* line 185, ../src/sass/page/_main.scss */
+  #special-sectionOverview h2 { font-size: 26px; line-height: 32px; } }
+@media all and (max-width: 480px) { /* line 185, ../src/sass/page/_main.scss */
+  #special-sectionOverview h2 { font-size: 20px; line-height: 23px; } }
+/* line 204, ../src/sass/page/_main.scss */
+#special-sectionOverview .paragraph_normal { position: relative; margin: 0 auto 20px; width: 80%; color: #363636; font-family: "myriad-pro", "Helvetica Neue", "Segoe UI Semilight", "Open Sans", Arial, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "STHeiti Light", STXihei, STHeiti, "Apple LiGothic Medium", \5FAE\8EDF\6B63\9ED1\9AD4, "Microsoft JhengHei", sans-serif; font-weight: 300; font-size: 19px; line-height: 35px; letter-spacing: 0.015em; z-index: 900; }
+@media all and (max-width: 900px) { /* line 204, ../src/sass/page/_main.scss */
+  #special-sectionOverview .paragraph_normal { font-size: 20px; line-height: 32px; } }
+@media all and (max-width: 480px) { /* line 204, ../src/sass/page/_main.scss */
+  #special-sectionOverview .paragraph_normal { width: 100%; font-size: 15px; line-height: 26px; } }
+/* line 229, ../src/sass/page/_main.scss */
+#special-sectionOverview .paragraph_remark { position: relative; margin: 0 auto 20px; width: 80%; color: #9b9b9b; font-family: "myriad-pro", "Helvetica Neue", "Segoe UI Semilight", "Open Sans", Arial, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "STHeiti Light", STXihei, STHeiti, "Apple LiGothic Medium", \5FAE\8EDF\6B63\9ED1\9AD4, "Microsoft JhengHei", sans-serif; font-weight: 300; font-size: 15px; line-height: 20px; letter-spacing: 0.015em; }
+@media all and (max-width: 900px) { /* line 229, ../src/sass/page/_main.scss */
+  #special-sectionOverview .paragraph_remark { font-size: 15px; line-height: 24px; } }
+@media all and (max-width: 480px) { /* line 229, ../src/sass/page/_main.scss */
+  #special-sectionOverview .paragraph_remark { width: 100%; font-size: 13px; line-height: 20px; } }
+/* line 252, ../src/sass/page/_main.scss */
+#special-sectionOverview .subtext { font-weight: 700; font-size: 1.1em; line-height: 1.4em; letter-spacing: 0px; text-transform: uppercase; clear: both; /*@media all and (max-width: $break-small) {
+	font-size: 0.7em;
+	line-height: 1.2em;
+}*/ }
+@media all and (max-width: 900px) { /* line 252, ../src/sass/page/_main.scss */
+  #special-sectionOverview .subtext { font-size: 0.8em; line-height: 1.3em; } }
+/* line 271, ../src/sass/page/_main.scss */
+#special-sectionOverview header { margin-bottom: 15px; }
+/* line 274, ../src/sass/page/_main.scss */
+#special-sectionOverview header p { color: #898989; font-family: "myriad-pro", "Helvetica Neue", "Segoe UI Light", "Open Sans", Arial, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "STHeiti Light", STXihei, STHeiti, "Apple LiGothic Medium", \5FAE\8EDF\6B63\9ED1\9AD4, "Microsoft JhengHei", sans-serif; font-size: 2.66667em; line-height: 1.125; font-weight: 300; letter-spacing: -0.01em; }
+/* line 284, ../src/sass/page/_main.scss */
+#special-sectionOverview .anchor_link { position: relative; line-height: 22px; color: #0088cb; font-family: "myriad-pro", "Helvetica Neue", "Segoe UI Semilight", "Open Sans", Arial, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "STHeiti Light", STXihei, STHeiti, "Apple LiGothic Medium", \5FAE\8EDF\6B63\9ED1\9AD4, "Microsoft JhengHei", sans-serif; font-weight: 300; font-size: 17px; display: inline-block; }
+/* line 292, ../src/sass/page/_main.scss */
+#special-sectionOverview .anchor_link:hover { border-bottom: 1px solid #0188CA; padding: 0 0 3px 0; text-decoration: none; }
+/* line 302, ../src/sass/page/_main.scss */
+#special-sectionOverview .anchor_link:after { content: ''; display: block; position: absolute; right: -14px; top: 7px; width: 5px; height: 7px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAYAAADAp4fuAAAAJUlEQVQYV2Ng6Dj9H4SBgAGGwQx0CYQskg64ILIO3CoxzMRmOwBayF8+aAPq6AAAAABJRU5ErkJggg==) no-repeat; }
+/* line 314, ../src/sass/page/_main.scss */
+#special-sectionOverview a { position: relative; line-height: 1.94444; color: #0088cb; font-family: "myriad-pro", "Helvetica Neue", "Segoe UI Semilight", "Open Sans", Arial, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "STHeiti Light", STXihei, STHeiti, "Apple LiGothic Medium", \5FAE\8EDF\6B63\9ED1\9AD4, "Microsoft JhengHei", sans-serif; font-weight: 300; font-size: 1.5em; }
+/* line 322, ../src/sass/page/_main.scss */
+#special-sectionOverview a:hover { color: #000; }
+/* line 325, ../src/sass/page/_main.scss */
+#special-sectionOverview a:hover:after { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAQAAABqrk9lAAAAIElEQVQYV2Ng+M/wH4iAEILAHBgfyAEz4RRMCbJahAkAQlEi3teqjq8AAAAASUVORK5CYII=); }
+/* line 329, ../src/sass/page/_main.scss */
+#special-sectionOverview a:hover .anchor_link { border-bottom: 1px solid #0188CA; padding: 0 0 3px 0; text-decoration: none; }
+/* line 336, ../src/sass/page/_main.scss */
+#special-sectionOverview a:after { content: ''; display: block; position: absolute; right: -14px; top: 7px; width: 5px; height: 7px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAYAAADAp4fuAAAAJUlEQVQYV2Ng6Dj9H4SBgAGGwQx0CYQskg64ILIO3CoxzMRmOwBayF8+aAPq6AAAAABJRU5ErkJggg==) no-repeat; }
+/* line 348, ../src/sass/page/_main.scss */
+#special-sectionOverview a.video { margin-left: -26px; }
+/* line 354, ../src/sass/page/_main.scss */
+#special-sectionOverview a.video:hover:after { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAQAAABKIxwrAAAAvklEQVQ4y5XUu3GEMBSF4U8pEQFdEJESUgA0AfEOISkRfdABDWqDXY9lox1bR+l/z9ynSFXpLQ6ny+mw6FXR90s12G1GrVpQa402u+GON2arzl2d1axJ8cbDJGRgkWDyeAW8NJt80Nt1Mn/hgzXvnODBaoio7Nmcf+CRzq6it/E3Htn0LMZcfRl8tHBos5Z3vHVwqj/V9wuvnVyZriRDTPDgKnYvzL2wM4V9L5xq4c4Ub2TxvhdeU/Gt/vMneAKsSKUwBR0dVwAAAABJRU5ErkJggg==); }
+/* line 360, ../src/sass/page/_main.scss */
+#special-sectionOverview a.video:after { right: -30px; top: 2px; width: 23px; height: 23px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAA40lEQVRIx7WVMQ6DIBSGYXVy6C2YXB05AF7CzqYjq5P36A28Rg/V/iU/CSYqGHwmX0jg8QHyAKWWjzqgAT14ggW8wcpyYX3PuH3HQYMFM/DAAQNaoFka1nvG2RL5A4zgBbqTVaV0jB/Zf1f+b5jAwBmqC2j2mzYDJAEjA1QFAz0bueXSdKVc02OjvOGmdJXidA/m4GU6+ZvEER+8zFdX0OGLT0UysS54eSBMiTwdIBNrgpcnri2VxwEysW3w8kjrK3KSy5pVfOai/1w0W0TzXPSEit4t4rei+H0u+hKJv6G3vv4/9zgNQcPecXIAAAAASUVORK5CYII=) no-repeat; }
+/* line 371, ../src/sass/page/_main.scss */
+#special-sectionOverview a.arrow_blue { color: #0096ff; }
+/* line 374, ../src/sass/page/_main.scss */
+#special-sectionOverview a.arrow_blue:hover { color: #000; }
+/* line 376, ../src/sass/page/_main.scss */
+#special-sectionOverview a.arrow_blue:hover:after { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAA80lEQVQoz4XSsUqCYRQG4MchkCiKWoSmbG9qCRqaugP3FqcuoDkIgoKGoEKtW6i5kqIhsHSKhggaWsMhECEJOg2i/foLfmd7eYbznXP4f+tOvPnW8a5sQwZC9MGiWzFUD5aSaEUzRUJoWuuhBZ9CaCkqKDhOsC/5LrrsR3Wz4CDBqoFlv4mox/YT2Sq7Q32k2RHVVLuNIfbIy4hfNUyDQyF88DQCnclg0p0QXrkYQ8IVW2NI2CankyCVFPmRHxxdmoTT7sSzakJoKyspqSfIs6negufdj1xwTS55KhN2tAZA257s4D3BjE0V126cK5rrhiH8Abw+3kjnG7MeAAAAAElFTkSuQmCC); }
+/* line 382, ../src/sass/page/_main.scss */
+#special-sectionOverview a.arrow_blue:after { right: -25px; top: 4px; width: 18px; height: 18px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABH0lEQVQ4y2NgmPafAQt2AOJpQHwLiH8A8U8gvgvEs4DYDYgZYWr//4dgdAMUgXgfEP8ngI8CsTIug0yA+A0RhsAwSK0NukHSQPwKSdFnIE4F4lAonorDsA9ArIRs0Hosik4DsQCSi7txGLYHZpAeEP/DoQjdsC4c6ixBki0EwoIYwyaBJPYQEbBnCBh2EiR4hchYAhnGi2RYH5LcQ5DAKSINmoOUELmAeD+S3A2Q4DoKDQHhnSCJbAoNAeFykKQENC9hM2Q2EYb8BiVKfImNGENAeDpyyuYA4hNIkl+hOX0mFJ/GYcglIOZBz7TCQHyQhEwLslgCVzHCCsSN0EyLywCQa9uhvsBZHsEwPxAnQMNpFxDvBuK50BJBCFktzCAAvJvlioufu1UAAAAASUVORK5CYII=) no-repeat; }
+/* line 396, ../src/sass/page/_main.scss */
+#special-sectionOverview a.no_arrow:hover { background: none; }
+/* line 399, ../src/sass/page/_main.scss */
+#special-sectionOverview a.no_arrow:after { background: none; }
+/* line 405, ../src/sass/page/_main.scss */
+#special-sectionOverview .grid_2 .col_left { border-right: 5px solid #fff; }
+/* line 408, ../src/sass/page/_main.scss */
+#special-sectionOverview .grid_2 .col_right { border-left: 5px solid #fff; }
+/* line 411, ../src/sass/page/_main.scss */
+#special-sectionOverview .grid_2 .col_left, #special-sectionOverview .grid_2 .col_right { position: relative; }
+/* line 413, ../src/sass/page/_main.scss */
+#special-sectionOverview .grid_2 .col_left .special, #special-sectionOverview .grid_2 .col_right .special { position: absolute; }
+@media all and (max-width: 480px) { /* line 418, ../src/sass/page/_main.scss */
+  #special-sectionOverview .grid_2 .wrapper { padding: 0; }
+  /* line 422, ../src/sass/page/_main.scss */
+  #special-sectionOverview .grid_2 .col_left, #special-sectionOverview .grid_2 .col_right { border-left: none; border-right: none; border-bottom: 10px solid #fff; width: 100%; } }
+/* line 432, ../src/sass/page/_main.scss */
+#special-sectionOverview .special { text-align: center; }
+/* line 433, ../src/sass/page/_main.scss */
+#special-sectionOverview .special figure { margin-bottom: 5px; }
+/* line 438, ../src/sass/page/_main.scss */
+#special-sectionOverview .frame_video { display: none; position: fixed; z-index: 10000; width: 100%; height: 100%; top: 0; left: 0; margin: 0; background-color: #fff; }
+/* line 448, ../src/sass/page/_main.scss */
+#special-sectionOverview .frame_video .btn_close_video { position: absolute; top: 10px; right: 10px; }
+/* line 452, ../src/sass/page/_main.scss */
+#special-sectionOverview .frame_video .btn_close_video:after { background-image: none; }
+/* line 456, ../src/sass/page/_main.scss */
+#special-sectionOverview .frame_video .modal_header { padding: 9px 15px; }
+/* line 459, ../src/sass/page/_main.scss */
+#special-sectionOverview .frame_video .modal_body { overflow-y: hidden; max-height: 80%; padding: 0; width: 80%; height: 80%; margin: 20px auto 0; }
+/* line 466, ../src/sass/page/_main.scss */
+#special-sectionOverview .frame_video .modal_body p { height: 100%; }
+/* line 468, ../src/sass/page/_main.scss */
+#special-sectionOverview .frame_video .modal_body p iframe { width: 100%; height: 100%; }
