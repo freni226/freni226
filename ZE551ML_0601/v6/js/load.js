@@ -37,43 +37,6 @@ var lang = "";
 if($("#wrap").hasClass("en")){
     lang = "";
 }
-// switch(section){
-//     case "overview":
-//         document.write('<link rel="stylesheet" href="v6/'+lang+'css/index.css">');
-//         document.write('<script src="v6/'+lang+'js/index.js"></script>');             
-//     break;
-
-//     case "design":
-//         document.write('<link rel="stylesheet" href="v6/'+lang+'css/design.css">');
-//         document.write('<script src="v6/'+lang+'js/design.js"></script>');             
-//     break;
-
-//     case "accessory":
-//         document.write('<link rel="stylesheet" href="v6/'+lang+'css/accessory.css">');
-//         document.write('<script src="v6/'+lang+'js/accessory.js"></script>');             
-//     break;
-
-//     case "performance":     
-//         document.write('<link rel="stylesheet" href="v6/'+lang+'css/performance.css">');
-//         document.write('<script src="v6/'+lang+'js/performance.js"></script>');                                        
-//     break;
-
-//     case "charging":    
-//         document.write('<link rel="stylesheet" href="v6/'+lang+'css/charging.css">');
-//         document.write('<script src="v6/'+lang+'js/charging.js"></script>');           
-//     break;
-
-//     case "zenui":        
-//         document.write('<link rel="stylesheet" href="v6/'+lang+'css/zenui.css">');
-//         document.write('<script src="v6/'+lang+'js/zenui.js"></script>');
-//     break;
-
-//     case "pixelmaster":        
-//         document.write('<link rel="stylesheet" href="v6/'+lang+'css/pixelmaster.css">');
-//         document.write('<script src="v6/'+lang+'js/pixelmaster.js"></script>');           
-//     break;
-// }
-
 switch(section){
     case "overview":
         document.write('<link rel="stylesheet" href="v6/'+lang+'css/index.css">');
