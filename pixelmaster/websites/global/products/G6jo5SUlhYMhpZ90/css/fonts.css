@@ -175,6 +175,9 @@ body { font-size:90%;}
 	body { font-size:60%;}
 	.slogan{
 		font-size:3.5em;}
+	.date {  margin:7% auto 0;}
+	.date li { float:none; text-align:center; margin-left:0%;}
+	.date li+li { margin:10px;}
 	/*.subT { font-size:1.8em;}
 	.subT_text { font-size:1.2em;}*/
 	
