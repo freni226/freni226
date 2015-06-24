@@ -86,13 +86,13 @@
 	.section_03 .date { margin:15% auto 0;}
 	/*.section_03 .date li { float:none; text-align:center; margin-left:0%;}
 	.section_03 .date li+li { margin:10px;}*/
-	.section_03 .kv_bg { background-image:url(../imgs/lowlight_bg.png); background-position:center center; background-size:cover; }
-	.section_03 .kv { width:70%; max-width:800px; margin:0 auto; padding:4% 0;}
+	.section_03 .kv_bg { }
+	.section_03 .kv { width:90%; max-width:800px; margin:0 auto; padding:4% 0;}
 
 	/*section_04*/
 	.section_04 .center { max-width:650px; margin:0 auto;}
-	.section_04 .kv_bg { background-image:url(../imgs/HDR_bg.png); background-position:center center; background-size:cover; margin-top:3%;}
-	.section_04 .kv { width:70%; max-width:800px; margin:0 auto; padding:4% 0;}
+	.section_04 .kv_bg { background-image:none;}
+	.section_04 .kv { width:90%; max-width:800px; margin:0 auto; padding:4% 0;}
 
 	/*section_05*/
 	.section_05 .center { max-width:800px;} 
