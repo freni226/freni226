@@ -21,9 +21,9 @@
 
 /*section_02*/
 .section_02 { padding-top:5%;}
-.section_02 .right { width:40%; padding-top:50px; margin-right:5%;}
-.section_02 .left { width:50%; margin-left:5%;}
-.section_02 .kv { width:85%; }
+.section_02 .right { width:40%;  margin-right:5%;}
+.section_02 .left { width:50%;}
+.section_02 .kv { width:80%; float:right; }
 
 /*section_03*/
 .section_03 .wrap { background-image:url(../imgs/lowlight_bg.png); background-position:center center; background-size:cover;}
