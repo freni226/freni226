@@ -45,7 +45,6 @@
 	
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	*font-size: 2em;
 }
 
 .subT {
@@ -61,6 +60,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+	
 .subT_text{
 	font-family: 'MyriadPro-Light';
 	font-size:1.6em;
@@ -74,6 +74,11 @@
 	-moz-osx-font-smoothing: grayscale;
 	
 	}
+/* For IE8與其他瀏覽器的設定 */
+html>/**/body 
+.slogan { font-size:3em;}
+.subT { font-size:2em;}
+.subT_text { font-size:1.2em;}
 
 /*文字外框_置左*/	
 .box-word-left{
