@@ -42,11 +42,12 @@
 
 /*section_06*/
 .section_06 .kv { width:100%; padding-top:2%;}
-/*.section_06 .kv_phone { display:none;}*/
+.section_06 .kv_phone { display:none;}
 .section_06 .center { max-width:800px;} 
 
 /*section_07*/
 .section_07 .kv { width:100%; padding-top:2%;}
+.section_07 .kv_phone { display:none;}
 .section_07 .center { max-width:800px;} 
 
 /*section_08*/
