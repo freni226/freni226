@@ -75,7 +75,7 @@
 	.section_02 .right { width:100%; margin:0; padding-top:0px}
 	.section_02 .date { width:411px; margin:7% auto 0;}
 	.section_02 .left { width:100%; margin:0;}
-	.section_02 .kv { width:85%; margin:0 auto; }
+	.section_02 .kv { width:85%; margin:0 auto; float:none; }
 
 	/*section_03*/
 	.section_03 .wrap { background-image:url(../imgs/lowlight_bg.png); background-position:center center; background-size:cover;}
