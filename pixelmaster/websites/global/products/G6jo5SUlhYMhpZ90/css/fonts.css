@@ -36,7 +36,6 @@
 .slogan {
 	font-family: 'MyriadPro-Light';
 	font-size: 4.5em;
-	*font-size: 2em;
 	line-height:1em;
 	padding: 15% 0 0;
 	/*letter-spacing: -0.025em;*/
@@ -46,6 +45,7 @@
 	
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	*font-size: 2em;
 }
 
 .subT {
