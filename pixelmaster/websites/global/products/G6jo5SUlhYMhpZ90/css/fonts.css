@@ -173,9 +173,9 @@ body { font-size:90%;}
 
 @media screen and (max-width: 700px) {
 	body { font-size:60%;}
-	/*.slogan{
+	.slogan{
 		font-size:2.5em;}
-	.subT { font-size:1.8em;}
+	/*.subT { font-size:1.8em;}
 	.subT_text { font-size:1.2em;}*/
 	
 	
