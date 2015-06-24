@@ -88,8 +88,16 @@
 	.section_04 .kv_bg { background-image:url(../imgs/HDR_bg.png); background-position:center center; background-size:cover; margin-top:3%;}
 	.section_04 .kv { width:70%; max-width:800px; margin:0 auto; padding:4% 0;}
 
+	/*section_05*/
+	.section_05 .center { max-width:800px;} 
+
 	/*section_06*/
-	.section_06 .kv { width:100%; margin-bottom:2%;}
+	.section_06 .kv { width:100%; padding-top:2%;}
+	.section_06 .center { max-width:800px;} 
+
+	/*section_07*/
+	.section_07 .kv { width:100%; padding-top:2%;}
+	.section_07 .center { max-width:800px;} 
 
 	/*section_08*/
 	.section_08 { padding-top:10%;}
