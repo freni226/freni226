@@ -1,0 +1,184 @@
+/*font-face==========================*/
+
+/*slogan --> MyriadPro-SemiboldSemiCn*/
+@font-face {
+	font-family: 'MyriadPro-SemiboldSemiCn';
+	src: url('../fonts/MyriadPro-SemiboldSemiCn.eot');/*ie*/
+	src: 
+	url("../fonts/MyriadPro-SemiboldSemiCn.eot?#iefix") format('embedded-opentype'),/*ie*/  
+	url("../fonts/MyriadPro-SemiboldSemiCn.woff") format('woff'),  
+	url("../fonts/MyriadPro-SemiboldSemiCn.ttf") format('truetype'),  
+	url('../fonts/MyriadPro-SemiboldSemiCn.svg#MyriadPro-SemiboldSemiCn') format('svg');
+}
+/*subtTital --> MyriadPro-LightSemiCn*/
+@font-face {
+	font-family: 'MyriadPro-LightSemiCn';
+	src: url('../fonts/MyriadPro-LightSemiCn.eot');
+	src: 
+	url('../fonts/MyriadPro-LightSemiCn.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/MyriadPro-LightSemiCn.woff') format('woff'),  
+	url('../fonts/MyriadPro-LightSemiCn.ttf') format('truetype'),  
+	url('../fonts/MyriadPro-LightSemiCn.svg#MyriadPro-LightSemiCn') format('svg');
+}	
+/*text --> MyriadPro-Light*/
+@font-face {
+	font-family: 'MyriadPro-Light';
+	src: url('../fonts/MyriadPro-Light.eot');/*for IE*/
+	src: 	
+	url('../fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/MyriadPro-Light.woff') format('woff'),  
+	url('../fonts/MyriadPro-Light.ttf') format('truetype'),
+	url('../fonts/MyriadPro-Light.svg#MyriadPro-Light') format('svg');  
+}
+
+
+/*font-setting==========================*/
+.slogan {
+	font-family: 'MyriadPro-Light';
+	font-size: 4.5em;
+	line-height:1em;
+	padding: 7% 0 0;
+	/*letter-spacing: -0.025em;*/
+	/*word-spacing: 0.045em;*/
+	color: #4b4b4b;
+
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.subT {
+	font-family: 'MyriadPro-Light';
+	font-size: 2.8em;
+	line-height:1em;
+	/*letter-spacing: -0.03em;*/
+	/*word-spacing: 0.045em;*/
+	color: #4b4b4b;
+	padding:3% 0 0;
+	/*margin: 0% auto 2%;*/
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.subT_text{
+	font-family: 'MyriadPro-Light';
+	font-size:1.6em;
+	line-height:1.5em;
+	/*letter-spacing: -0.03em;*/
+	/*word-spacing: 0.045em;*/
+	color: #4b4b4b;
+	padding:3% 0 0;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	}
+
+/*文字外框_置左*/	
+.box-word-left{
+	margin-left:2%;
+	}
+/*文字外框_置中*/	
+.box-word-cent{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	}
+
+/*內文置左*/
+.txt-left {
+	font-family: 'MyriadPro-Light';
+	font-size: 1.1em;
+	letter-spacing: 0.02em;
+	word-spacing: 0.04em;
+	color: #737373;
+	margin-top: 1.1%;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*內文置中*/
+.txt-cent {
+	max-width:560px;
+	font-family: 'MyriadPro-Light';
+	font-size: 1.1em;
+	letter-spacing: 0.02em;
+	word-spacing: 0.04em;
+	color: #737373;
+	margin: 1.1% auto 0;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	text-align:center;
+}
+.txt-cent p , .txt-left p{
+	line-height: 1.5em;
+}
+.sec1SubT_cent {
+	width: 100%;
+	text-align: center;
+}
+
+/**/
+.select , .select a{
+	font-family: 'MyriadPro-Light';
+	font-size: 1em;
+	letter-spacing: 0.02em;
+	word-spacing: 0.04em;
+	color:#de6956;
+	webkit-transition : color .25s ease-in ; 
+	transition : color .25s ease-in ; 
+	margin-top:.9%;
+
+	}
+	.select a:hover{
+		color:#93665f;
+		webkit-transition : color .75s ease-in-out; 
+		transition : color .75s ease-in-out ; 
+
+		}
+		.select ::after {
+			content:" >";
+			font-size:.65em;
+			vertical-align:bottom;
+			margin-left:1em;
+			}
+			
+			
+.date { margin-top:10%; text-align:left;}
+.date ul {}
+.date li { float:left; display:block; margin-left:12%; line-height:30px; }
+.date li:first-child { margin-left:0;}
+.digit { font-family: 'MyriadPro-Light'; font-size: 6em; color: #4b4b4b;}
+.digit_unit { font-size:0.5em;}
+.digit_blod { font-size:0.2em; letter-spacing:0.05em;}
+			
+@media screen and (max-width: 1440px) {
+.txt-cent{
+	}  
+}
+
+@media screen and (max-width: 981px) {
+body { font-size:90%;}
+/*.slogan{
+		font-size:3.2em;}
+.txt-cent{
+	font-size:1em;
+	line-height:1.3em;
+	}*/  
+}
+
+
+@media screen and (max-width: 700px) {
+	body { font-size:60%;}
+	/*.slogan{
+		font-size:2.5em;}
+	.subT { font-size:1.8em;}
+	.subT_text { font-size:1.2em;}*/
+	
+	
+}
+
+
