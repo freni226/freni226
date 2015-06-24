@@ -71,7 +71,7 @@
 
 	/*section_02*/
 	.section_02 .content { }
-	.section_02 .right { width:100%; margin:0;}
+	.section_02 .right { width:100%; margin:0; padding-top:0px}
 	.section_02 .date { width:411px; margin:7% auto 0;}
 	.section_02 .left { width:100%; margin:0;}
 	.section_02 .kv { width:85%; margin:0 auto; }
