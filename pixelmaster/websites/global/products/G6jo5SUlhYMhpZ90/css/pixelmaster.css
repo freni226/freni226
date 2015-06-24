@@ -83,8 +83,8 @@
 	.section_03 .wrap { background-image:url(../imgs/lowlight_bg.png); background-position:center center; background-size:cover;}
 	.section_03 .center { max-width:650px; margin:0 auto;}
 	.section_03 .slogan, .section_03 .subT, .section_03 .subT_text, .section_03 .digit { color:#FFF;}
-	/*.section_03 .date { width:100%; margin:7% auto 0;}
-	.section_03 .date li { float:none; text-align:center; margin-left:0%;}
+	.section_03 .date { margin:15% auto 0;}
+	/*.section_03 .date li { float:none; text-align:center; margin-left:0%;}
 	.section_03 .date li+li { margin:10px;}*/
 	.section_03 .kv { width:70%; max-width:800px; margin:0 auto; padding:2% 0 5%;}
 
