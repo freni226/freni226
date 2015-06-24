@@ -87,7 +87,7 @@
 	/*.section_03 .date li { float:none; text-align:center; margin-left:0%;}
 	.section_03 .date li+li { margin:10px;}*/
 	.section_03 .kv_bg { }
-	.section_03 .kv { width:90%; max-width:800px; margin:0 auto; padding:4% 0;}
+	.section_03 .kv { width:90%; max-width:800px; margin:0 auto; padding: 0;}
 
 	/*section_04*/
 	.section_04 .center { max-width:650px; margin:0 auto;}
