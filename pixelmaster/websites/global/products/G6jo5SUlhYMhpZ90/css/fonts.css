@@ -178,8 +178,8 @@ body { font-size:90%;}
 	.date {  margin:15% auto 0;}
 	.date li { float:none; text-align:center; margin-left:0%;}
 	.date li+li { margin:30px;}
-	/*.subT { font-size:1.8em;}
-	.subT_text { font-size:1.2em;}*/
+	.subT { color: #626161;}
+	/*.subT_text { font-size:1.2em;}*/
 	
 	
 }
