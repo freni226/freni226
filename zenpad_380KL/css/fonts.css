@@ -173,7 +173,7 @@ a.link { color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; 
 .date li:first-child { margin-left:0;}
 .digit { font-size: 65px; color: #888888;}
 .digit_unit { font-size:28px; padding-left:7px;}
-.digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px;}
+.digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px; font-weight:bold;}
 			
 @media screen and (max-width: 800px) {
 	a.link {  color:#0088cb; font-size:40px; line-height:65px; display:inline-block; text-align:center; padding:30px 0 0;}
@@ -183,7 +183,7 @@ a.link { color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; 
 	.date li+li { margin:30px;}
 	.digit { font-size: 88px; line-height:1.5; color: #888888;}
 	.digit_unit { font-size:38px;}
-	.digit_blod { font-size:26px; color:#666666; letter-spacing:1px;}
+	.digit_blod { font-size:26px; color:#666666; letter-spacing:1px; font-weight:bold;}
 	.slogan { font-size:70px;}
 	.subT_text { font-size:40px; line-height:66px; }
 	
