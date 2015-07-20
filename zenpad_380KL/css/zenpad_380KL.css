@@ -168,8 +168,8 @@ body { font-family:Segoe-UI; /*background:url(../../../Z380KLbg.jpg) no-repeat; 
 	/*通用項目*/
 	#section { width:100%; height:100%; margin:0 auto;}
 	.wrap { width:100%; margin:0 auto;}
-	.wrap .content { width:90%; max-width:720px; margin:0 auto;}
-	.wrap .center { max-width:720px; margin:0 auto; text-align:left;}
+	.wrap .content { max-width:720px; margin:0 auto;}
+	.wrap .center { width:90%; max-width:720px; margin:0 auto; text-align:left;}
 	.wrap .left { float:none;}
 	.wrap .right { float:none;}
 
