@@ -2,15 +2,15 @@
 
 /*slogan --> MyriadPro-SemiboldSemiCn*/
 @font-face {
-	font-family: 'Segoe-UI';
+	font-family: "Segoe-UI";
 	src:url(../fonts/segoeuil.ttf);
 	src: url('../fonts/segoeuil.eot');/*ie*/
-	src: local("Segoe UI Light"),  local("segoeuil"),  url("../fonts/square721bt.eot?#iefix") format('embedded-opentype'),/*ie*/;
+	src: local("Segoe UI Light"),  local("segoeuil"),  url("../fonts/segoeuil.eot?#iefix") format('embedded-opentype'),/*ie*/;
 }
 	
 /*text --> MyriadPro-Light*/
 @font-face {
-	font-family: 'Segoe-blod';
+	font-family: "Segoe-blod";
 	src:url(../font/seguisb_1.ttf);
 	src: url('../fonts/seguisb_1.eot');/*ie*/
 	src: local("Segoe UI Semiblod"),  local("seguisb_1"),  url("../fonts/seguisb_1.eot?#iefix") format('embedded-opentype'),/*ie*/;
