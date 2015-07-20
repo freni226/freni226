@@ -192,7 +192,7 @@ body { font-family:Segoe-UI; /*background:url(../../../Z380KLbg.jpg) no-repeat; 
 	/*section_03*/
 	.section_03 { padding-bottom:40px;}
 	.section_03 .subT_text { display:none;}
-	.section_03 .subT_text_mobile { display:block;}
+	.section_03 .subT_text_mobile { display:block; padding-top:30px;}
 	.section_03 .date { width:320px; margin:60px auto 0; text-align:center;}
 	.section_03 .kv { max-width:720px; margin:0 auto; padding-top:55px;}
 	

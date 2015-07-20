@@ -181,9 +181,9 @@ a.link { color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; 
 	.date {  margin:15% auto 0;}
 	.date li { float:none; text-align:center; margin-left:0%;}
 	.date li+li { margin:30px;}
-	.digit { font-size: 88px; line-height:1.5; color: #888888;}
-	.digit_unit { font-size:38px;}
-	.digit_blod { font-size:26px; color:#666666; letter-spacing:1px; font-weight:bold;}
+	.digit { font-size: 4em; line-height:1.5; color: #888888;}
+	.digit_unit { font-size:2.5em;}
+	.digit_blod { font-size:1.3em; color:#666666; letter-spacing:1px; font-weight:bold;}
 	
 	.slogan { font-size:2em;}
 	.subT_text { font-size:1.3em; }
