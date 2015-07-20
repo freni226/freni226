@@ -176,6 +176,7 @@ a.link { color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; 
 .digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px; font-weight:bold;}
 			
 @media screen and (max-width: 800px) {
+	body { font-size:80%;}
 	a.link {  color:#0088cb; font-size:40px; line-height:65px; display:inline-block; text-align:center; padding:30px 0 0;}
 	
 	.date {  margin:15% auto 0;}
