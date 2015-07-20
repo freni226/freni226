@@ -30,7 +30,7 @@
 
 .slogan_mobile {
 
-	font-size:35px;
+	font-size:70px;
 	padding:40px 0;
 	/*letter-spacing: -0.025em;*/
 	/*word-spacing: 0.045em;*/
@@ -184,7 +184,8 @@ a.link { color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; 
 	.digit { font-size: 88px; line-height:1.5; color: #888888;}
 	.digit_unit { font-size:38px;}
 	.digit_blod { font-size:26px; color:#666666; letter-spacing:1px; font-weight:bold;}
-	.slogan { font-size:70px;}
+	
+	.slogan { font-size:35px;}
 	.subT_text { font-size:40px; line-height:66px; }
 	
 	
