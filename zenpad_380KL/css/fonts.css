@@ -1,25 +1,8 @@
-/*font-face==========================*/
-
-/*slogan --> MyriadPro-SemiboldSemiCn*/
-@font-face {
-	font-family: 'Segoe-UI';
-	src:url(../fonts/segoeuil.ttf);
-	src: url('../fonts/segoeuil.eot');/*ie*/
-	src: local("Segoe UI Light"),  local("segoeuil"),  url("../fonts/square721bt.eot?#iefix") format('embedded-opentype'),/*ie*/;
-}
-	
-/*text --> MyriadPro-Light*/
-@font-face {
-	font-family: 'Segoe-blod';
-	src:url(../font/seguisb_1.ttf);
-	src: url('../fonts/seguisb_1.eot');/*ie*/
-	src: local("Segoe UI Semiblod"),  local("seguisb_1"),  url("../fonts/seguisb_1.eot?#iefix") format('embedded-opentype'),/*ie*/;
-}
 
 
 /*font-setting==========================*/
 .slogan {
-	font-family:"Segoe UI Light", 'Segoe-UI';
+	font-family:"Segoe UI Light";
 	font-size:48px;
 	letter-spacing: 0.2px;
 	/*word-spacing: 0.045em;*/
@@ -31,7 +14,7 @@
 }
 
 .slogan_mobile {
-	font-family:"Segoe UI Light", 'Segoe-UI';
+	font-family:"Segoe UI Light";
 	font-size:70px;
 	padding:40px 0;
 	/*letter-spacing: -0.025em;*/
@@ -44,7 +27,7 @@
 }
 
 .subT {
-	font-family: 'Segoe UI Light', 'Segoe-UI';
+	font-family: 'Segoe UI Light';
 	font-size: 34px;
 	line-height:1;
 	/*letter-spacing: -0.03em;*/
@@ -58,7 +41,7 @@
 }
 	
 .subT_text{
-	font-family: 'Segoe UI Light', 'Segoe-UI';
+	font-family: 'Segoe UI Light';
 	font-size:20px;
 	line-height:30px;
 	/*letter-spacing: -0.03em;*/
@@ -71,7 +54,7 @@
 	}
 	
 .subT_text_mobile {
-	font-family: 'Segoe UI Light', 'Segoe-UI';
+	font-family: 'Segoe UI Light';
 	font-size:40px;
 	line-height:66px;
 	/*letter-spacing: -0.03em;*/
@@ -84,7 +67,7 @@
 	}	
 	
 .subT_text_point {
-	font-family: 'Segoe UI Light', 'Segoe-UI';
+	font-family: 'Segoe UI Light';
 	font-size:20px;
 	line-height:30px;
 	/*letter-spacing: -0.03em;*/
@@ -95,7 +78,7 @@
 	-moz-osx-font-smoothing: grayscale;	
 	}	
 .example_text{
-	font-family:"Segoe UI Semibold",'Segoe-blod';
+	font-family:"Segoe UI Semibold";
 	font-size:17px;
 	line-height:35px;
 	letter-spacing: 1.8px;
@@ -108,7 +91,7 @@
 	
 	}	
 	
-a.link { font-family: 'Segoe UI Light', 'Segoe-UI'; color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; display:inline-block; text-align:center; }	
+a.link { font-family: 'Segoe UI Light'; color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; display:inline-block; text-align:center; }	
 
 /*文字外框_置左*/	
 .box-word-left{
@@ -173,19 +156,19 @@ a.link { font-family: 'Segoe UI Light', 'Segoe-UI'; color:#0088cb; font-size:20p
 .date ul {}
 .date li { float:left; display:block; line-height:30px; }
 .date li:first-child { margin-left:0;}
-.digit { font-family: 'Segoe UI Light', 'Segoe-UI'; font-size: 65px; color: #888888;}
+.digit { font-family: 'Segoe UI Light'; font-size: 65px; color: #888888;}
 .digit_unit { font-size:28px; padding-left:7px;}
 .digit_blod { font-family:"Segoe UI Semibold", 'Segoe-blod'; font-size:17px; color:#666666; letter-spacing:1px; line-height:48px;}
 			
 @media screen and (max-width: 800px) {
-	a.link { font-family: 'Segoe UI Light', 'Segoe-UI'; color:#0088cb; font-size:40px; line-height:65px; display:inline-block; text-align:center; padding:30px 0 0;}
+	a.link { font-family: 'Segoe UI Light'; color:#0088cb; font-size:40px; line-height:65px; display:inline-block; text-align:center; padding:30px 0 0;}
 	
 	.date {  margin:15% auto 0;}
 	.date li { float:none; text-align:center; margin-left:0%;}
 	.date li+li { margin:30px;}
-	.digit { font-family: 'Segoe UI Light', 'Segoe-UI'; font-size: 88px; line-height:1.5; color: #888888;}
+	.digit { font-family: 'Segoe UI Light'; font-size: 88px; line-height:1.5; color: #888888;}
 	.digit_unit { font-size:38px;}
-	.digit_blod { font-family:"Segoe UI Semibold",'Segoe-blod'; font-size:26px; color:#666666; letter-spacing:1px;}
+	.digit_blod { font-family:"Segoe UI Semibold"; font-size:26px; color:#666666; letter-spacing:1px;}
 	.slogan { font-size:70px;}
 	.subT_text { font-size:40px; line-height:66px; }
 	
