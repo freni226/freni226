@@ -1,0 +1,219 @@
+@charset "utf-8";
+/*通用項目*/
+/*body { background:url(../../../Z380KLbg.jpg) no-repeat; background-position:top center; width:100%;}*/
+#zenpad_380KL{
+  position: relative;
+  left: 50%;
+  overflow: hidden;
+  padding-top: 30px;
+}
+#section { width:100%; height:100%; margin:0 auto; overflow:hidden;}
+.wrap { width:100%; margin:0 auto;}
+.wrap .content { max-width:1366px; margin:0 auto;}
+/*.wrap .center { max-width:940px; margin:0 auto; text-align:center }*/
+.wrap .left { float:left;}
+.wrap .right { float:right;}
+
+.wrap .example { width:49.7%;}
+
+/*section_01*/
+.section_01 { padding-top:69px; width:100%; height:100%; background-image:url(../imgs/380bg.png); background-size:100% 100%; padding-bottom:174px;}
+.section_01 .wrap { }
+.section_01 .topic { width:392px; margin:0 auto;}
+.section_01 .slogan { padding:0; padding-right:5px; font-size:41.5px; letter-spacing:0;}
+.section_01 .kv { width:80%;max-width:815px; margin:0 auto; padding-top:35px; padding-left:8px; position:relative; }
+.section_01 .subT_text { text-align:center; width:98%; position:absolute; bottom:16px; font-size:26px; letter-spacing:0.1px; }
+.section_01 .subT_text_mobile { display:none;}
+.section_01 .topic_mobile { display:none;}
+
+/*section_02*/
+.section_02 { padding-bottom:99px;}
+.section_02 .center { width:80%; max-width:940px; margin:0 auto; text-align:center }
+.section_02 .subT_text	{ padding-top:23px;}
+.section_02 .kv .kv_01 { width:100%; height:900px; background:url(../imgs/Design1.png) no-repeat; background-position:center center; padding-bottom:105px; }
+.section_02 .kv .kv_02 { width:100%; height:596px; background:url(../imgs/designbg.jpg) no-repeat; background-position:center center; padding-bottom:157px;}
+.section_02 .kv_mobile { display:none;}
+.section_02 a.link { padding:27px 0 0;}	
+
+/*section_03*/
+.section_03 { padding-bottom:40px;}
+.section_03 .center { width:80%; max-width:835px; margin:0 auto; text-align:center }
+.section_03 .subT_text { padding-top:30px;}
+.section_03 .subT_text_mobile { display:none;}
+.section_03 .date { width:220px; margin:60px auto 0; text-align:center;}
+.section_03 .kv { width:80%; max-width:995px; margin:0 auto; padding-top:40px;}
+
+/*section_04*/
+.section_04 { padding-bottom:36px;}
+.section_04 .center { width:80%; max-width:900px; margin:0 auto; text-align:center }
+.section_04 .logo { width:323px; margin:0 auto;}
+.section_04 .slogan { font-size:55px; letter-spacing:-0.5px; word-spacing:1px; padding-top:16px;}
+.section_04 .slogan_mobile { display:none;}
+.section_04 .subT_text { padding-top:28px; width:80%; max-width:742px; margin:0 auto;}
+.section_04 .subT_text_mobile { display:none;}
+.section_04 .detail-box { overflow: hidden; text-align: center; width:978px; margin:0 auto;}
+.section_04 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 174px; height: 174px; margin-left: 22px; color: #888888; margin-top:62px;}
+.section_04 .first { margin-left:0;}
+.section_04 .detail .detail_text { font-family: 'Segoe UI Light'; font-size:30px; line-height: 35px; text-align: center; }
+.section_04 .detail .row2 { padding-top: 51px;}
+.section_04 .detail .row3 { padding-top: 33px;}
+.section_04 .kv { width:80%; max-width:975px; margin:0 auto; padding-top:82px;}
+.section_04 a.link { padding:24px 0 0;}	
+
+/*section_05*/
+.section_05 { padding-bottom:163px;}
+.section_05 .center { max-width:503px; margin:0 auto; text-align:center }
+.section_05 .subT_text { padding-top:30px; letter-spacing:0.5px;}
+.section_05 .date { width:226px; margin:60px auto 0; text-align:center;}
+.section_05 .kv { width:90%; max-width:980px; margin:0 auto; padding:47px 0 0;}
+
+/*section_06*/
+.section_06 { padding-bottom:160px;}
+.section_06 .subT_text { padding-top:29px; letter-spacing:0.05px;}
+.section_06 .kv { width:90%; max-width:980px; margin:0 auto; padding:58px 0 0;}
+
+/*section_07*/
+.section_07 { padding-bottom:161px;}
+.section_07 .center { width:80%; max-width:833px; margin:0 auto; text-align:center }
+.section_07 .subT_text { padding-top:30px;}
+.section_07 .kv { width:1010px; margin:0 auto; position:relative; margin-top:70px;}
+.section_07 .left { width:854px; height:643px; margin-top:-5px; margin-left:-14px;}
+.section_07 .right { width:240px; position:absolute; right:0;}
+.section_07 .date { padding-top:33px;}
+.section_07 .digit_blod { font-size:16px; padding-left:4px; letter-spacing:1.6px;}
+.section_07 .date li { float:none; margin-left:0%; padding-bottom:30px;}
+.section_07 a.link { padding:22px 0 0; font-size:19px;}	
+
+/*section_08*/
+.section_08 { padding-bottom:190px;}
+.section_08 .center { width:80%; max-width:800px; margin:0 auto; text-align:center }
+.section_08 .subT_text { padding-top:30px;}
+.section_08 .kv { width:100%; height:570px; background:url(../imgs/Customize.jpg) no-repeat; background-position:center center; margin-top:80px;}
+.section_08 .detail-box { overflow: hidden; text-align: center; width:982px; margin:0 auto;}
+.section_08 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 174px; height: 174px; margin-left: 22px; color: #888888; margin-top:62px;}
+.section_08 .first { margin-left:0;}
+.section_08 .detail .detail_text { font-family: 'Segoe UI Light'; font-size:30px; line-height: 36px; text-align: center; }
+.section_08 .detail .row2 { padding-top:50px;}
+.section_08 a.link { padding:24px 0 0; font-size:19px;}	
+
+/*section_09*/
+.section_09 { padding-bottom:164px; }
+.section_09 .center { width:80%; max-width:804px; margin:0 auto;}
+.section_09 .subT_text { padding-top:30px;}
+.section_09 .slogan { padding-top:15px;}
+.section_09 .logo { width:304px;margin:0 auto;}
+.section_09 .date { width:310px; margin:63px auto 0; }
+.section_09 .date li { margin-left:65px;}
+.section_09 .date li:first-child { margin-left:0;}
+.section_09 .digit { font-family: 'Segoe UI Light'; font-size: 64.5px; color: #888888;}
+.section_09 .digit_unit { font-size:28px; padding-left:9px; margin-right:10px;}
+.section_09 .digit_blod { font-family:"Segoe UI Semibold"; font-size:16px; color:#666666; letter-spacing:1.3px; line-height:51px; padding-left:5px;}
+.section_09 .kv { width:80%; max-width:1013px; margin:44px auto 0; }
+.section_09 a.link { padding:23px 0 0; font-size:20px; letter-spacing:0.3px;}	
+
+
+/*section_10*/
+.section_10 { padding-bottom:50px;}
+.section_10 .right { width:40%; }
+.section_10 .slogan { padding-top:85px; }
+.section_10 .subT_text { max-width:450px; padding-top:28px;}
+.section_10 .link { text-align:left;}
+.section_10 .date { margin-top:64px; width:100%; margin-left:-5px; }
+.section_10 .date li { float:none; margin-left:0%; padding-bottom:29px; }
+.section_10 .digit_blod { font-family:"Segoe UI Semibold"; font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:5px;}
+.section_10 .left { width:54%; }
+.section_10 .kv {  padding-top:10px; float:right; }
+.section_10 a.link { padding:23px 0 0 3px; font-size:20px; letter-spacing:0.3px;}	
+
+
+@media screen and (min-width: 801px) and (max-width:1026px) {
+	/*.section_04*/
+	.section_04 .detail-box { overflow: hidden; text-align: center; width:728px; margin:0 auto;}
+	.section_04 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 124px; height: 124px; margin-left: 22px; color: #888888; margin-top:62px;}
+	.section_04 .first { margin-left:0;}
+	.section_04 .detail .detail_text { font-family: 'Segoe UI Light'; font-size:25px; line-height: 30px; text-align: center; }
+	.section_04 .detail .row2 { padding-top: 32px;}
+	.section_04 .detail .row3 { padding-top: 19px;}
+	
+	/*section_07*/
+	.section_07 { padding-bottom:0px;}
+	.section_07 .center { max-width:833px; margin:0 auto; text-align:center }
+	.section_07 .subT_text { padding-top:30px;}
+	.section_07 .kv { width:750px; margin:0 auto; position:relative; margin-top:70px;}
+	.section_07 .left { width:600px; height:643px; margin-top:-5px; margin-left:-40px;}
+	.section_07 .right { width:225px; position:absolute; right:0;}
+	.section_07 .date { padding-top:0px;}
+	.section_07 .digit_blod { font-size:16px; padding-left:4px; letter-spacing:1px;}
+	.section_07 .date li { float:none; margin-left:0%; padding-bottom:20px;}
+	
+	
+	/*.section_08*/
+	.section_08 .detail-box { overflow: hidden; text-align: center; width:728px; margin:0 auto;}
+	.section_08 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 124px; height: 124px; margin-left: 22px; color: #888888; margin-top:62px;}
+	.section_08 .first { margin-left:0;}
+	.section_08 .detail .detail_text { font-family: 'Segoe UI Light'; font-size:25px; line-height: 30px; text-align: center; }
+	.section_08 .detail .row2 { padding-top: 32px;}
+	.section_08 .detail .row3 { padding-top: 19px;}
+	
+	/*section_10*/
+	.section_10 .content { width:90%; margin:0 auto;}
+	.section_10 .right { width:40%; }
+	.section_10 .subT_text { max-width:450px; padding-top:28px;}
+	.section_10 .left { width:54%; }
+	.section_10 .kv { float:right; padding-top:130px; }
+
+}
+
+@media screen and (max-width: 800px) {
+	/*通用項目*/
+	#section { width:100%; height:100%; margin:0 auto;}
+	.wrap { width:100%; margin:0 auto;}
+	.wrap .content { max-width:720px; margin:0 auto;}
+	.wrap .center { max-width:720px; margin:0 auto; text-align:left;}
+	.wrap .left { float:none;}
+	.wrap .right { float:none;}
+
+	.wrap .example { width:86%; margin:0 auto;}
+	
+	/*section_01*/
+	.section_01 {  padding-top:20px; }
+	.section_01 .wrap { width:100%; height:100%; background-image:url(../imgs/380bg_mobile.jpg); background-size:100% 100%;}
+	.section_01 .topic, .section_01 .slogan { display:none;}
+	.section_01 .topic_mobile { display:block; width:65%; margin:0 auto;}
+	.section_01 .kv {  max-width:814px; margin:0 auto; padding-top:60px; position:relative; }
+	.section_01 .subT_text { display:none;}
+	.section_01 .subT_text_mobile { display:block; text-align:center; width:100%;  position:absolute; bottom:-75px; }
+	
+	/*section_02*/
+	.section_02 {padding-top:170px;}
+	.section_02 .kv { display:none;}
+	.section_02 .kv_mobile { display:block; padding-top:10%;}
+	
+	/*section_03*/
+	.section_03 {padding-top:155px;}
+	.section_03 .subT_text { display:none;}
+	.section_03 .subT_text_mobile { display:block;}
+	.section_03 .date { width:320px; margin:60px auto 0; text-align:center;}
+	.section_03 .kv { max-width:720px; margin:0 auto; padding-top:55px;}
+	
+	/*section_04*/
+	.section_04 {padding-top:80px;}
+	.section_04 .center { text-align:center;}
+	.section_04 .logo { width:440px; margin:0 auto;}
+	.section_04 .slogan { font-size:55px;}
+	.section_04 .slogan { display:none;}
+	.section_04 .subT_text { display:none;}
+	.section_04 .slogan_mobile { display:block;}
+	.section_04 .subT_text_mobile { display:block;}
+	.section_04 .detail-box { overflow: hidden; text-align: center; width:424px; margin:0 auto;}
+	.section_04 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 174px; height: 174px; margin:65px 17px 0; color: #888888; margin-top:65px;}
+	.section_04 .first { margin-left:17px;}
+	.section_04 .last { margin-left:123px;}
+	.section_04 .detail .detail_text { font-family: 'Segoe UI Light'; font-size:30px; line-height: 36px; text-align: center; }
+	.section_04 .detail .row2 { padding-top: 53px;}
+	.section_04 .detail .row3 { padding-top: 35px;}
+	.section_04 .kv { max-width:720px; margin:0 auto; padding-top:83px;}
+
+	
+	}
+
