@@ -183,7 +183,7 @@ a.link { color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; 
 	.date li+li { margin:30px;}
 	.digit { font-size: 4em; line-height:1.5; color: #888888;}
 	.digit_unit { font-size:0.5em;}
-	.digit_blod { font-size:0.3em; color:#666666; letter-spacing:1px; line-height:20px; font-weight:bold;}
+	.digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:20px; font-weight:bold;}
 	
 	.slogan { font-size:2em;}
 	.subT_text { font-size:1.3em; }
