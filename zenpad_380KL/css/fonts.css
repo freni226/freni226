@@ -70,8 +70,7 @@
 	
 .subT_text_mobile {
 
-	font-size:40px;
-	line-height:66px;
+	font-size:1em; line-height:1;
 	/*letter-spacing: -0.03em;*/
 	/*word-spacing: 0.045em;*/
 	color: #333333;
@@ -186,7 +185,7 @@ a.link { color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; 
 	.digit_blod { font-size:26px; color:#666666; letter-spacing:1px; font-weight:bold;}
 	
 	.slogan { font-size:1.8em;}
-	.subT_text { font-size:1em; line-height:1s; }
+	.subT_text { font-size:1em; line-height:1; }
 	
 	
 }
