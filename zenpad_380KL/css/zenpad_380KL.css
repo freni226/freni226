@@ -275,7 +275,7 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_09 { padding-bottom:110px; }
 	.section_09 .center { text-align:center;}
 	.section_09 .logo { width:182px;margin:0 auto;}
-	.section_09 .date { width:210px; margin:35px auto 0; }
+	.section_09 .date { width:280px; margin:35px auto 0; }
 	.section_09 .date li+li { margin:0 0 0 10px;} 
 	.section_09 .date li {float:left;}
 	.section_09 .date li:first-child { margin-left:0;}
