@@ -184,8 +184,11 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 
 	.wrap .example { width:86%; margin:0 auto; padding-bottom:35px;}
 	
+	.pc { display:none;}
+	.mobile { display:block;}
+	
 	/*section_01*/
-	.section_01 {  padding-top:20px; padding-bottom:75px; background:none; }
+	.section_01 {  padding-top:40px; padding-bottom:75px; background:none; }
 	.section_01 .wrap {}
 	.section_01 .topic, .section_01 .slogan { display:none;}
 	.section_01 .topic_mobile { display:block; width:80%; margin:0 auto;}
@@ -231,8 +234,7 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_05 .subT_text { padding-top:30px; letter-spacing:0.5px;}
 	.section_05 .date { width:100%; margin:45px auto 0; text-align:center;}
 	.section_05 .kv { width:90%; max-width:980px; margin:0 auto; padding:47px 0 0;}
-	.pc { display:none;}
-	.mobile { display:block;}
+
 	
 	/*section_06*/
 	.section_06 { padding-bottom:50px;}
@@ -255,9 +257,6 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_07 .digit_unit { font-size:0.4em;}
 	.section_07 .digit_blod { font-size:0.2em; padding-left:4px; letter-spacing:1.6px;}
 	.section_07 a.link { padding:22px 0 0; font-size:1.3em;}
-	.short { }
-	.pc { display:none;}
-	.mobile { display:block;}
 	
 	/*section_08*/
 	.section_08 { padding-bottom:100px;}
@@ -271,7 +270,6 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_08 .detail .detail_text { font-size:1.5em; line-height: 1.3em; text-align: center; }
 	.section_08 .detail .row2 { padding-top: 30px;}
 	.section_08 a.link { padding:24px 0 0; font-size:1.3em;}	
-	.mobile { display:block;}
 	
 	/*section_09*/
 	.section_09 { padding-bottom:110px; }
@@ -287,8 +285,6 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_09 .kv { display:none;}
 	.section_09 .kv_mobile { display:block; width:95%; margin-right:5%; padding-top:60px;}
 	.section_09 a.link { padding:5px 0 0; font-size:1.3em; letter-spacing:0.3px;}
-	.pc { display:none;}
-	.mobile { display:block;}	
 	
 	/*section_10*/
 	.section_10 { padding-bottom:50px;}
