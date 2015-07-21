@@ -3,7 +3,7 @@
 /*slogan --> MyriadPro-SemiboldSemiCn*/
 @font-face {
 	font-family: "Segoe-UI";
-	src: local("Segoe UI Light"),  local("segoeuil"),  url("../fonts/segoeuil.eot") format('embedded-opentype'),/*ie*/;
+	src: local("Segoe UI Light"),  local("segoeuil"),  url(../fonts/segoeuil.eot?#iefix) format('embedded-opentype'),/*ie*/;
 	src: url(../fonts/segoeuil.ttf);
 }
 	
@@ -11,7 +11,7 @@
 @font-face {
 	font-family: "Segoe-blod";
 	src:url(../font/seguisb_1.ttf);
-	src: local("Segoe UI Semiblod"),  local("seguisb_1"),  url("../fonts/seguisb_1.eot?#iefix") format('embedded-opentype'),/*ie*/;
+	src: local("Segoe UI Semiblod"),  local("seguisb_1"),  url(../fonts/seguisb_1.eot?#iefix) format('embedded-opentype'),/*ie*/;
 }
 
 
