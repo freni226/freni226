@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*通用項目*/
-body { font-family:Segoe-UI; /*background:url(../../../Z380KLbg.jpg) no-repeat; background-position:top center; width:100%;*/}
+body { font-family:Segoe-UI; /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:top center; width:100%;*/}
 #zenpad_380KL{
   position: relative;
   left: 50%;
@@ -115,7 +115,9 @@ body { font-family:Segoe-UI; /*background:url(../../../Z380KLbg.jpg) no-repeat; 
 .section_09 .digit_unit { font-size:28px; padding-left:9px; margin-right:10px;}
 .section_09 .digit_blod { font-weight:bold; font-size:16px; color:#666666; letter-spacing:1.3px; line-height:51px; padding-left:5px;}
 .section_09 .kv { width:80%; max-width:1013px; margin:44px auto 0; }
-.section_09 a.link { padding:23px 0 0; font-size:20px; letter-spacing:0.3px;}	
+.section_09 .kv_mobile { display:none;}
+.section_09 a.link { padding:23px 0 0; font-size:20px; letter-spacing:0.3px;}
+	
 
 /*section_10*/
 .section_10 { padding-bottom:50px;}
@@ -125,7 +127,7 @@ body { font-family:Segoe-UI; /*background:url(../../../Z380KLbg.jpg) no-repeat; 
 .section_10 .link { text-align:left;}
 .section_10 .date { margin-top:64px; width:100%; margin-left:-5px; }
 .section_10 .date li { float:none; margin-left:0%; padding-bottom:29px; }
-.section_10 .digit_blod { font-weight:bolder; font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:5px;}
+.section_10 .digit_blod { font-weight:bolder; font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:5px; padding-top:15px;}
 .section_10 .left { width:54%; }
 .section_10 .kv {  padding-top:10px; float:right; }
 .section_10 a.link { padding:23px 0 0 3px; font-size:20px; letter-spacing:0.3px;}	
@@ -240,23 +242,23 @@ body { font-family:Segoe-UI; /*background:url(../../../Z380KLbg.jpg) no-repeat; 
 	
 	/*section_07*/
 	.section_07 { padding-bottom:90px;}
-	.section_07 .center { width:80%; max-width:833px; margin:0 auto; text-align:center }
+	.section_07 .center { margin:0 auto; text-align:left; }
 	.section_07 .subT_text { padding-top:30px;}
 	.section_07 .kv { width:90%; margin:0 auto; position:relative; margin-top:50px;}
 	.section_07 .left { width:100%; height:auto; margin-top:0px; margin-left:0px;}
 	.section_07 .right { display:none;}
 	.section_07 .date { float:left; margin-top:0; padding-bottom:30px; padding-top:0; }
 	.section_07 .date li { float:left; text-align:left;}
-	.section_07 .date li+li { margin:0;}
-	.section_07 .digit_blod { font-size:0.2em; padding-left:4px; letter-spacing:1.6px;  width:160px;}
-	.section_07 a.link { padding:22px 0 0; font-size:19px;}
-	.short { width:115px;}
+	.section_07 .date li+li { margin:0 0 0 20px;}
+	.section_07 .digit_blod { font-size:0.2em; padding-left:4px; letter-spacing:1.6px;}
+	.section_07 a.link { padding:22px 0 0; font-size:1.3em;}
+	.short { }
 	.pc { display:none;}
 	.mobile { display:block;}
 	
 	/*section_08*/
 	.section_08 { padding-bottom:100px;}
-	.section_08 .center { width:80%; max-width:800px; margin:0 auto; text-align:center }
+	.section_08 .center { text-align:left; }
 	.section_08 .subT_text { padding-top:30px;}
 	.section_08 .kv { width:100%; height:auto; background:none; background-position:center center; margin-top:60px;}
 	.section_08 .detail-box { overflow: hidden; text-align: center; width:324px; margin:0 auto;}
@@ -265,24 +267,38 @@ body { font-family:Segoe-UI; /*background:url(../../../Z380KLbg.jpg) no-repeat; 
 	.section_08 .last { margin-left:98px;}
 	.section_08 .detail .detail_text { font-size:2em; line-height: 1.3em; text-align: center; }
 	.section_08 .detail .row2 { padding-top: 30px;}
-	.section_08 a.link { padding:24px 0 0; font-size:19px;}	
+	.section_08 a.link { padding:24px 0 0; font-size:1.3em;}	
 	.mobile { display:block;}
 	
 	/*section_09*/
-	.section_09 { padding-bottom:164px; }
-	.section_09 .center { width:80%; max-width:804px; margin:0 auto; text-align:center;}
-	.section_09 .subT_text { padding-top:30px;}
-	.section_09 .slogan { padding-top:15px;}
+	.section_09 { padding-bottom:110px; }
+	.section_09 .center { text-align:center;}
 	.section_09 .logo { width:182px;margin:0 auto;}
-	.section_09 .date { width:310px; margin:63px auto 0; }
-	.section_09 .date li { margin-left:65px;}
+	.section_09 .date { width:220px; margin:35px auto 0; }
+	.section_09 .date li+li { margin:0 0 0 30px;;} 
+	.section_09 .date li {float:left;}
 	.section_09 .date li:first-child { margin-left:0;}
-	.section_09 .digit { font-size: 64.5px; color: #888888;}
-	.section_09 .digit_unit { font-size:28px; padding-left:9px; margin-right:10px;}
-	.section_09 .digit_blod { font-weight:bold; font-size:16px; color:#666666; letter-spacing:1.3px; line-height:51px; padding-left:5px;}
-	.section_09 .kv { width:80%; max-width:1013px; margin:44px auto 0; }
-	.section_09 a.link { padding:23px 0 0; font-size:20px; letter-spacing:0.3px;}	
+	.section_09 .digit { font-size: 4em; color: #888888;}
+	.section_09 .digit_unit { font-size:0.5em; padding-left:9px; margin-right:10px;}
+	.section_09 .digit_blod { font-weight:bold; font-size:0.2em; color:#666666; letter-spacing:1.3px; line-height:20px; padding-left:5px;}
+	.section_09 .kv { display:none;}
+	.section_09 .kv_mobile { display:block; width:95%; margin-right:5%; padding-top:60px;}
+	.section_09 a.link { padding:5px 0 0; font-size:1.3em; letter-spacing:0.3px;}	
 	
+	/*section_10*/
+	.section_10 { padding-bottom:50px;}
+	.section_10 .right { width:90%; max-width:720px; margin:0 auto; }
+	.section_10 .slogan { padding-top:0px; }
+	.section_10 .subT_text { max-width:450px; padding-top:28px;}
+	.section_10 .link { text-align:left;}
+	.section_10 .date { margin-top:64px; width:100%; margin-left:0px; }
+	.section_10 .date li { float:none; margin-left:0%; padding-bottom:29px; }
+	.section_10 .date li+li { margin:0;}
+	.section_10 .digit { line-height:1;}
+	.section_10 .digit_blod { font-weight:bolder; font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:0px; padding-top:0px;}
+	.section_10 .left { width:100%; }
+	.section_10 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
+	.section_10 a.link { padding:15px 0 0 3px; font-size:1.3em; letter-spacing:0.3px;}
 	
 	}
 
