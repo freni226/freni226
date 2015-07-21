@@ -92,6 +92,18 @@
 	
 .subT_text_point {
 	font-family:"Segoe UI Light",Segoe-UI ;
+	font-size:20px;
+	line-height:30px;
+	/*letter-spacing: -0.03em;*/
+	/*word-spacing: 0.045em;*/
+	color: #999999;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+	}
+	
+.subT_text_point_mobile {
+	font-family:"Segoe UI Light",Segoe-UI ;
 	font-size:1.3em;
 	line-height:50px;
 	/*letter-spacing: -0.03em;*/
@@ -100,7 +112,7 @@
 	
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;	
-	}	
+	}			
 .example_text{
 	font-family:"Segoe UI Semibold", Segoe-blod;
 	font-size:17px;

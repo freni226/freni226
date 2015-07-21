@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*通用項目*/
-body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:top center; width:100%;*/}
+body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:top center; width:100%;*/}
 #zenpad_380KL{
   position: relative;
   left: 50%;
@@ -117,6 +117,7 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 .section_09 .kv { width:80%; max-width:1013px; margin:44px auto 0; }
 .section_09 .kv_mobile { display:none;}
 .section_09 a.link { padding:23px 0 0; font-size:20px; letter-spacing:0.3px;}
+.mobile { display:none;}
 	
 
 /*section_10*/
@@ -285,7 +286,9 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_09 .digit_blod { font-weight:bold; font-size:0.2em; color:#666666; letter-spacing:1.3px; line-height:20px; padding-left:5px;}
 	.section_09 .kv { display:none;}
 	.section_09 .kv_mobile { display:block; width:95%; margin-right:5%; padding-top:60px;}
-	.section_09 a.link { padding:5px 0 0; font-size:1.3em; letter-spacing:0.3px;}	
+	.section_09 a.link { padding:5px 0 0; font-size:1.3em; letter-spacing:0.3px;}
+	.pc { display:none;}
+	.mobile { display:block;}	
 	
 	/*section_10*/
 	.section_10 { padding-bottom:50px;}
