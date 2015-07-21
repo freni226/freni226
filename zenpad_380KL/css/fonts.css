@@ -92,7 +92,7 @@
 	-moz-osx-font-smoothing: grayscale;	
 	}	
 .example_text{
-	font-family:"Segoe UI Semibold",Segoe-blod ;
+	font-family:"Segoe UI Semibold", Segoe-blod;
 	font-size:17px;
 	line-height:35px;
 	letter-spacing: 1.8px;
@@ -183,7 +183,7 @@ a.link { font-family:"Segoe UI Light",Segoe-UI ;color:#0088cb; font-size:20px; l
 	.date li+li { margin:30px;}
 	.digit { font-size: 4em; line-height:1.5; color: #888888;}
 	.digit_unit { font-size:0.5em;}
-	.digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:20px; font-family:"Segoe UI Semibold", Segoe-blod;}
+	.digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:20px; font-family:"Segoe UI Semibold",Segoe-blod;}
 	
 	.slogan { font-size:2.3em;}
 	.subT_text { font-size:1.3em; }
