@@ -3,15 +3,25 @@
 /*slogan --> MyriadPro-SemiboldSemiCn*/
 @font-face {
 	font-family: "Segoe-UI";
-	src: local("Segoe UI Light"),  local("segoeuil"),  url(../fonts/segoeuil.eot?#iefix) format('embedded-opentype'),/*ie*/;
-	src: url(../fonts/segoeuil.ttf);
+	src: url('../fonts/segoeuil.eot');/*for IE*/
+	src: 
+	local("Segoe UI Light"),  
+	local("segoeuil"),
+	url('../fonts/segoeuil.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/segoeuil.woff') format('woff'),  
+	url('../fonts/segoeuil.ttf') format('truetype');
 }
 	
 /*text --> MyriadPro-Light*/
 @font-face {
 	font-family: "Segoe-blod";
-	src: local("Segoe UI Semiblod"),  local("seguisb_1"),  url(../fonts/seguisb_1.eot?#iefix) format('embedded-opentype'),/*ie*/;
-	src:url(../font/seguisb_1.ttf);
+	src: url('../fonts/seguisb_1.eot');/*for IE*/
+	src: 
+	local("Segoe UI Semiblod"),  
+	local("seguisb_1"),
+	url('../fonts/seguisb_1.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/seguisb_1.woff') format('woff'),  
+	url('../fonts/seguisb_1.ttf') format('truetype'); 
 }
 
 
