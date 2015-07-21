@@ -250,7 +250,7 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_07 .right { display:none;}
 	.section_07 .date { float:left; margin-top:0; padding-bottom:30px; padding-top:0; }
 	.section_07 .date li { float:left; text-align:left;}
-	.section_07 .date li+li { margin:0 0 0 20px;}
+	.section_07 .date li+li { margin:0 0 0 10px;}
 	.section_07 .digit_blod { font-size:0.2em; padding-left:4px; letter-spacing:1.6px;}
 	.section_07 a.link { padding:22px 0 0; font-size:1.3em;}
 	.short { }
@@ -276,7 +276,7 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_09 .center { text-align:center;}
 	.section_09 .logo { width:182px;margin:0 auto;}
 	.section_09 .date { width:300px; margin:35px auto 0; }
-	.section_09 .date li+li { margin:0 0 0 30px;;} 
+	.section_09 .date li+li { margin:0 0 0 20px;} 
 	.section_09 .date li {float:left;}
 	.section_09 .date li:first-child { margin-left:0;}
 	.section_09 .digit { font-size: 4em; color: #888888;}
