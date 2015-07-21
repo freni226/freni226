@@ -282,7 +282,7 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_09 .date li:first-child { margin-left:0;}
 	.section_09 .digit { font-size: 4em; color: #888888;}
 	.section_09 .digit_unit { font-size:0.5em; padding-left:9px; margin-right:10px;}
-	.section_09 .digit_blod { font-weight:bold; font-size:0.2em; color:#666666; letter-spacing:1.3px; line-height:20px; padding-left:5px;}
+	.section_09 .digit_blod { font-weight:bold; font-size:0.2em; color:#666666; letter-spacing:1.3px; line-height:10px; padding-left:5px;}
 	.section_09 .kv { display:none;}
 	.section_09 .kv_mobile { display:block; width:95%; margin-right:5%; padding-top:60px;}
 	.section_09 a.link { padding:5px 0 0; font-size:1.3em; letter-spacing:0.3px;}
@@ -297,7 +297,7 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_10 .date li { float:none; margin-left:0%; padding-bottom:29px; }
 	.section_10 .date li+li { margin:0;}
 	.section_10 .digit { line-height:1; font-size:3em;}
-	.section_10 .digit_blod { font-size:0.2em; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:0px; padding-top:0px;}
+	.section_10 .digit_blod { font-size:0.2em; color:#666666; letter-spacing:1.5px; line-height:40px; padding-left:0px; padding-top:0px;}
 	.section_10 .left { width:100%; }
 	.section_10 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
 	.section_10 a.link { padding:15px 0 0 3px; font-size:1.3em; letter-spacing:0.3px;}
