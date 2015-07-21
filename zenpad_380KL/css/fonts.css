@@ -17,7 +17,6 @@
 
 /*font-setting==========================*/
 .slogan {
-	font-family:"Segoe UI";
 	font-size:48px;
 	letter-spacing: 0.2px;
 	/*word-spacing: 0.045em;*/
@@ -55,7 +54,6 @@
 }
 	
 .subT_text{
-	font-family:"Segoe UI";
 	font-size:20px;
 	line-height:30px;
 	/*letter-spacing: -0.03em;*/
