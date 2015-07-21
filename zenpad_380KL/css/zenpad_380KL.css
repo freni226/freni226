@@ -134,6 +134,7 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 
 
 @media screen and (min-width: 801px) and (max-width:1026px) {
+	body { font-family:Segoe UI ;}
 	/*.section_04*/
 	.section_04 .detail-box { overflow: hidden; text-align: center; width:728px; margin:0 auto;}
 	.section_04 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 124px; height: 124px; margin-left: 22px; color: #888888; margin-top:62px;}
