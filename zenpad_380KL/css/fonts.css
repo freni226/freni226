@@ -17,7 +17,7 @@
 
 /*font-setting==========================*/
 .slogan {
-	font-family:"Segoe UI Light",Segoe UI ;
+	font-family:"Segoe UI Light",Segoe-UI ;
 	font-size:48px;
 	letter-spacing: 0.2px;
 	/*word-spacing: 0.045em;*/
@@ -29,7 +29,7 @@
 }
 
 .slogan_mobile {
-	font-family:"Segoe UI Light",Segoe UI ;
+	font-family:"Segoe UI Light",Segoe-UI ;
 	font-size:2em;
 	/*letter-spacing: -0.025em;*/
 	/*word-spacing: 0.045em;*/
@@ -41,7 +41,7 @@
 }
 
 .subT {
-	font-family:"Segoe UI Light",Segoe UI ;
+	font-family:"Segoe UI Light",Segoe-UI ;
 	font-size: 34px;
 	line-height:1;
 	/*letter-spacing: -0.03em;*/
@@ -55,7 +55,7 @@
 }
 	
 .subT_text{
-	font-family:"Segoe UI Light",Segoe UI ;
+	font-family:"Segoe UI Light",Segoe-UI ;
 	font-size:20px;
 	line-height:30px;
 	/*letter-spacing: -0.03em;*/
@@ -68,7 +68,7 @@
 	}
 	
 .subT_text_mobile {
-	font-family:"Segoe UI Light",Segoe UI ;
+	font-family:"Segoe UI Light",Segoe-UI ;
 	font-size:1.3em;
 	line-height:30px; 
 	/*letter-spacing: -0.03em;*/
@@ -81,7 +81,7 @@
 	}	
 	
 .subT_text_point {
-	font-family:"Segoe UI Light",Segoe UI ;
+	font-family:"Segoe UI Light",Segoe-UI ;
 	font-size:1.3em;
 	line-height:50px;
 	/*letter-spacing: -0.03em;*/
@@ -106,7 +106,7 @@
 	
 	}	
 	
-a.link { font-family:"Segoe UI Light",Segoe UI ;color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; display:inline-block; text-align:center; }	
+a.link { font-family:"Segoe UI Light",Segoe-UI ;color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; display:inline-block; text-align:center; }	
 
 /*文字外框_置左*/	
 .box-word-left{
@@ -167,13 +167,13 @@ a.link { font-family:"Segoe UI Light",Segoe UI ;color:#0088cb; font-size:20px; l
 			}
 			
 			
-.date { text-align:left; font-family:"Segoe UI Light",Segoe UI ;}
+.date { text-align:left; font-family:"Segoe UI Light",Segoe-UI ;}
 .date ul {}
 .date li { float:left; display:block; line-height:30px; }
 .date li:first-child { margin-left:0;}
 .digit { font-size: 65px; color: #888888;}
 .digit_unit { font-size:28px; padding-left:7px;}
-.digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px; font-family:"Segoe UI Semibold",Segoe-blod ;}
+.digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px; font-family:"Segoe-UI Semibold",Segoe-blod ;}
 			
 @media screen and (max-width: 800px) {
 	a.link {  color:#0088cb; font-size:1.3em; line-height:30px; display:inline-block; text-align:center; padding:10px 0 0;}
