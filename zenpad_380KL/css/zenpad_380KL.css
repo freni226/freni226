@@ -253,7 +253,7 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_07 .right { display:none;}
 	.section_07 .date { float:left; margin-top:0; padding-bottom:30px; padding-top:0; }
 	.section_07 .date li { float:left; text-align:left;}
-	.section_07 .date li+li { margin:0 0 0 20px;}
+	.section_07 .date li+li { margin:0 0 0 25px;}
 	.section_07 .digit { font-size: 3em;}
 	.section_07 .digit_unit { font-size:0.4em;}
 	.section_07 .digit_blod { font-size:0.2em; padding-left:4px; letter-spacing:1.6px;}
