@@ -55,7 +55,7 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 .section_04 .detail-box { overflow: hidden; text-align: center; width:978px; margin:0 auto;}
 .section_04 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 174px; height: 174px; margin-left: 22px; color: #888888; margin-top:62px;}
 .section_04 .first { margin-left:0;}
-.section_04 .detail .detail_text { font-size:30px; line-height: 35px; text-align: center; font-family:"Segoe UI Light",Segoe UI  }
+.section_04 .detail .detail_text { font-size:30px; line-height: 35px; text-align: center; font-family:"Segoe UI Light",Segoe-UI  }
 .section_04 .detail .row2 { padding-top: 51px;}
 .section_04 .detail .row3 { padding-top: 33px;}
 .section_04 .kv { width:80%; max-width:975px; margin:0 auto; padding-top:82px;}
@@ -97,7 +97,7 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 .section_08 .detail-box { overflow: hidden; text-align: center; width:982px; margin:0 auto;}
 .section_08 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 174px; height: 174px; margin-left: 22px; color: #888888; margin-top:62px;}
 .section_08 .first { margin-left:0;}
-.section_08 .detail .detail_text { font-size:30px; line-height: 36px; text-align: center; font-family:"Segoe UI Light",Segoe UI ;}
+.section_08 .detail .detail_text { font-size:30px; line-height: 36px; text-align: center; font-family:"Segoe UI Light",Segoe-UI ;}
 .section_08 .detail .row2 { padding-top:50px;}
 .section_08 a.link { padding:24px 0 0; font-size:19px;}	
 .mobile { display:none;}
@@ -134,7 +134,6 @@ body { /* background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 
 
 @media screen and (min-width: 801px) and (max-width:1026px) {
-	body { font-family:Segoe UI ;}
 	/*.section_04*/
 	.section_04 .detail-box { overflow: hidden; text-align: center; width:728px; margin:0 auto;}
 	.section_04 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 124px; height: 124px; margin-left: 22px; color: #888888; margin-top:62px;}
