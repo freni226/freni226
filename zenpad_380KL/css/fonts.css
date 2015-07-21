@@ -173,7 +173,7 @@ a.link { font-family:"Segoe UI Light",Segoe-UI ;color:#0088cb; font-size:20px; l
 .date li:first-child { margin-left:0;}
 .digit { font-size: 65px; color: #888888;}
 .digit_unit { font-size:28px; padding-left:7px;}
-.digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px; font-family:"Segoe-UI Semibold",Segoe-blod ;}
+.digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px; font-family:"Segoe UI Semibold",Segoe-blod;}
 			
 @media screen and (max-width: 800px) {
 	a.link {  color:#0088cb; font-size:1.3em; line-height:30px; display:inline-block; text-align:center; padding:10px 0 0;}
