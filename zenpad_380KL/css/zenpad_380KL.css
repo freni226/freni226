@@ -299,7 +299,7 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 	.section_10 .date { margin-top:64px; width:100%; margin-left:0px; }
 	.section_10 .date li { float:none; margin-left:0%; padding-bottom:29px; }
 	.section_10 .date li+li { margin:0;}
-	.section_10 .digit { line-height:1;}
+	.section_10 .digit { line-height:1; font-size:3.5em;}
 	.section_10 .digit_blod { font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:0px; padding-top:0px;}
 	.section_10 .left { width:100%; }
 	.section_10 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
