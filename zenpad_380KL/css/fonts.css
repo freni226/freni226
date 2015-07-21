@@ -3,8 +3,8 @@
 /*slogan --> MyriadPro-SemiboldSemiCn*/
 @font-face {
 	font-family: "Segoe-UI";
-	src:url(../fonts/segoeuil.ttf);
 	src: local("Segoe UI Light"),  local("segoeuil"),  url("../fonts/segoeuil.eot?#iefix") format('embedded-opentype'),/*ie*/;
+	src:url(../fonts/segoeuil.ttf);
 }
 	
 /*text --> MyriadPro-Light*/
