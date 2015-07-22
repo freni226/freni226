@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*通用項目*/
-body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:top center; width:100%;*/}
+body {  background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:top center; width:100%;}
 #zenpad_380KL{
   position: relative;
   left: 50%;
@@ -31,8 +31,8 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 .section_02 { padding-bottom:99px; padding-top:174px;}
 .section_02 .center { width:80%; max-width:940px; margin:0 auto; text-align:center }
 .section_02 .subT_text	{ padding-top:23px;}
-.section_02 .kv .kv_01 { width:100%; height:900px; background:url(../imgs/Design1.png) no-repeat; background-position:center center; padding-bottom:105px; }
-.section_02 .kv .kv_02 { width:100%; height:596px; background:url(../imgs/designbg.jpg) no-repeat; background-position:center center; padding-bottom:157px;}
+.section_02 .kv .kv_01 { width:100%; height:auto; background:url(../imgs/Design1.png) no-repeat; background-position:center center; /*padding-bottom:105px;*/ padding-bottom:46.87%; background-size:cover;}
+.section_02 .kv .kv_02 { width:100%; height:auto; background:url(../imgs/designbg.jpg) no-repeat; background-position:center center; /*padding-bottom:157px;*/; padding-bottom:31.04%; background-size:cover;}
 .section_02 .kv_mobile { display:none;}
 .section_02 a.link { padding:27px 0 0;}	
 
@@ -134,7 +134,7 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 .section_10 a.link { padding:23px 0 0 3px; font-size:20px; letter-spacing:0.3px;}	
 
 @media screen and (min-width: 1027px) and (max-width:1366px) {
-	.section_02 .kv .kv_01 { width:100%; height:900px; background:url(../imgs/Design1.png) no-repeat; background-position:50% center; background-size:115%; padding-bottom:105px; }}
+	/*.section_02 .kv .kv_01 { width:100%; height:600px; background:url(../imgs/Design1.png) no-repeat; background-position:50% center; background-size:115%; padding-bottom:0px; }*/}
 
 @media screen and (min-width: 801px) and (max-width:1026px) {
 	/*.section_04*/
