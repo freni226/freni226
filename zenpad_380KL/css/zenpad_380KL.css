@@ -36,6 +36,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_02 .kv .kv_02 { width:100%; height:auto; background:url(../imgs/designbg.jpg) no-repeat; background-position:center center; /*padding-bottom:157px;*/; padding-bottom:32%; background-size:cover;}
 .section_02 .kv_mobile { display:none;}
 .section_02 a.link { padding:27px 0 0;}	
+.section_02 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:33px; left:240px; }
 
 /*section_03*/
 .section_03 { padding-bottom:40px;}
@@ -60,7 +61,8 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_04 .detail .row2 { padding-top: 51px;}
 .section_04 .detail .row3 { padding-top: 33px;}
 .section_04 .kv { width:80%; max-width:975px; margin:0 auto; padding-top:82px;}
-.section_04 a.link { padding:24px 0 0;}	
+.section_04 a.link { padding:24px 0 0;}
+.section_04 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:295px; }	
 .section_04 .kv_mobile { display:none;}
 
 /*section_05*/
@@ -87,7 +89,8 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_07 .date { padding-top:33px;}
 .section_07 .digit_blod { font-size:16px; padding-left:4px; letter-spacing:1.6px;}
 .section_07 .date li { float:none; margin-left:0%; padding-bottom:30px;}
-.section_07 a.link { padding:22px 0 0; font-size:19px;}	
+.section_07 a.link { padding:22px 0 0; font-size:19px;}
+.section_07 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:28px; left:220px; }	
 .mobile { display:none;}
 
 /*section_08*/
@@ -101,6 +104,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_08 .detail .detail_text { font-size:30px; line-height: 36px; text-align: center; font-family:"Segoe UI Light",Segoe-UI ;}
 .section_08 .detail .row2 { padding-top:50px;}
 .section_08 a.link { padding:24px 0 0; font-size:19px;}	
+.section_08 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:295px; }
 .mobile { display:none;}
 
 /*section_09*/
@@ -109,15 +113,16 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_09 .subT_text { padding-top:30px;}
 .section_09 .slogan { padding-top:15px;}
 .section_09 .logo { width:304px;margin:0 auto;}
-.section_09 .date { width:310px; margin:63px auto 0; }
+.section_09 .date { width:317px; margin:63px auto 0; }
 .section_09 .date li { margin-left:65px;}
 .section_09 .date li:first-child { margin-left:0;}
 .section_09 .digit { font-size: 64.5px; color: #888888;}
 .section_09 .digit_unit { font-size:28px; padding-left:9px; margin-right:10px;}
 .section_09 .digit_blod { font-weight:bold; font-size:16px; color:#666666; letter-spacing:1.3px; line-height:51px; padding-left:5px;}
-.section_09 .kv { width:80%; max-width:1013px; margin:44px auto 0; }
+.section_09 .kv {width:80%; max-width:1013px; margin:44px auto 0;}
 .section_09 .kv_mobile { display:none;}
 .section_09 a.link { padding:23px 0 0; font-size:20px; letter-spacing:0.3px;}
+.section_09 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:350px; }
 .mobile { display:none;}
 	
 
@@ -132,7 +137,8 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_10 .digit_blod { font-weight:bolder; font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:5px; padding-top:15px;}
 .section_10 .left { width:54%; }
 .section_10 .kv {  padding-top:10px; float:right; }
-.section_10 a.link { padding:23px 0 0 3px; font-size:20px; letter-spacing:0.3px;}	
+.section_10 a.link { padding:23px 0 0 3px; font-size:20px; letter-spacing:0.3px;}
+.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:28px; left:235px; }	
 
 @media screen and (min-width: 1027px) and (max-width:1366px) {
 	.section_02 .kv .kv_01 { width:100%; height:auto; background:url(../imgs/Design1.png) no-repeat; background-position:50% center; background-size:115%; padding-bottom:53%;}
@@ -212,6 +218,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 	.section_02 .kv_mobile { display:block; padding-top:12%;}
 	.section_02 .kv_mobile .kv_01 { padding-bottom:40px; }
 	.section_02 a.link { padding:14px 0 0;}	
+	.section_02 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:25px; left:205px; }
 	
 	/*section_03*/
 	.section_03 { padding-bottom:56px;}
@@ -238,6 +245,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 	.section_04 .kv { display:none;}
 	.section_04 .kv_mobile { display:block; width:95%; margin-left:5%; padding-top:55px;}
 	.section_04 a.link { padding:13px 0 0;}	
+	.section_04 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:24px; left:253px; }
 
 	/*section_05*/
 	.section_05 { padding-bottom:50px;}
@@ -272,6 +280,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 	.section_07 .digit_unit { font-size:0.4em; padding-left:0px;}
 	.section_07 .digit_blod { font-size:0.2em; padding-left:0px; letter-spacing:1px;}
 	.section_07 a.link { padding:13px 0 0; font-size:1.4em;}
+	.section_07 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:24px; left:200px; }
 	
 	/*section_08*/
 	.section_08 { padding-bottom:100px;}
@@ -284,7 +293,8 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 	.section_08 .last { margin-left:92px;}
 	.section_08 .detail .detail_text { font-size:2em; line-height: 1.2em; text-align: center; }
 	.section_08 .detail .row2 { padding-top: 28px;}
-	.section_08 a.link { padding:13px 0 0; font-size:1.4em;}	
+	.section_08 a.link { padding:13px 0 0; font-size:1.4em;}
+	.section_08 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:24px; left:263px; }	
 	
 	/*section_09*/
 	.section_09 { padding-bottom:73px; }
@@ -303,6 +313,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 	.section_09 .kv { display:none;}
 	.section_09 .kv_mobile { display:block; width:96%; margin-right:5%; padding-top:56px;}
 	.section_09 a.link { padding:0; font-size:1.4em; letter-spacing:0.6px;}
+	.section_09 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:11px; left:307px; }	
 	
 	/*section_10*/
 	.section_10 { padding-bottom:50px;}
@@ -318,5 +329,6 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 	.section_10 .left { width:100%; }
 	.section_10 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
 	.section_10 a.link { padding:13px 0 0 0px; font-size:1.4em; letter-spacing:0.6px;}
+	.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:22px; left:205px; }
 	
 	}
