@@ -203,6 +203,8 @@ a.link { line-height:40px;}
 	.pc { display:none;}
 	.mobile { display:block;}
 	
+	a.link { line-height:30px;}
+	
 	/*section_01*/
 	.section_01 {  padding-top:37px; padding-bottom:0px; background:none; }
 	.section_01 .wrap {}
