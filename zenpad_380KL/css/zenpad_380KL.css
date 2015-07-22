@@ -89,8 +89,8 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_07 .date { padding-top:33px;}
 .section_07 .digit_blod { font-size:16px; padding-left:4px; letter-spacing:1.6px;}
 .section_07 .date li { float:none; margin-left:0%; padding-bottom:30px;}
-.section_07 a.link { padding:22px 0 0; font-size:19px;}
-.section_07 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:28px; left:220px; }	
+.section_07 a.link { padding:24px 0 0; font-size:19px;}
+.section_07 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:220px; }	
 .mobile { display:none;}
 
 /*section_08*/
@@ -122,7 +122,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_09 .kv {width:80%; max-width:1013px; margin:44px auto 0;}
 .section_09 .kv_mobile { display:none;}
 .section_09 a.link { padding:23px 0 0; font-size:20px; letter-spacing:0.3px;}
-.section_09 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:350px; }
+.section_09 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:350px; }
 .mobile { display:none;}
 	
 
@@ -138,7 +138,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 .section_10 .left { width:54%; }
 .section_10 .kv {  padding-top:10px; float:right; }
 .section_10 a.link { padding:23px 0 0 3px; font-size:20px; letter-spacing:0.3px;}
-.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:28px; left:235px; }	
+.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:235px; }	
 
 @media screen and (min-width: 1027px) and (max-width:1366px) {
 	.section_02 .kv .kv_01 { width:100%; height:auto; background:url(../imgs/Design1.png) no-repeat; background-position:50% center; background-size:115%; padding-bottom:53%;}
