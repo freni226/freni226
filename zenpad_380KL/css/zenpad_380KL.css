@@ -192,12 +192,12 @@ body {  background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-positio
 	.mobile { display:block;}
 	
 	/*section_01*/
-	.section_01 {  padding-top:40px; padding-bottom:75px; background:none; }
+	.section_01 {  padding-top:37px; padding-bottom:75px; background:none; }
 	.section_01 .wrap {}
 	.section_01 .topic, .section_01 .slogan { display:none;}
-	.section_01 .topic_mobile { display:block; width:80%; margin:0 auto;}
+	.section_01 .topic_mobile { display:block; width:65%; margin:0 auto;}
 	.section_01 .kv { display:none;}
-	.section_01 .kv_mobile { display:block;}
+	.section_01 .kv_mobile { display:block; margin-top:-15px;}
 	.section_01 .subT_text { display:none;}
 	.section_01 .subT_text_mobile { display:block; text-align:center; width:80%; margin:0 auto -50px;}
 	
