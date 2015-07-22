@@ -17,7 +17,7 @@ body {  /*background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:to
 .wrap .example { width:49.7%;}
 
 /*section_01*/
-.section_01 { padding-top:69px; width:100%; height:100%; background-image:url(../imgs/380bg.png); background-size:100% 100%; padding-bottom:174px;}
+.section_01 { padding-top:69px; width:100%; height:100%; background-image:url(../imgs/380bg.png); background-size:100% 100%; margin-bottom:174px;}
 .section_01 .wrap { }
 .section_01 .topic { width:392px; margin:0 auto;}
 .section_01 .slogan { padding:0; padding-right:5px; font-size:41.5px; letter-spacing:0;}

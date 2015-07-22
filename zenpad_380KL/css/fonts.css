@@ -24,6 +24,17 @@
 	url('../fonts/seguisb_1.ttf') format('truetype'); 
 }
 
+@font-face {
+	font-family: "Segoe-UI-link";
+	src: url('../fonts/segoeui_1.eot');/*for IE*/
+	src: 
+	local("Segoe UI"),  
+	local("segoeui_1"),
+	url('../fonts/segoeui_1.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/segoeui_1.woff') format('woff'),  
+	url('../fonts/segoeui_1.ttf') format('truetype');
+}
+
 
 /*font-setting==========================*/
 .slogan {
@@ -128,7 +139,7 @@
 	
 	}	
 	
-a.link { font-family:"Segoe UI Light",Segoe-UI ;color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; display:inline-block; text-align:center; }	
+a.link { font-family:"Segoe UI",Segoe-UI-link ;color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; display:inline-block; text-align:center; }	
 
 /*文字外框_置左*/	
 .box-word-left{
