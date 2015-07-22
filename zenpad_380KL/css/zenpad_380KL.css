@@ -218,7 +218,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 	.section_02 .kv_mobile { display:block; padding-top:12%;}
 	.section_02 .kv_mobile .kv_01 { padding-bottom:40px; }
 	.section_02 a.link { padding:10px 0 0;}	
-	.section_02 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:21px; left:210px; }
+	.section_02 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:21px; left:215px; }
 	
 	/*section_03*/
 	.section_03 { padding-bottom:54px;}
