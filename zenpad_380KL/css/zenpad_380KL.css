@@ -31,8 +31,9 @@ body {  background:url(../imgs/Z380KLbg.jpg) no-repeat; background-position:top 
 .section_02 { padding-bottom:99px; padding-top:174px;}
 .section_02 .center { width:80%; max-width:940px; margin:0 auto; text-align:center }
 .section_02 .subT_text	{ padding-top:23px;}
-.section_02 .kv .kv_01 { width:100%; height:auto; background:url(../imgs/Design1.png) no-repeat; background-position:center center; /*padding-bottom:105px;*/ padding-bottom:46.87%; background-size:cover;}
-.section_02 .kv .kv_02 { width:100%; height:auto; background:url(../imgs/designbg.jpg) no-repeat; background-position:center center; /*padding-bottom:157px;*/; padding-bottom:31.04%; background-size:cover;}
+.section_02 .kv { padding-top:51px;}
+.section_02 .kv .kv_01 { width:100%; height:auto; background:url(../imgs/Design1.png) no-repeat; background-position:center center; /*padding-bottom:105px;*/ padding-bottom:48%; background-size:cover; margin-bottom:6%;}
+.section_02 .kv .kv_02 { width:100%; height:auto; background:url(../imgs/designbg.jpg) no-repeat; background-position:center center; /*padding-bottom:157px;*/; padding-bottom:32%; background-size:cover;}
 .section_02 .kv_mobile { display:none;}
 .section_02 a.link { padding:27px 0 0;}	
 
