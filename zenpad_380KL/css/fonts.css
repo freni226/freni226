@@ -155,6 +155,7 @@
 	}	
 	
 a.link { font-family:"Segoe UI",Segoe-UI-link ;color:#0088cb; font-size:20px; line-height:20px; letter-spacing:0.5px; display:inline-block; text-align:center;position:relative; }	
+a.link:hover {text-decoration:underline;}
 
 /*文字外框_置左*/	
 .box-word-left{
