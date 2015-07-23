@@ -154,7 +154,7 @@
 	
 	}	
 	
-a.link { font-family:"Segoe UI",Segoe-UI-link ;color:#0088cb; font-size:20px; line-height:20px; display:block; letter-spacing:0.5px; display:inline-block; text-align:center;position:relative; }	
+a.link { font-family:"Segoe UI",Segoe-UI-link ;color:#0088cb; font-size:20px; display:block; letter-spacing:0.5px; display:inline-block; text-align:center;position:relative; }	
 a.link:hover { border-bottom:#0088cb 1px solid;}
 
 /*文字外框_置左*/	
