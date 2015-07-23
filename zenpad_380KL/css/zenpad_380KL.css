@@ -225,7 +225,7 @@ a.link { line-height:40px;}
 	.section_02 .kv_mobile { display:block; padding-top:12%;}
 	.section_02 .kv_mobile .kv_01 { padding-bottom:40px; }
 	.section_02 a.link { padding:10px 0 0;}	
-	.section_02 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:21px; left:215px; }
+	.section_02 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:20px; left:195px; }
 	
 	/*section_03*/
 	.section_03 { padding-bottom:54px;}
@@ -252,8 +252,8 @@ a.link { line-height:40px;}
 	.section_04 .detail .row3 { padding-top: 18px;}
 	.section_04 .kv { display:none;}
 	.section_04 .kv_mobile { display:block; width:95%; margin-left:5%; padding-top:55px;}
-	.section_04 a.link { padding:13px 0 0;}	
-	.section_04 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:24px; left:265px; }
+	.section_04 a.link { padding:13px 13px 0 0;}	
+	.section_04 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:240px; }
 
 	/*section_05*/
 	.section_05 { padding-bottom:50px;}
@@ -286,8 +286,8 @@ a.link { line-height:40px;}
 	.section_07 .digit { font-size: 2.5em;}
 	.section_07 .digit_unit { font-size:0.4em;}
 	.section_07 .digit_blod { font-size:0.2em; padding-left:3px; letter-spacing:1px;}
-	.section_07 a.link { padding:13px 0 0; font-size:1.1em;}
-	.section_07 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:205px; }
+	.section_07 a.link { padding:13px 0 0; font-size:1em;}
+	.section_07 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:187px; }
 	
 	/*section_08*/
 	.section_08 { padding-bottom:100px;}
@@ -300,8 +300,8 @@ a.link { line-height:40px;}
 	.section_08 .last { margin-left:92px;}
 	.section_08 .detail .detail_text { font-size:1.5em; line-height: 1.2em; text-align: center; }
 	.section_08 .detail .row2 { padding-top: 28px;}
-	.section_08 a.link { padding:13px 0 0; font-size:1.1em;}
-	.section_08 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:24px; left:280px; }	
+	.section_08 a.link { padding:13px 0 0; font-size:1em;}
+	.section_08 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:24px; left:251px; }	
 	
 	/*section_09*/
 	.section_09 { padding-bottom:70px; }
@@ -319,8 +319,8 @@ a.link { line-height:40px;}
 	.phone { margin-left:43px;}
 	.section_09 .kv { display:none;}
 	.section_09 .kv_mobile { display:block; width:96%; margin-right:5%; padding-top:56px;}
-	.section_09 a.link { padding:0; font-size:1.1em;}
-	.section_09 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:11px; left:325px; }	
+	.section_09 a.link { padding:0 15px 0 0 ; font-size:1em;}
+	.section_09 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:10px; left:281px; }	
 	
 	/*section_10*/
 	.section_10 { padding-bottom:50px;}
@@ -336,8 +336,8 @@ a.link { line-height:40px;}
 	.section_10 .digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:35px; padding-left:0px; padding-top:0px;}
 	.section_10 .left { width:100%; }
 	.section_10 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
-	.section_10 a.link { padding:13px 0 0 0px; font-size:1.1em;}
-	.section_10 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:22px; left:215px; }
+	.section_10 a.link { padding:13px 0 0 0px; font-size:1em;}
+	.section_10 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:183px; }
 	.section_10 .small { font-size:0.6em; vertical-align:super; font-family:"Segoe UI Semibold",Segoe-blod;}
 	
 	}

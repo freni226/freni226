@@ -225,7 +225,7 @@ a.link:hover { border-bottom:#0088cb 1px solid;}
 .digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px; font-family:"Segoe UI Semibold", Segoe-blod;}
 			
 @media screen and (max-width: 800px) {
-	a.link {  color:#0088cb; font-size:1.1em; line-height:30px; display:inline-block; text-align:center; padding:10px 0 0;}
+	a.link {  color:#0088cb; font-size:1em; line-height:30px; display:inline-block; text-align:center; padding:10px 0 0;}
 	
 	.date {  margin:15% auto 0;}
 	.date li { float:none; text-align:center; margin-left:0%;}
