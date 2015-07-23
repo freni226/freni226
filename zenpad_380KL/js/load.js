@@ -7,4 +7,6 @@ document.write('<link href="websites/global/products/'+prdID+'/css/fonts.css" re
 
 //****js****//
 document.write('<script type="text/javascript" src="websites/global/products/'+prdID+'/js/zenpad_380KL.js"></script>');
+document.write('<script type="text/javascript" src="websites/global/products/'+prdID+'/js/mobile-detect.min.js"></script>');
+document.write('<script type="text/javascript" src="websites/global/products/'+prdID+'/js/detect-device.js"></script>');
 
