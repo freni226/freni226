@@ -141,7 +141,7 @@ a.link { line-height:40px;}
 .section_10 .digit_blod { font-weight:bolder; font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:5px; padding-top:15px;}
 .section_10 .left { width:54%; }
 .section_10 .kv {  padding-top:10px; float:right; }
-.section_10 a.link { padding:13px 0 0 3px; font-size:20px; letter-spacing:0.3px;}
+.section_10 a.link { padding:13px 15px 0 3px; font-size:20px; letter-spacing:0.3px;}
 .section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:235px; }	
 
 @media screen and (min-width: 1027px) and (max-width:1366px) {
@@ -302,7 +302,7 @@ a.link { line-height:40px;}
 	.section_08 .detail .detail_text { font-size:1.5em; line-height: 1.2em; text-align: center; }
 	.section_08 .detail .row2 { padding-top: 28px;}
 	.section_08 a.link { padding:13px 0 0; font-size:1em;}
-	.section_08 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:24px; left:251px; }	
+	.section_08 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:251px; }	
 	
 	/*section_09*/
 	.section_09 { padding-bottom:70px; }
