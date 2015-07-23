@@ -19,7 +19,7 @@ body {  /*background:url(../imgs/Z380KLmobilebg.jpg) no-repeat; background-posit
 a.link { line-height:40px;}
 
 /*section_01*/
-.section_01 { padding-top:69px; width:100%; height:100%; background-image:url(../imgs/380bg.png); background-size:100% 100%; }
+.section_01 { padding-top:69px; width:100%; height:100%; background-image:url(../imgs/380bg.png); background-size:100% 100%; background-position: top center; }
 .section_01 .wrap { }
 .section_01 .topic { width:392px; margin:0 auto;}
 .section_01 .slogan { padding:0; padding-right:5px; font-size:41.5px; letter-spacing:0;}
@@ -204,12 +204,13 @@ a.link { line-height:40px;}
 	.mobile { display:block;}
 	
 	a.link { line-height:30px;}
+	.subT_text, .subT_text_mobile { font-family:"Segoe UI",Segoe-UI-link ;}
 	
 	/*section_01*/
 	.section_01 {  padding-top:37px; padding-bottom:0px; background:none; }
 	.section_01 .wrap {}
 	.section_01 .topic, .section_01 .slogan { display:none;}
-	.section_01 .topic_mobile { display:block; width:70%; margin:0 auto;}
+	.section_01 .topic_mobile { display:block; width:230px; margin:0 auto;}
 	.section_01 .kv { display:none;}
 	.section_01 .kv_mobile { display:block; }
 	.section_01 .kv_mobile img { margin-top:-36px;}
@@ -228,15 +229,15 @@ a.link { line-height:40px;}
 	
 	/*section_03*/
 	.section_03 { padding-bottom:54px;}
-	.section_03 .center { width:90%;}
+	.section_03 .center { width:90%; padding:0 5%;}
 	.section_03 .subT_text { display:none;}
-	.section_03 .subT_text_mobile { display:block; padding-top:12px;}
+	.section_03 .subT_text_mobile { display:block; padding-top:12px; width:102%;}
 	.section_03 .date { width:100%; margin:18px auto 0; text-align:center;}
 	.section_03 .kv { width:90%; max-width:720px; margin:0 auto; padding-top:36px;}
 	
 	/*section_04*/
 	.section_04 { padding-bottom:36px;}
-	.section_04 .center { text-align:center; width:90%; height:auto;}
+	.section_04 .center { text-align:center; width:94%; height:auto;}
 	.section_04 .logo { width:200px; margin:0 auto;}
 	.section_04 .slogan { display:none;}
 	.section_04 .subT_text { display:none;}
@@ -258,14 +259,13 @@ a.link { line-height:40px;}
 	.section_05 { padding-bottom:50px;}
 	.section_05 .center { width:91%; max-width:503px; margin:0 auto; text-align:center }
 	.section_05 .slogan { font-size:2.1em;}
-	.section_05 .subT_text { padding-top:13px; letter-spacing:0.5px;}
+	.section_05 .subT_text { padding-top:13px; letter-spacing:0px;}
 	.section_05 .date { width:100%; margin:17px auto 0; text-align:center;}
-	.section_05 .digit_blod { letter-spacing:0.5px;}
 	.section_05 .kv { width:90%; max-width:980px; margin:0 auto; padding:40px 0 0;}
 
 	
 	/*section_06*/
-	.section_06 { padding-bottom:48px;}
+	.section_06 { padding-bottom:50px;}
 	.section_06 .center { width:87%; max-width:503px; margin:0 auto; text-align:center }
 	.section_06 .subT_text { padding-top:12px; letter-spacing:0px; width:95%; margin:0 auto;}
 	.section_06 .kv { width:90%; max-width:980px; margin:0 auto; padding:36px 0 0;}
@@ -275,8 +275,8 @@ a.link { line-height:40px;}
 	/*section_07*/
 	.section_07 { padding-bottom:80px;}
 	.section_07 .center { margin:0 auto; text-align:left; height:auto; }
-	.section_07 .slogan { font-size:2.1em;}
-	.section_07 .subT_text { padding-top:7px;}
+	.section_07 .slogan { font-size:2em; width:80%; line-height:40px;}
+	.section_07 .subT_text { padding-top:12px;}
 	.section_07 .kv { width:90%; margin:0 auto; position:relative; margin-top:32px;}
 	.section_07 .left { width:100%; height:auto; margin-top:0px; margin-left:0px;}
 	.section_07 .right { display:none;}
@@ -284,7 +284,7 @@ a.link { line-height:40px;}
 	.section_07 .date li { float:left; text-align:left;}
 	.section_07 .date li+li { margin:0 0 0 21px;}
 	.section_07 .digit { font-size: 2.5em;}
-	.section_07 .digit_unit { font-size:0.4em; padding-left:0px;}
+	.section_07 .digit_unit { font-size:0.4em;}
 	.section_07 .digit_blod { font-size:0.2em; padding-left:3px; letter-spacing:1px;}
 	.section_07 a.link { padding:13px 0 0; font-size:1.1em;}
 	.section_07 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:24px; left:205px; }
@@ -292,7 +292,7 @@ a.link { line-height:40px;}
 	/*section_08*/
 	.section_08 { padding-bottom:100px;}
 	.section_08 .center { text-align:left; width:90%; height:auto; }
-	.section_08 .subT_text { padding-top:9px; width:85%;}
+	.section_08 .subT_text { padding-top:9px; width:90%;}
 	.section_08 .kv { width:100%; height:auto; background:none; background-position:center center; margin-top:54px;}
 	.section_08 .detail-box { overflow: hidden; text-align: center; width:304px; margin:18px auto 0;}
 	.section_08 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 117px; height: 117px; margin:30px 15px 0; color: #888888;}
@@ -314,7 +314,7 @@ a.link { line-height:40px;}
 	.section_09 .date li {float:left;}
 	.section_09 .date li:first-child { margin-left:0;}
 	.section_09 .digit { font-size: 2.5em; color: #888888; }
-	.section_09 .digit_unit { font-size:0.5em; padding-left:9px; margin-right:0px;}
+	.section_09 .digit_unit { font-size:0.5em; padding-left:3px; margin-right:3px;}
 	.section_09 .digit_blod { font-weight:bold; font-size:0.1em; color:#666666; letter-spacing:1px; line-height:16px; padding-left:0;}
 	.phone { margin-left:43px;}
 	.section_09 .kv { display:none;}
@@ -327,7 +327,7 @@ a.link { line-height:40px;}
 	.section_10 .right { width:90%; max-width:720px; margin:0 auto; }
 	.section_10 .space { height:auto;}
 	.section_10 .slogan { padding-top:0px; }
-	.section_10 .subT_text { width:88%; max-width:450px; padding-top:12px;}
+	.section_10 .subT_text { width:93%; max-width:450px; padding-top:12px;}
 	.section_10 .link { text-align:left;}
 	.section_10 .date { margin-top:41px; width:100%; margin-left:0px; }
 	.section_10 .date li { float:none; margin-left:0%; padding-bottom:19px; }
@@ -338,5 +338,6 @@ a.link { line-height:40px;}
 	.section_10 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
 	.section_10 a.link { padding:13px 0 0 0px; font-size:1.1em; letter-spacing:0.6px;}
 	.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:22px; left:215px; }
+	.section_10 .small { font-size:0.6em; vertical-align:super; font-family:"Segoe UI Semibold",Segoe-blod;}
 	
 	}

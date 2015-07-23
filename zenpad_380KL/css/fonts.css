@@ -231,12 +231,12 @@ a.link:hover { border-bottom:#0088cb 1px solid;}
 	.date li { float:none; text-align:center; margin-left:0%;}
 	.date li+li { margin:30px;}
 	.digit { font-size: 2.5em; line-height:1.5; color: #888888;}
-	.digit_unit { font-size:0.5em;}
-	.digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:15px; font-family:"Segoe UI Semibold",Segoe-blod;}
+	.digit_unit { font-size:0.45em; padding-left:3px;}
+	.digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:15px; font-family:"Segoe UI Semibold",Segoe-blod;-webkit-text-size-adjust : 100%;}
 	
 	.slogan { font-size:2em; letter-spacing:0px;}
 	.subT_text { font-size:1.1em; line-height:28px;}
-	.example_text{ font-size:0.8em; line-height:33px; letter-spacing: 1px;}
+	.example_text{ font-size:0.7em; line-height:33px; letter-spacing: 1px;}
 	
 }
 
