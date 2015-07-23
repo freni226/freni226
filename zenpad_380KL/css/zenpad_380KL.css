@@ -315,7 +315,7 @@ a.link { line-height:40px;}
 	.section_09 .date li:first-child { margin-left:0;}
 	.section_09 .digit { font-size: 2.5em; color: #888888; }
 	.section_09 .digit_unit { font-size:0.5em; padding-left:3px; margin-right:3px;}
-	.section_09 .digit_blod { font-weight:bold; font-size:0.1em; color:#666666; letter-spacing:1px; line-height:16px; padding-left:0;}
+	.section_09 .digit_blod { font-weight:bold; font-size:0.2em; color:#666666; letter-spacing:1px; line-height:16px; padding-left:0;}
 	.phone { margin-left:43px;}
 	.section_09 .kv { display:none;}
 	.section_09 .kv_mobile { display:block; width:96%; margin-right:5%; padding-top:56px;}
