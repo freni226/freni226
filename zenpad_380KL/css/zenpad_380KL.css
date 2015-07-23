@@ -145,7 +145,7 @@ a.link { line-height:40px;}
 .section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:235px; }	
 
 @media screen and (min-width: 1027px) and (max-width:1366px) {
-	/*section_01*/
+	.section_01 { padding-top:69px; width:100%; height:100%; background-image:url(../imgs/380bg.png); background-size:100% 100%; background-position: top center; }
 	.section_02 .kv .kv_01 { width:100%; height:auto; background:url(../imgs/Design1.png) no-repeat; background-position:50% center; background-size:115%; padding-bottom:53%;}
 	}
 
