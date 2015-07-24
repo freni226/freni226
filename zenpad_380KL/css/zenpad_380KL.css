@@ -144,7 +144,7 @@ a.link { line-height:40px;}
 .section_10 .left { width:54%; }
 .section_10 .kv {  padding-top:10px; float:right; }
 .section_10 a.link { padding:13px 15px 0 3px; font-size:20px; letter-spacing:0.3px;}
-.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:230px; }
+.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:28px; left:230px; }
 .zenpad380_tablet.zenpad380_landscape .section_10 { padding-bottom:230px;}
 .zenpad380_tablet.zenpad380_landscape .section_10 .space { height:582px;}
 
