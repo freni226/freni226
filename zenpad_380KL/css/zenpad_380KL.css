@@ -67,6 +67,7 @@ a.link { line-height:40px;}
 .section_04 a.link { padding:14px 15px 0 0;}
 .section_04 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:295px; }	
 .section_04 .kv_mobile { display:none;}
+.zenpad380_tablet.zenpad380_landscape .section_04 .center { width:80%; max-width:950px; height:445px; margin:0 auto; text-align:center; }
 
 /*section_05*/
 .section_05 { padding-bottom:163px;}
@@ -143,7 +144,9 @@ a.link { line-height:40px;}
 .section_10 .left { width:54%; }
 .section_10 .kv {  padding-top:10px; float:right; }
 .section_10 a.link { padding:13px 15px 0 3px; font-size:20px; letter-spacing:0.3px;}
-.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:230px; }	
+.section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:230px; }
+.zenpad380_tablet.zenpad380_landscape .section_10 { padding-bottom:230px;}
+.zenpad380_tablet.zenpad380_landscape .section_10 .space { height:582px;}
 
 @media screen and (min-width: 1027px) and (max-width:1366px) {
 	.section_02 .kv .kv_01 { width:100%; height:auto; background:url(../imgs/Design1.png) no-repeat; background-position:50% center; background-size:115%; padding-bottom:53%;}
