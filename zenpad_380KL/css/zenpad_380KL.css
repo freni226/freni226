@@ -73,7 +73,7 @@ a.link { line-height:40px;}
 .section_05 { padding-bottom:163px;}
 .section_05 .center { max-width:503px; margin:0 auto; text-align:center }
 .section_05 .subT_text { padding-top:30px; letter-spacing:0.5px;}
-.section_05 .date { width:226px; margin:60px auto 0; text-align:center;}
+.section_05 .date { width:214px; margin:60px auto 0; text-align:center;}
 .section_05 .kv { width:90%; max-width:980px; margin:0 auto; padding:47px 0 0;}
 .mobile { display:none;}
 
@@ -343,6 +343,6 @@ a.link { line-height:40px;}
 	.section_10 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
 	.section_10 a.link { padding:13px 0 0 0px; font-size:1em;}
 	.section_10 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:183px; }
-	.section_10 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod; line-height:37px;}
+	.section_10 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod; line-height:35px;}
 	
 	}
