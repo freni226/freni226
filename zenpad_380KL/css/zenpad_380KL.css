@@ -376,7 +376,7 @@ a.link { line-height:40px;}
 	.zenpad380_phone .section_01 .kv_mobile { display:block; }
 	.zenpad380_phone .section_01 .kv_mobile img { margin-top:-36px;}
 	.zenpad380_phone.zenpad380_landscape .section_01 .subT_text { display:none;}
-	.zenpad380_phone.zenpad380_landscape .section_01 .subT_text_phone { display:block; text-align:center; width:80%; margin:-4px auto;}
+	.zenpad380_phone.zenpad380_portrait .section_01 .subT_text_phone { display:block; text-align:center; width:80%; margin:-4px auto;}
 	
 	/*section_02*/
 	.zenpad380_phone .section_02 { padding-bottom:88px; padding-top:78px;}
