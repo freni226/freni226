@@ -121,7 +121,7 @@ a.link { line-height:40px;}
 .section_09 .date li { margin-left:65px;}
 .section_09 .date li:first-child { margin-left:0;}
 .section_09 .digit { font-size: 64.5px; color: #888888;}
-.section_09 .digit_unit { font-size:28px; padding-left:9px; margin-right:10px;}
+.section_09 .digit_unit { font-size:28px; padding-left:4px; margin-right:10px;}
 .section_09 .digit_blod { font-weight:bold; font-size:16px; color:#666666; letter-spacing:1.3px; line-height:51px; padding-left:5px;}
 .section_09 .kv {width:80%; max-width:1013px; margin:44px auto 0;}
 .section_09 .kv_mobile { display:none;}
@@ -343,6 +343,6 @@ a.link { line-height:40px;}
 	.section_10 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
 	.section_10 a.link { padding:13px 0 0 0px; font-size:1em;}
 	.section_10 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:183px; }
-	.section_10 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod; line-height:35px;}
+	.section_10 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod; line-height:36px;}
 	
 	}
