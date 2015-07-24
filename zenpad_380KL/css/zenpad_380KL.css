@@ -207,7 +207,7 @@ a.link { line-height:40px;}
  .zenpad380_portrait .section_01 { padding-top:69px; }
  .zenpad380_portrait .section_01 .wrap { width:100%; height:100%; background-image:url(../imgs/380bg.png); background-position: top center; }
  .zenpad380_portrait .section_01 .topic { width:392px; margin:0 auto;}
- .zenpad380_portrait .section_01 .slogan { padding:0; padding-right:5px; font-size:41.5px; letter-spacing:0;}
+ .zenpad380_portrait .section_01 .slogan { padding:0; padding-right:5px; font-size:41.5px; letter-spacing:0; display:block;}
  .zenpad380_portrait .section_01 .kv { width:80%; max-width:815px; margin:0 auto; padding-top:35px; padding-left:8px; position:relative; }
  .zenpad380_portrait .section_01 .kv_mobile { display:none;}
  .zenpad380_portrait .section_01 .subT_text { text-align:center; width:98%; position:absolute; bottom:16px; font-size:26px; letter-spacing:0.1px; }
@@ -338,6 +338,15 @@ a.link { line-height:40px;}
  .zenpad380_portrait .section_10 .kv {  padding-top:10px; float:right; }
  .zenpad380_portrait .section_10 a.link { padding:13px 15px 0 3px; font-size:20px; letter-spacing:0.3px;}
  .zenpad380_portrait .section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:230px; }
+ 
+ 
+/*.zenpad380_tablet .zenpad380_landscape*/ 
+/*section_04*/
+  .zenpad380_tablet.zenpad380_landscape .section_04 .center { width:80%; max-width:950px; height:460px; margin:0 auto; text-align:center; }
+
+/*section_10*/  
+  .zenpad380_tablet.zenpad380_landscape .section_10 { padding-bottom:250px;}
+  .zenpad380_tablet.zenpad380_landscape .section_10 .space { height:605px;}
 
 	
 /*.zenpad380_phone .zenpad380_portrait*/
@@ -359,7 +368,8 @@ a.link { line-height:40px;}
 	/*section_01*/
 	.zenpad380_phone .section_01 {  padding-top:37px; padding-bottom:0px;}
 	.zenpad380_phone .section_01 .wrap { background:none;}
-	.zenpad380_phone .section_01 .topic, .section_01 .slogan { display:none;}
+	.zenpad380_phone.zenpad380_landscape .section_01 .topic, .section_01 .slogan { display:none;}
+	.zenpad380_phone.zenpad380_portrait .section_01 .topic, .section_01 .slogan { display:none;}
 	.zenpad380_phone .section_01 .topic_mobile { display:block; width:230px; margin:0 auto;}
 	.zenpad380_phone .section_01 .kv { display:none;}
 	.zenpad380_phone .section_01 .kv_mobile { display:block; }
