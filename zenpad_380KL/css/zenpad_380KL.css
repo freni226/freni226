@@ -368,8 +368,7 @@ a.link { line-height:40px;}
 	/*section_01*/
 	.zenpad380_phone .section_01 {  padding-top:37px; padding-bottom:0px;}
 	.zenpad380_phone .section_01 .wrap { background:none;}
-	.zenpad380_phone.zenpad380_landscape .section_01 .topic, .section_01 .slogan { display:none;}
-	.zenpad380_phone.zenpad380_portrait .section_01 .topic, .section_01 .slogan { display:none;}
+	.zenpad380_phone .section_01 .topic, .zenpad380_phone .section_01 .slogan { display:none;}
 	.zenpad380_phone .section_01 .topic_mobile { display:block; width:230px; margin:0 auto;}
 	.zenpad380_phone .section_01 .kv { display:none;}
 	.zenpad380_phone .section_01 .kv_mobile { display:block; }
