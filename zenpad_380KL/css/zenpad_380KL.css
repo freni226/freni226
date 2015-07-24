@@ -223,7 +223,7 @@ a.link { line-height:40px;}
  .zenpad380_portrait .section_02 .kv .kv_02 { width:100%; height:auto; background:url(../imgs/designbg.jpg) no-repeat; background-position:center center; /*padding-bottom:157px;*/; padding-bottom:32%; background-size:cover;}
  .zenpad380_portrait .section_02 .kv_mobile { display:none;}
  .zenpad380_portrait .section_02 a.link { padding:17px 15px 0 0;}	
- .zenpad380_portrait .section_02 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:33px; left:240px; }
+ .zenpad380_portrait .section_02 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:33px; left:226px; }
 
 /*section_03*/
  .zenpad380_portrait .section_03 { padding-bottom:40px;}
@@ -249,7 +249,7 @@ a.link { line-height:40px;}
  .zenpad380_portrait .section_04 .detail .row3 { padding-top: 19px;}
  .zenpad380_portrait .section_04 .kv { width:80%; max-width:975px; margin:0 auto; padding-top:82px;}
  .zenpad380_portrait .section_04 a.link { padding:14px 15px 0 0;}
- .zenpad380_portrait .section_04 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:295px; }	
+ .zenpad380_portrait .section_04 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:236px; }	
  .zenpad380_portrait .section_04 .kv_mobile { display:none;}
 
 /*section_05*/
