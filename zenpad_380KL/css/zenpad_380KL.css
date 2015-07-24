@@ -267,15 +267,18 @@ a.link { line-height:40px;}
  .zenpad380_portrait .mobile { display:none;}
 
 /*section_07*/
- .zenpad380_portrait .section_07 { padding-bottom:161px;}
+ .zenpad380_portrait .section_07 { padding-bottom:100px;}
  .zenpad380_portrait .section_07 .center { width:80%; max-width:833px; height:235px; margin:0 auto; text-align:center }
  .zenpad380_portrait .section_07 .subT_text { padding-top:30px;}
- .zenpad380_portrait .section_07 .kv { width:1010px; margin:0 auto; position:relative; margin-top:70px;}
- .zenpad380_portrait .section_07 .left { width:854px; height:643px; margin-top:-5px; margin-left:-14px;}
- .zenpad380_portrait .section_07 .right { width:240px; position:absolute; right:0;}
- .zenpad380_portrait .section_07 .date { padding-top:33px;}
- .zenpad380_portrait .section_07 .digit_blod { font-size:16px; padding-left:4px; letter-spacing:1.6px;}
- .zenpad380_portrait .section_07 .date li { float:none; margin-left:0%; padding-bottom:30px;}
+ .zenpad380_portrait .section_07 .kv { width:100%; margin:0 auto; position:relative; margin-top:70px;}
+ .zenpad380_portrait .section_07 .left { width:550px; height:auto; margin-top:-5px; margin-left:30px;}
+ .zenpad380_portrait .section_07 .right { width:240px; position:absolute; right:0; }
+ .zenpad380_portrait .section_07 .date { padding-top:0px; margin:0; text-align:left;}
+ .zenpad380_portrait .section_07 .digit { font-size: 2.5em; line-height:1.5; color: #888888;}
+ .zenpad380_portrait .section_07 .digit_unit { font-size:0.45em; padding-left:3px;}
+ .zenpad380_portrait .section_07 .digit_blod { font-size:14px; color:#666666; letter-spacing:1.6px;font-family:"Segoe UI Semibold",Segoe-blod; padding-left:4px;}
+ .zenpad380_portrait .section_07 .date li { float:none; margin-left:0%; padding-bottom:20px; text-align:left;}
+ .zenpad380_portrait .section_07 .date li+li { margin:0;}
  .zenpad380_portrait .section_07 a.link { padding:14px 15px 0 0; font-size:19px;}
  .zenpad380_portrait .section_07 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:30px; left:220px; }	
  .zenpad380_portrait .mobile { display:none;}
@@ -316,20 +319,25 @@ a.link { line-height:40px;}
 	
 
 /*section_10*/
- .zenpad380_portrait .section_10 { padding-bottom:50px;}
+ .zenpad380_portrait .section_10 { padding-bottom:500px;}
  .zenpad380_portrait .section_10 .right { width:40%; }
  .zenpad380_portrait .section_10 .space { height:540px;}
  .zenpad380_portrait .section_10 .slogan { padding-top:85px; }
  .zenpad380_portrait .section_10 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod; line-height:54px;}
  .zenpad380_portrait .section_10 .subT_text { max-width:450px; padding-top:28px;}
  .zenpad380_portrait .section_10 .link { text-align:left;}
- .zenpad380_portrait .section_10 .date { margin-top:64px; width:100%; margin-left:-5px; }
+ .zenpad380_portrait .section_10 .date { margin-top:64px; width:100%; margin-left:-5px; text-align:left; font-family:"Segoe UI Light",Segoe-UI ;}
+ .zenpad380_portrait .section_10 .date li { float:none; margin-left:0%; padding-bottom:10px; text-align:left; }
+ .zenpad380_portrait .section_10 .date li+li { margin:0;} { margin-left:0;}
+ .zenpad380_portrait .section_10 .digit { font-size: 45px; color: #888888;  line-height:1;}
+ .zenpad380_portrait .section_10 .digit_unit { font-size:28px; padding-left:7px;}
+ .zenpad380_portrait.digit_blod { font-size:17px; color:#666666; letter-spacing:1px; line-height:48px; font-family:"Segoe UI Semibold", Segoe-blod;}
  .zenpad380_portrait .section_10 .date li { float:none; margin-left:0%; padding-bottom:29px; }
- .zenpad380_portrait .section_10 .digit_blod { font-weight:bolder; font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:5px; padding-top:15px;}
+ .zenpad380_portrait .section_10 .digit_blod {font-weight:bolder; font-size:16px; color:#666666; letter-spacing:1.5px; line-height:47px; padding-left:5px; padding-top:15px;}
  .zenpad380_portrait .section_10 .left { width:54%; }
  .zenpad380_portrait .section_10 .kv {  padding-top:10px; float:right; }
  .zenpad380_portrait .section_10 a.link { padding:13px 15px 0 3px; font-size:20px; letter-spacing:0.3px;}
- .zenpad380_landscape .section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:230px; }
+ .zenpad380_portrait .section_10 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:29px; left:230px; }
 
 	
 /*.zenpad380_phone .zenpad380_portrait*/
