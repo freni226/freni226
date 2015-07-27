@@ -61,7 +61,7 @@ a.link { line-height:40px;}
 .section_04 .detail-box { overflow: hidden; text-align: center; width:978px; margin:0 auto; padding-top:38px; }
 .section_04 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 174px; height: 174px; margin-left: 22px; color: #888888; margin-top:58px;}
 .section_04 .first { margin-left:0;}
-.section_04 .detail .detail_text { font-size:30px; line-height: 35px; text-align: center; font-family:"Segoe UI Light",Segoe-UI;  }
+.section_04 .detail .detail_text { font-size:30px; line-height: 35px; text-align: center; font-family:"Segoe UI Light",Segoe-UI, 'MyriadPro-Light', Microsoft JhengHei;  }
 .section_04 .detail .row2 { padding-top: 51px;}
 .section_04 .detail .row3 { padding-top: 33px;}
 .section_04 .kv { width:80%; max-width:980px; margin:0 auto; padding-top:82px;}
@@ -112,7 +112,7 @@ a.link { line-height:40px;}
 .section_08 .detail .row2 { padding-top: 35px; height: 103px;}
 .section_08 .detail .row1 { padding-top: 55px; height: 85px;}
 .section_08 .detail .row0 { padding-top: 52px; height: 68px;}
-.section_08 .type { font-family:"Segoe UI Semibold", Segoe-blod; font-size:1.2em;  height: 40px; line-height: 1;text-align: center;}
+.section_08 .type { font-family:"Segoe UI Semibold", Segoe-blod, 'MyriadPro-Light', Microsoft JhengHei; font-size:1.2em;  height: 40px; line-height: 1;text-align: center;}
 .section_08 a.link { padding:18px 15px 0 0; font-size:19px;}	
 .section_08 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:34px; left:295px; }
 .mobile { display:none;}
@@ -153,7 +153,7 @@ a.link { line-height:40px;}
 .section_11 .right { width:41%; }
 .section_11 .space { height:487px;}
 .section_11 .slogan { padding-top:85px; }
-.section_11 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod; line-height:54px;}
+.section_11 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod, 'MyriadPro-Light', Microsoft JhengHei; line-height:54px;}
 .section_11 .subT_text { max-width:450px; padding-top:16px;}
 .section_11 .link { text-align:left;}
 .section_11 .date { margin-top:64px; width:100%; margin-left:-5px; }
@@ -236,12 +236,12 @@ a.link { line-height:40px;}
 	.section_08 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 124px; height: 124px; margin-left: 22px; color: #888888; margin-top:20px; margin-bottom:11px;}
 	.section_08 .first { margin-left:0;}
 	.section_08 #detail_5 { margin-left:123px;}
-	.section_08 .detail .detail_text { font-size:1.3em; line-height: 22px; text-align: center; font-family:"Segoe UI Light",Segoe-UI;}
+	.section_08 .detail .detail_text { font-size:1.3em; line-height: 22px; text-align: center; font-family:"Segoe UI Light",Segoe-UI, 'MyriadPro-Light', Microsoft JhengHei;}
 	.section_08 .detail .row3 { padding-top: 18px; height: 82px;}
 	.section_08 .detail .row2 { padding-top: 24px; height: 77px;}
 	.section_08 .detail .row1 { padding-top: 35px; height: 66px;}
 	.section_08 .detail .row0 { padding-top: 35px; height: 51px;}
-	.section_08 .type { font-family:"Segoe UI Semibold", Segoe-blod; font-size:1em;  height: 40px; line-height: 1;text-align: center;}
+	.section_08 .type { font-family:"Segoe UI Semibold", Segoe-blod, 'MyriadPro-Light', Microsoft JhengHei; font-size:1em;  height: 40px; line-height: 1;text-align: center;}
 	.section_08 a.link { padding:18px 15px 0 0; font-size:19px;}	
 	.section_08 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:34px; left:295px; }
 	.mobile { display:none;}
@@ -438,6 +438,6 @@ a.link { line-height:40px;}
 	.section_11 .kv { width:90%; margin:0 auto; padding-top:10px; float:none; }
 	.section_11 a.link { padding:13px 0 0 0px; font-size:1em;}
 	.section_11 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:183px; }
-	.section_11 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod; line-height:37px;}
+	.section_11 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod, 'MyriadPro-Light', Microsoft JhengHei; line-height:37px;}
 	
 	}
