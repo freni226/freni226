@@ -192,10 +192,10 @@ a.link { line-height:40px;}
 
 @media screen and (min-width: 1027px) and (max-width:1366px) {
 	.section_02 .kv .kv_01 { background-size:90%; }
-	.section_04 .detail-box { width:980px; padding-top:0%; }
+	.section_04 .detail-box { width:980px; padding-top:3.5%; }
 	.section_08 .detail-box { padding-left:100px; }
 	.section_08 .left { left:-460px; }
-	.section_08 .right { padding-top:36px; width:40%; margin-left:730px; }
+	.section_08 .right { padding-top:36px; width:40%; margin-left:700px; }
 	}
 
 @media screen and (min-width: 801px) and (max-width:1026px) {
