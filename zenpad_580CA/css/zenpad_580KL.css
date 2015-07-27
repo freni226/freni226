@@ -236,12 +236,12 @@ a.link { line-height:40px;}
 	.section_08 .detail { border: 2px solid #c3c3c3; border-radius: 5px; text-align: center; float: left; display: inline-block; width: 124px; height: 124px; margin-left: 22px; color: #888888; margin-top:20px; margin-bottom:11px;}
 	.section_08 .first { margin-left:0;}
 	.section_08 #detail_5 { margin-left:123px;}
-	.section_08 .detail .detail_text { font-size:1.5em; line-height: 22px; text-align: center; font-family:"Segoe UI Light",Segoe-UI ;}
+	.section_08 .detail .detail_text { font-size:1.3em; line-height: 22px; text-align: center; font-family:"Segoe UI Light",Segoe-UI ;}
 	.section_08 .detail .row3 { padding-top: 18px; height: 82px;}
 	.section_08 .detail .row2 { padding-top: 24px; height: 77px;}
 	.section_08 .detail .row1 { padding-top: 35px; height: 66px;}
 	.section_08 .detail .row0 { padding-top: 35px; height: 51px;}
-	.section_08 .type { font-family:"Segoe UI Semibold", Segoe-blod; font-size:1.2em;  height: 40px; line-height: 1;text-align: center;}
+	.section_08 .type { font-family:"Segoe UI Semibold", Segoe-blod; font-size:1em;  height: 40px; line-height: 1;text-align: center;}
 	.section_08 a.link { padding:18px 15px 0 0; font-size:19px;}	
 	.section_08 .link:after { content: ""; display: inline-block; width:12px; height:13px; background:url(../imgs/go.png) no-repeat; position:absolute; top:34px; left:295px; }
 	.mobile { display:none;}
