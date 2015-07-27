@@ -191,7 +191,7 @@ a.link { line-height:40px;}
       }
 
 @media screen and (min-width: 1027px) and (max-width:1366px) {
-	.section_02 .kv .kv_01 { height:807px;  background-size:90%; }
+	.section_02 .kv .kv_01 { background-size:90%; }
 	.section_04 .detail-box { width:980px; padding-top:0%; }
 	.section_08 .detail-box { padding-left:100px; }
 	.section_08 .left { left:-460px; }
@@ -200,7 +200,7 @@ a.link { line-height:40px;}
 
 @media screen and (min-width: 801px) and (max-width:1026px) {
 	/*section_01*/
-	.section_01 .wrap { padding-bottom:80px; }
+	.section_01 .wrap { height:auto; padding-bottom:80px; }
 	.section_01 .subT_text { text-align:center; width:90%; margin:0 auto; bottom:0%; padding-left:6%; }
 	
 	/*section_02*/
