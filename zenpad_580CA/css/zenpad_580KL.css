@@ -221,7 +221,7 @@ a.link { line-height:40px;}
 	.section_04 .detail .detail_text { font-size:1.5em; line-height: 30px; text-align: center; }
 	.section_04 .detail .row2 { padding-top: 32px;}
 	.section_04 .detail .row3 { padding-top: 19px;}	
-	.section_07 .example_text{ line-height:14px; margin-top:0px;}
+	.section_07 .example_text{ line-height:14px; margin-top:-10px;}
 	.zenpad380_tablet.zenpad380_landscape .section_07 .example_text{ line-height:14px; }
 	
 	/*section_08*/
