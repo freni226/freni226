@@ -189,6 +189,7 @@ a.link { line-height:40px;}
 .section_13 .right { padding-top:2.5%;}
 .section_13 .kv { width:100%; float:left; }
 .section_13 .kv_02 { width:70%; margin: 0 auto; padding-top: 0%; padding-right:30px; position: relative; max-width:920px;}
+zenpad380_tablet.zenpad380_landscape .section_13 { padding-bottom:30px;}
 
 @media screen and (min-width: 1367px) and (max-width:1920px) { 
    .section_08 .right { margin-left:941px; }
