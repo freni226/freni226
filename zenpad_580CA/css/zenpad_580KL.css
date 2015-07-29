@@ -437,7 +437,7 @@ a.link { line-height:40px;}
 	
 	.section_10 .digit { font-size: 2.5em; color: #888888; }
 	.section_10 .digit_unit { font-size:0.5em; padding-left:3px; margin-right:3px;}
-	.section_10 .digit_blod { font-weight:bold; font-size:0.2em; color:#666666; letter-spacing:1px; line-height:11px; padding-left:0;}
+	.section_10 .digit_blod { font-weight:bold; font-size:0.15em; color:#666666; letter-spacing:1px; line-height:11px; padding-left:0;}
 	.section_10 .phone_text { margin-left:43px;}
 	.section_10 .kv { display:none;}
 	.section_10 .kv_mobile { display:block; width:96%; margin-right:5%; padding-top:56px;}
@@ -456,7 +456,7 @@ a.link { line-height:40px;}
 	.section_11 .date li { float:none; margin-left:0%; padding-bottom:19px; }
 	.section_11 .date li+li { margin:0;}
 	.section_11 .digit { line-height:1; font-size:2.5em; }
-	.section_11 .digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:36px; padding-left:0px; padding-top:0px;}
+	.section_11 .digit_blod { font-size:0.15em; color:#666666; letter-spacing:1px; line-height:36px; padding-left:0px; padding-top:0px;}
 	.section_11 .left { width:100%; }
 	.section_11 .kv { width:86%; margin:0 auto; padding-top:23px; padding-left:5px; float:none; }
 	.section_11 a.link { padding:13px 0 0 0px; font-size:1em;}
