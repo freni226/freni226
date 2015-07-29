@@ -378,7 +378,7 @@ a.link { line-height:40px;}
 	.section_07 .center { width:87%; max-width:503px; margin:0 auto; text-align:center; }
 	.section_07 .subT_text { padding-top:15px; letter-spacing:0.05px;}
 	.section_07 .kv { width:90%; max-width:980px; margin:0 auto; padding:34px 0 0;}
-	.section_07 .example.left .video { background:url(../imgs/technology_blur_Tru2Life_mobile.png); width:100%; height:auto;}
+	.section_07 .example.left video { background:url(../imgs/technology_blur_Tru2Life_mobile.png); width:100%; height:auto;}
 	.section_07 .example_text{ line-height:15px;}
 	.zenpad380_tablet.zenpad380_portrait .section_07 .table { display:block;}
 	.zenpad380_tablet.zenpad380_portrait .section_07 .phone { display:none;}
