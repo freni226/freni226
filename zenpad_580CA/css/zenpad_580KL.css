@@ -99,8 +99,8 @@ a.link { line-height:40px;}
 .section_07 .subT_text { padding-top:20px; letter-spacing:0.05px;}
 .section_07 .kv { width:90%; max-width:980px; margin:0 auto; padding:45px 0 0;}
 .section_07 .example_text{ line-height:14px;}
-.section_07 .example.left video { background:url(../imgs/technology_blur_Tru2Life.png); width:100%; height:auto; background-position:center center; background-size:cover;}
-.section_07 .example.right video { background:url(../imgs/technology_blur_Tru2Life_2.png); width:100%; height:auto; background-position:center center; background-size:cover;}
+/*.section_07 .example.left video { background:url(../imgs/technology_blur_Tru2Life.png); width:100%; height:auto; background-position:center center; background-size:cover;}
+.section_07 .example.right video { background:url(../imgs/technology_blur_Tru2Life_2.png); width:100%; height:auto; background-position:center center; background-size:cover;}*/
 
 /*section_08*/
 .section_08 { padding-bottom:150px; }
