@@ -385,7 +385,7 @@ a.link { line-height:40px;}
 	/*section_08*/
 	.section_08 { padding-bottom:90px; }
 	.section_08 .wrap { /* height:563px; background:url(../imgs/performance.png); background-position:center center;*/}
-	.section_08 .content { position:relative; max-width:768px;}
+	.section_08 .content { position:relative; max-width:768px; height:630px;}
 	.section_08 .right { padding-top:0px; width:90%; margin:0 auto; text-align:center; }
 	.section_08 .right .slogan { font-size:2em; }
 	.section_08 .subT_text { padding-top:10px;}
