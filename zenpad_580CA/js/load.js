@@ -10,5 +10,6 @@ document.write('<script type="text/javascript" src="websites/global/products/'+p
 document.write('<script type="text/javascript" src="websites/global/products/'+prdID+'/js/mobile-detect.min.js"></script>');
 document.write('<script type="text/javascript" src="websites/global/products/'+prdID+'/js/detect-device.js"></script>');
 document.write('<script type="text/javascript" src="websites/global/products/'+prdID+'/js/movie.js"></script>');
+document.write('<script type="text/javascript" src="websites/global/products/'+prdID+'/js/autoplay.js"></script>');
 
 
