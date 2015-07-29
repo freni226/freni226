@@ -230,7 +230,7 @@ a.link:hover { border-bottom:#0088cb 1px solid;}
 	.date li { text-align:center; margin-left:0%;}
 	.digit { font-size: 2.5em; line-height:1.5; color: #888888;}
 	.digit_unit { font-size:0.45em; padding-left:3px;}
-	.digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:15px; font-family:"Segoe UI Semibold",Segoe-blod, 'MyriadPro-Light', Microsoft JhengHei; -webkit-text-size-adjust : 100%;}
+	.digit_blod { font-size:0.15em; color:#666666; letter-spacing:1px; line-height:15px; font-family:"Segoe UI Semibold",Segoe-blod, 'MyriadPro-Light', Microsoft JhengHei; -webkit-text-size-adjust : 100%;}
 	
 	.slogan { font-size:2em; letter-spacing:0px;}
 	.subT_text { font-size:1.1em; line-height:28px;}
