@@ -434,6 +434,7 @@ a.link { line-height:40px;}
 	.section_10 .date li+li { margin-left:57px;} 
 	.section_10 .date li {float:left;}
 	.section_10 .date li:first-child { margin-left:0;}
+	
 	.section_10 .digit { font-size: 2.5em; color: #888888; }
 	.section_10 .digit_unit { font-size:0.5em; padding-left:3px; margin-right:3px;}
 	.section_10 .digit_blod { font-weight:bold; font-size:0.2em; color:#666666; letter-spacing:1px; line-height:11px; padding-left:0;}
@@ -490,6 +491,6 @@ a.link { line-height:40px;}
 	
 	@media screen and (max-width: 320px) {
 	.section_10 a.link { padding:15px 15px 0 0 ; font-size:1em;}
-	.section_10 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:24px; left:281px; }		
+	.section_10 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:55px; left:166px; }		
 		
 		}
