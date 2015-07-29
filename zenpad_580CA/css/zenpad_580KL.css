@@ -321,7 +321,7 @@ a.link { line-height:40px;}
 	.section_02 .kv_mobile { display:block; padding-top:6%;}
 	.section_02 .kv_mobile .kv_01 { padding-bottom:40px; }
 	.section_02 a.link { padding:10px 0 0;}	
-	.section_02 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:20px; left:195px; }
+	.section_02 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:19px; left:195px; }
 	
 	/*section_03*/
 	.section_03 { padding-bottom:10px;}
@@ -356,7 +356,7 @@ a.link { line-height:40px;}
 	.section_04 .kv { display:none;}
 	.section_04 .kv_mobile { display:block; width:100%; padding-top:58px;}
 	.section_04 a.link { padding:13px 13px 0 0;}	
-	.section_04 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:240px; }
+	.section_04 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:22px; left:240px; }
 
 	/*section_05*/
 	.section_05 { padding-bottom:43px;}
@@ -406,7 +406,7 @@ a.link { line-height:40px;}
 	.section_08 .detail .row0 { padding-top: 37px; height: 44px;}
 	.section_08 .type { font-family:"Segoe UI Semibold", Segoe-blod, 'MyriadPro-Light', Microsoft JhengHei; font-size:0.2em;  height: 40px; line-height: 1.3;text-align: center; color:#666;}
 	.section_08 a.link { padding:13px 15px 0 0; font-size:1em;}	
-	.section_08 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:238px;}
+	.section_08 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:22px; left:238px;}
 	.zenpad380_tablet.zenpad380_portrait .section_08 .kv_mobile { display:block; height:auto; width:100%; margin-top:15px; margin-left:0;}
 	.zenpad380_tablet.zenpad380_portrait .section_08 .content { height:797px;}
 
@@ -421,7 +421,7 @@ a.link { line-height:40px;}
 	.section_09 .logo { display:none;}
 	.section_09 .kv { width:100%; margin:23px auto 0;}
 	.section_09 a.link { padding:14px 15px 0 0; font-size:1em;}
-	.section_09 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:186px; }	
+	.section_09 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:22px; left:186px; }	
 	
 	/*section_10*/
 	.section_10 { padding-bottom:65px; }
@@ -441,7 +441,7 @@ a.link { line-height:40px;}
 	.section_10 .kv_mobile { display:block; width:96%; margin-right:5%; padding-top:56px;}
 	.section_10 .subT_text_point_mobile { line-height:27px;}
 	.section_10 a.link { padding:15px 15px 0 0 ; font-size:1em;}
-	.section_10 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:25px; left:281px; }
+	.section_10 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:24px; left:281px; }
 	
 	/*section_11*/
 	.section_11 { padding-bottom:85px;}
@@ -458,7 +458,7 @@ a.link { line-height:40px;}
 	.section_11 .left { width:100%; }
 	.section_11 .kv { width:86%; margin:0 auto; padding-top:23px; padding-left:5px; float:none; }
 	.section_11 a.link { padding:13px 0 0 0px; font-size:1em;}
-	.section_11 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:183px; }
+	.section_11 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:22px; left:183px; }
 	.section_11 .small { font-size:0.6em; vertical-align:text-top; margin-top:3px; font-family:"Segoe UI Semibold",Segoe-blod; line-height:37px;}	
 	
 	/*section_12*/
