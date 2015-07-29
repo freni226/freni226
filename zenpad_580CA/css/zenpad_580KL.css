@@ -412,6 +412,7 @@ a.link { line-height:40px;}
 	.section_08 a.link { padding:13px 15px 0 0; font-size:1em;}	
 	.section_08 .link:after { content: ""; display: inline-block; width:9px; height:13px; background:url(../imgs/go_mobile.png) no-repeat; position:absolute; top:23px; left:238px;}
 	.zenpad380_tablet.zenpad380_portrait .section_08 .kv_mobile { display:block; height:auto; width:100%; margin-top:15px; margin-left:0;}
+	.zenpad380_tablet.zenpad380_portrait .section_08 .content { height:797px;}
 
 	/*section_09*/
 	.section_09 { padding-bottom:97px;}
