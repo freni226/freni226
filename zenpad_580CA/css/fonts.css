@@ -218,7 +218,7 @@ a.link:hover { border-bottom:#0088cb 1px solid;}
 			
 .date { text-align:left; font-family:"Segoe UI Light",Segoe-UI, 'MyriadPro-Light', Microsoft JhengHei;}
 .date ul {}
-.date li { float:none; display:block; line-height:30px; }
+.date li { float:left; display:block; line-height:30px; }
 .date li:first-child { margin-left:0;}
 .digit { font-size: 65px; color: #888888;}
 .digit_unit { font-size:28px; padding-left:7px;}
