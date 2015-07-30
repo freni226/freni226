@@ -477,7 +477,7 @@ a.link { line-height:40px;}
 	.section_12 .kv { width:100%; height:auto; background:none; padding-top:8px;}
 
 	/*section_13*/
-	.section_13 { padding-bottom:40px;}
+	.section_13 { padding-bottom:0px;}
 	.section_13 .content { width:90%; max-width:1100px; }
 	.section_13 .left { width:100%; }
 	.section_13 .slogan { line-height:40px;}
