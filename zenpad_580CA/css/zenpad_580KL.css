@@ -493,7 +493,7 @@ a.link { line-height:40px;}
 	@media screen and (max-width: 320px) {
 		
 	.section_03 .date li+li { margin:0 0 0 26px;}
-	.section_03 .date li:last-child { margin-left:37px;}
+	.section_03 .date li:last-child { margin-left:25px;}
 	.section_03 .first { width:80px;}	
 	
 	.section_10 a.link { padding:15px 15px 0 0 ; font-size:1em;}
