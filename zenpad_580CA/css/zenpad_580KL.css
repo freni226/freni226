@@ -434,10 +434,9 @@ a.link { line-height:40px;}
 	.section_10 .date li+li { margin:0 0 0 33px;} 
 	.section_10 .date li {float:left;}
 	.section_10 .date li:first-child { margin-left:0;}
-	.section_10 .digit { font-size: 2.5em; color: #888888; }
+	.section_10 .digit { font-size: 2.5em; color: #888888; text-align:left;}
 	.section_10 .digit_unit { font-size:0.5em; padding-left:3px; margin-right:3px;}
 	.section_10 .digit_blod { font-size:0.2em; color:#666666; letter-spacing:1px; line-height:16px; padding-left:0;}
-	.section_10 .phone_text { padding-left:20px;}
 	.section_10 .kv { display:none;}
 	.section_10 .kv_mobile { display:block; width:96%; margin-right:5%; padding-top:56px;}
 	.section_10 .subT_text_point_mobile { line-height:27px;}
