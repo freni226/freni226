@@ -331,7 +331,7 @@ a.link { line-height:40px;}
 	.section_03 .date { float:left;  margin:19px 0 0 -3px; }
 	.section_03 .date li { float:left; text-align:left;}
 	.section_03 .date li+li { margin:0 0 0 23px;}
-	.section_03 .date li:last_child { margin:0 0 0 32px;}
+	.section_03 .date li:last-child { margin-left:32px;}
 	.section_03 .digit { font-size: 2.5em; width:78px;}
 	.section_03 .first { width:100px;}
 	.section_03 .digit_unit { font-size:0.45em;}
