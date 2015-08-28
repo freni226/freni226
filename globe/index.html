@@ -21,12 +21,15 @@
     <script type="text/javascript" src="js.lib/ui.js"></script>
     <script type="text/javascript" src="js.lib/functions.js"></script>
     <script type="text/javascript" src="js.lib/parameters.js"></script>
-    <script type="text/javascript" src="js.lib/redirection-mobile.js"></script>
-    <script type="text/javascript">// <![CDATA[
-    SA.redirection_mobile ({
-    mobile_url : "http://www.asus.com/transformerbook/m/index.html",
-    });
-    // ]]>
+    <script type="text/javascript" src="js/redirection-mobile.js"></script>
+    <script>
+        $(document).ready(function(){
+
+           if(BROWSER.versions.mobile){
+               window.location = "m/index.html";               
+           }
+
+        });
     </script>
     <script type="text/javascript" src="js.lib/detectmobilebrowser.js"></script>
     
