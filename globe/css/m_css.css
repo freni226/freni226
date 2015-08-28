@@ -76,7 +76,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /*MENU*/
 .new_menu {
-display: inline-block; background-color: #39F; padding: 0.2rem 0.3rem; color: #FFF; font-size: 0.42rem; position:absolute; top:0.6rem; right:3rem;
+display: inline-block; background-color: #39F; padding: 0.2rem 0.3rem; color: #FFF; font-size: 0.42rem; position:absolute; top: 0.83rem; right:3rem;
 }
 .new_nav {
 display: none; font-size: 0.42rem; text-align:center;
@@ -169,7 +169,6 @@ a{ display: block; }
     width: 13.95833333333333rem;    
     height: auto;
     margin: 0 auto;
-	position:relative;
 }
 
 .ind_bg{
