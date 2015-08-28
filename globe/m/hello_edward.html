@@ -14,6 +14,7 @@
         <div class="navi_box">
             <div class="inner clear">
                 <div class="logo"><a href="#"><img src="../images/m_logo.png" height="40" width="175" alt=""></a></div>
+                <!--MENU--><div class="new_menu">Language</div><!--MENU-->                
                 <div class="burger_nav">
                     <a href="#">
                         <div class="line_1"></div>
@@ -23,6 +24,32 @@
                 </div>
             </div>
         </div>
+        
+<!--MENU-->
+<div class="new_nav">
+    <ul>
+        <li><a href="#">Global / English</a></li>
+        <li><a href="#">Australia / English</a></li>
+        <li><a href="#">Canada / English</a></li>
+        <li><a href="#">Canada / Français</a></li>
+        <li><a href="#">China / 简体中文</a></li>  
+        <li><a href="#">Egypt / العربية</a></li>
+        <li><a href="#">France / Français</a></li>
+        <li><a href="#">Korea / 한국어</a></li>
+        <li><a href="#">Malaysia / English</a></li>
+        <li><a href="#">Mexico / Español</a></li>  
+        <li><a href="#">Nigeria / English</a></li>
+        <li><a href="#">Philippines / English</a></li>
+        <li><a href="#">Poland / Polski</a></li>
+        <li><a href="#">Saudi Arabia / English</a></li>
+        <li><a href="#">Saudi Arabia / العربية</a></li> 
+        <li><a href="#">Singapore / English</a></li>
+        <li><a href="#">South Africa / English</a></li>
+        <li><a href="#">Taiwan / 繁體中文</a></li>  
+        <li><a href="#">United States / English</a></li>
+    </ul>
+</div><!--MENU-->
+        
         <!-- navi show -->
         <div class="show_nav_box">
             <div class="inner">
@@ -194,5 +221,16 @@
      <!--● 裝置判斷 -->
     <script type="text/javascript" src="../js.lib/detectmobilebrowser.js"></script>
     <script type="text/javascript" src="../js/m_script.js"></script>
+    
+    <!-- 語言選單 -->
+    <script type="text/javascript">
+		$(document).ready(function() {
+    		$(".new_menu").click(function() {
+        		$(this).toggleClass("active");
+        		$(".new_nav").slideToggle();
+    	});
+   	 $(".new_nav > ul > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+		});
+    </script>    
 </body>
 </html>
