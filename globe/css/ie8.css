@@ -1,0 +1,60 @@
+
+/* check box */
+.helpme_qa input[type="checkbox"] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+input[type="checkbox"] + label span { display:none; }
+input[type="checkbox"]:checked + label span{ background: none; }
+
+
+
+.ind_prod .computer,
+.ind_prod .screen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50%;
+    margin-top: -50%;
+    z-index: 5;
+}
+
+.ind_prod .illustrator{
+    position: absolute;
+    top: auto;
+    bottom: 50%;
+    left: 50%;
+    margin-left: -50%;
+    margin-top: -50%;
+    z-index: 1;
+}
+
+
+.ie8Bg{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.hello_bg .ie8Bg{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hello_box .container_inner{
+    position: relative;
+    overflow: hidden;
+}
+
+.prod_info ,.ind_show{
+    position: relative;
+    overflow: hidden;
+    background: none;
+}
