@@ -359,7 +359,7 @@ a{ display: block; }
 
 .intel{
     position: absolute;
-    bottom:.5rem;
+    bottom:.8rem;
     right: 0.5rem;
     text-align: right;
     line-height: 1.2;
@@ -384,11 +384,11 @@ a{ display: block; }
 .law {
 	position: absolute;
     right: 0.5rem;
-	bottom:0.1rem;
+	bottom:0.2rem;
 	width:100%;
 	text-align:right;
     color: #999;
-    font-size: 30%;
+    font-size: 35%;
 	font-weight:bold;
 	}
 .law a {
@@ -524,7 +524,7 @@ a{ display: block; }
 .ind_prod{
     position: relative;
     /*20151022 修改*/
-	height: 25.3rem;
+	height: 25.7rem;
 	/*20151022 修改*/
     overflow: hidden;
     background-color: #b7b7b7;
@@ -547,7 +547,7 @@ a{ display: block; }
 /* bottom dot navigation */
 .dot_nav{
     position: absolute;
-    bottom: 3rem;
+    bottom: 3.5rem;
     left: 0;
     width: 100%;
     height: auto;
