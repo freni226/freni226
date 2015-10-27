@@ -359,7 +359,7 @@ a{ display: block; }
 
 .intel{
     position: absolute;
-    bottom: 0.4rem;
+    bottom: 1.4rem;
     right: 0.5rem;
     text-align: right;
     line-height: 1.2;
@@ -500,7 +500,9 @@ a{ display: block; }
 
 .ind_btns{
     display: inline-block;
-    margin-bottom: 2.64rem;
+    /*20151022 修改*/
+	margin-bottom: .5rem;
+	/*20151022 修改*/
     border-radius: 5rem;
     overflow: hidden;
 }
@@ -521,7 +523,9 @@ a{ display: block; }
 
 .ind_prod{
     position: relative;
-    height: 23.75rem;
+    /*20151022 修改*/
+	height: 26rem;
+	/*20151022 修改*/
     overflow: hidden;
     background-color: #b7b7b7;
 }
@@ -536,14 +540,14 @@ a{ display: block; }
 }
 
 .ind_prod_1{ width: 8.6666rem; }
-.ind_prod_2{ width: 7.3125rem; }
-.ind_prod_3{ width: 7.3125rem; }
+.ind_prod_2{ width: 8.6666rem; }
+.ind_prod_3{ width: 8.6666rem; }
 
 
 /* bottom dot navigation */
 .dot_nav{
     position: absolute;
-    bottom: 2rem;
+    bottom: 4rem;
     left: 0;
     width: 100%;
     height: auto;
@@ -609,6 +613,11 @@ a{ display: block; }
     background-color: #00a8ff;
 }
 
+/*20151022 修改*/
+.buy_t100ha{ background-color: #00a8ff;}
+.buy_chi{ background-color: #00cebc;}
+.buy_flip{ background-color: #dcc96d;}
+/*20151022 修改*/
 .btn_spec{ width: 7rem; }
 
 
