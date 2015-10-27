@@ -524,7 +524,7 @@ a{ display: block; }
 .ind_prod{
     position: relative;
     /*20151022 修改*/
-	height: 26rem;
+	height: 25.3rem;
 	/*20151022 修改*/
     overflow: hidden;
     background-color: #b7b7b7;
@@ -547,7 +547,7 @@ a{ display: block; }
 /* bottom dot navigation */
 .dot_nav{
     position: absolute;
-    bottom: 4rem;
+    bottom: 3rem;
     left: 0;
     width: 100%;
     height: auto;
@@ -614,9 +614,9 @@ a{ display: block; }
 }
 
 /*20151022 修改*/
-.buy_t100ha{ background-color: #00a8ff;}
-.buy_chi{ background-color: #00cebc;}
-.buy_flip{ background-color: #dcc96d;}
+.buy_t100ha{ background-color: #00a8ff; width:8.6666rem;}
+.buy_chi{ background-color: #00cebc; width:8.6666rem;}
+.buy_flip{ background-color: #dcc96d; width:8.6666rem;}
 /*20151022 修改*/
 .btn_spec{ width: 7rem; }
 
